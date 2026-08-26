@@ -46,6 +46,49 @@ Ticari/affiliate/hediyeli ürün içeriğinde açıklamaya uygun reklam/iş birl
 - Bir ticari format iki denemede zayıf kalırsa daha fazla reklam eklemek yerine kanca, ürün–ihtiyaç uyumu ve teklif gözden geçirilir.
 - Organik içerik başarı metriği yalnızca izlenme değildir: kaydetme, paylaşım ve takip dönüşümü önceliklidir.
 
+## İçerik özgünlüğü kriteri (2026-08-27)
+
+Amaç kısa sürede çok takipçiye ulaşmak; bunun önündeki en büyük engel herkesin
+zaten bildiği bir bilgiyi "yeni bir şeymiş gibi" sunmak. Yeni bir fact/Reel
+onaylanmadan önce şu testten geçer:
+
+1. **Sokak testi:** Ortalama bir hayvan sahibi bunu lise biyolojisinden, bir
+   belgeselden veya "ilginç bilgiler" listesinden zaten biliyor mu? Cevap
+   "muhtemelen evet" ise reddedilir. (Örnek reddedilecekler: ahtapotun 3
+   kalbi, arı dansı, baykuşun boynunu 270° çevirmesi, kedinin günde 12+ saat
+   uyuması — bunlar klişeleşmiş, düşük özgünlüklü fact'ler.)
+2. **Şaşırtma anı:** Videoyu izleyen "bunu bilmiyordum, biri daha görsün"
+   diye kaydetmeli/paylaşmalı. Cevabın kendisi bir "aha" anı taşımalı, sadece
+   bir tanım tekrarı olmamalı.
+3. **Tek ve sağlam kaynak:** Üniversite, müze, hakemli dergi veya resmi
+   kurum. Kaynak popüler bir "10 ilginç bilgi" listesi/blog ise kabul edilmez.
+4. **Kedi/köpek önceliği korunur:** Kanalın ana odağı kedi-köpek olduğu için
+   şaşırtıcı fact bulmak zorsa önce bu iki türde derinleşilir (davranış,
+   fizyoloji, duyu farkları), diğer hayvanlara nadiren çıkılır.
+
+Mevcut ilk 11 Reel'den şunlar bu kritere göre zayıf (çok bilinen), ileride
+değiştirilmesi önerilir ama şimdilik yayın kuyruğunda kalıyor: `01-ahtapot-uc-kalp`,
+`02-arilar-yol-tarifi`, `06-baykus-gozleri`, `09-kedi-uykusu`. Yeni üretilecek
+Reel'ler doğrudan bu kritere göre seçilir (bkz. `12-kedi-mirilti-sifasi` — kedi
+mırıltı frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilmediği,
+üniversite kaynaklı bir fact).
+
+## Müzik çeşitliliği kuralı (2026-08-27)
+
+- Aynı arka plan müziği **art arda en fazla 7 gönderide bir tekrar edebilir**;
+  8 parçalık kütüphane bunun için yeterli döngüyü sağlar (bkz.
+  `content/music_library.json`).
+- Yeni bir Reel render edilmeden önce `python scripts/pick_music.py` çalıştırılır;
+  script son 7 yayının müziğini `content/publish_log.json`'dan okuyup
+  kullanılmamış bir parça önerir.
+- Her parça telifsiz/CC BY 4.0 (Kevin MacLeod, incompetech.com); caption'a
+  otomatik atıf satırı eklenir (`scripts/make_captions.py`). Meta'nın resmî
+  API'si Instagram'ın lisanslı müzik kütüphanesine erişim vermediği için
+  müzik her zaman video dosyasının içine gömülü olmak zorunda (bkz.
+  `AI_HANDOFF.md`).
+- Kütüphane 8 parçanın altına düşerse (örn. yeni bir tema gerekiyorsa) yeni
+  parça eklenir, asla aynı parça daha sık tekrar ettirilmez.
+
 ## Yapay zekâ çalışma sınırı
 
 - AI; konu araştırması, video/görsel taslağı, caption, yanıt taslağı, planlama ve performans özeti üretir.

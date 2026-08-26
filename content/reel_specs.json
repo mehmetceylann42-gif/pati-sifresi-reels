@@ -8,7 +8,8 @@
     "answer": "Cevap: 3 kalp.",
     "fact": "Ahtapotların üç kalbi vardır; ikisi solungaçlara, biri vücuda kan pompalar.",
     "source_name": "Smithsonian Ocean",
-    "source_url": "https://ocean.si.edu/ocean-life/invertebrates/octopus"
+    "source_url": "https://ocean.si.edu/ocean-life/invertebrates/octopus",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "02-arilar-yol-tarifi",
@@ -18,7 +19,8 @@
     "answer": "Cevap: Evet.",
     "fact": "Dansın açısı yönü, sallanma süresi ise uzaklığı anlatır.",
     "source_name": "NC State Extension",
-    "source_url": "https://content.ces.ncsu.edu/honey-bee-dance-language"
+    "source_url": "https://content.ces.ncsu.edu/honey-bee-dance-language",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "03-kargalar-yuzleri",
@@ -28,7 +30,8 @@
     "answer": "Cevap: Evet.",
     "fact": "Araştırmalar, kargaların insan yüzlerini deneyimlerle ilişkilendirebildiğini gösteriyor.",
     "source_name": "University of Washington",
-    "source_url": "https://www.washington.edu/news/2012/09/10/crows-react-to-threats-in-human-like-way/"
+    "source_url": "https://www.washington.edu/news/2012/09/10/crows-react-to-threats-in-human-like-way/",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "04-deniz-samuru-tas",
@@ -38,7 +41,8 @@
     "answer": "Cevap: Evet.",
     "fact": "Sert kabukluları açarken taş kullanabildikleri gözlemleniyor.",
     "source_name": "Monterey Bay Aquarium",
-    "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-otter"
+    "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-otter",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "05-filler-titresim",
@@ -48,7 +52,8 @@
     "answer": "Cevap: Evet.",
     "fact": "Derin çağrıların titreşimleri, diğer filler tarafından ayak ve hortumla algılanabilir.",
     "source_name": "Smithsonian",
-    "source_url": "https://www.smithsonianmag.com/science-nature/how-elephants-and-songbirds-are-helping-humans-communicate-180956086/"
+    "source_url": "https://www.smithsonianmag.com/science-nature/how-elephants-and-songbirds-are-helping-humans-communicate-180956086/",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "06-baykus-gozleri",
@@ -58,7 +63,8 @@
     "answer": "Cevap: Hayır, oynatamaz.",
     "fact": "Gözleri yuvalarında çok sınırlı hareket eder; boyunları yaklaşık 270 derece dönebilir.",
     "source_name": "Cornell Lab · All About Birds",
-    "source_url": "https://www.allaboutbirds.org/news/bird-cams-faq-barred-owl-nest/?pid=2688"
+    "source_url": "https://www.allaboutbirds.org/news/bird-cams-faq-barred-owl-nest/?pid=2688",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "07-kedi-tatli-tadi",
@@ -68,7 +74,8 @@
     "answer": "Cevap: Hayır.",
     "fact": "Kedilerde işlevsel tatlı reseptörü yoktur; şekerli tadı bizim gibi algılamazlar.",
     "source_name": "PNAS",
-    "source_url": "https://www.pnas.org/doi/full/10.1073/pnas.1118360109"
+    "source_url": "https://www.pnas.org/doi/full/10.1073/pnas.1118360109",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "08-kedi-dili",
@@ -78,7 +85,8 @@
     "answer": "Cevap: Bakım için.",
     "fact": "Geriye dönük papilla yapıları tükürüğü tüylerin arasına taşır ve bakımda yardımcı olur.",
     "source_name": "PNAS · Georgia Tech",
-    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115"
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "09-kedi-uykusu",
@@ -88,7 +96,8 @@
     "answer": "Cevap: Çoğu zaman, evet.",
     "fact": "Ev kedileri günde ortalama 12-16 saat, bazen 20 saate kadar uyuyabilir; bu doğal bir avcı içgüdüsüdür.",
     "source_name": "Cornell Üniversitesi Veteriner Fakültesi",
-    "source_url": "https://www.vet.cornell.edu/about-us/news/20230908/inverse-why-my-cat-awake-night-veterinarian-reveals-answer-nighttime-antics"
+    "source_url": "https://www.vet.cornell.edu/about-us/news/20230908/inverse-why-my-cat-awake-night-veterinarian-reveals-answer-nighttime-antics",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "10-kopek-burun-izi",
@@ -98,7 +107,8 @@
     "answer": "Cevap: Evet.",
     "fact": "Çalışmalarda burun yüzeyindeki oluk ve kabartı deseni her köpekte özgün bulundu.",
     "source_name": "Animals (MDPI)",
-    "source_url": "https://doi.org/10.3390/ani11123372"
+    "source_url": "https://doi.org/10.3390/ani11123372",
+    "music_id": "monkeys-spinning-monkeys"
   },
   {
     "slug": "11-kopek-renk-gorusu",
@@ -108,6 +118,20 @@
     "answer": "Cevap: Siyah-beyaz değil.",
     "fact": "Köpeklerin iki tip konisi vardır; renk görüşleri mavi-sarı ekseninde sınırlıdır.",
     "source_name": "VCA Animal Hospitals",
-    "source_url": "https://vcahospitals.com/know-your-pet/do-dogs-see-color"
+    "source_url": "https://vcahospitals.com/know-your-pet/do-dogs-see-color",
+    "music_id": "monkeys-spinning-monkeys"
+  },
+  {
+    "slug": "12-kedi-mirilti-sifasi",
+    "image": "assets/12-kedi-mirilti-sifasi.jpg",
+    "image_is_ai": false,
+    "duration": 17,
+    "title": "Kedi mırıltısı kemikleri iyileştirebilir mi?",
+    "question": "Bu bir dinlenme sesi mi, yoksa fazlası mı?",
+    "answer": "Cevap: Muhtemelen fazlası.",
+    "fact": "Kedi mırıltısı 25-50 Hz bandında güçlü frekanslar taşır; bu bant kemik yoğunluğunu ve kırık iyileşmesini destekleyen frekans aralığıyla örtüşüyor.",
+    "source_name": "Science World (UC Davis Veteriner Fakültesi kaynaklı)",
+    "source_url": "https://www.scienceworld.ca/stories/secret-power-cats-purr/",
+    "music_id": "gymnopedie-no-1"
   }
 ]

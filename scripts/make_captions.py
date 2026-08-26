@@ -18,26 +18,37 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 HASHTAGS = "#hayvanbilgisi #dogabilgisi #hayvanlaralemi #patisifresi"
-MUSIC_CREDIT = "Muzik: Monkeys Spinning Monkeys - Kevin MacLeod (incompetech.com) - CC BY 4.0"
 
 
-def build_reel_caption(item: dict) -> str:
+def build_reel_caption(item: dict, music_by_id: dict) -> str:
+    track = music_by_id.get(item.get("music_id", ""))
+    music_line = (
+        f"🎵 Müzik: {track['title']} - {track['artist']} - {track['license']}\n\n"
+        if track else ""
+    )
+    image_line = (
+        "" if item.get("image_is_ai", True) is False
+        else "🎨 Temsili AI görseli kullanılmıştır. "
+    )
     return (
         f"{item['question']}\n\n"
         f"{item['fact']} 🐾\n\n"
         f"Kaydet, arkadaşına gönder, takip et.\n\n"
-        f"🎨 Temsili AI görseli kullanılmıştır. Kaynak: {item['source_name']}\n\n"
-        f"🎵 {MUSIC_CREDIT}\n\n"
+        f"{image_line}Kaynak: {item['source_name']}\n\n"
+        f"{music_line}"
         f"{HASHTAGS}"
     )
 
 
 def write_reel_captions() -> int:
     specs = json.loads((PROJECT_ROOT / "content" / "reel_specs.json").read_text(encoding="utf-8"))
+    music_by_id = {
+        t["id"]: t for t in json.loads((PROJECT_ROOT / "content" / "music_library.json").read_text(encoding="utf-8"))["tracks"]
+    }
     out_dir = PROJECT_ROOT / "captions" / "reels"
     out_dir.mkdir(parents=True, exist_ok=True)
     for item in specs:
-        (out_dir / f"{item['slug']}.txt").write_text(build_reel_caption(item), encoding="utf-8")
+        (out_dir / f"{item['slug']}.txt").write_text(build_reel_caption(item, music_by_id), encoding="utf-8")
     return len(specs)
 
 

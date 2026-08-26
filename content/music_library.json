@@ -1,0 +1,69 @@
+{
+  "rule": "Ayni parca art arda en fazla her 8 gonderide bir tekrar edebilir (content/publish_log.json'daki son kullanilan 7 slug'in muzigiyle ayni olamaz). scripts/pick_music.py bu kurali otomatik uygular.",
+  "tracks": [
+    {
+      "id": "monkeys-spinning-monkeys",
+      "file": "audio/monkeys-spinning-monkeys.mp3",
+      "title": "Monkeys Spinning Monkeys",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "eglenceli, tuhaf, enerjik"
+    },
+    {
+      "id": "carefree",
+      "file": "audio/carefree.mp3",
+      "title": "Carefree",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "hafif, mutlu, ukulele"
+    },
+    {
+      "id": "wallpaper",
+      "file": "audio/wallpaper.mp3",
+      "title": "Wallpaper",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "sakin, sevimli, gunluk"
+    },
+    {
+      "id": "pixelland",
+      "file": "audio/pixelland.mp3",
+      "title": "Pixelland",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "oyunsu, mercekli, hareketli"
+    },
+    {
+      "id": "comfortable-mystery",
+      "file": "audio/comfortable-mystery.mp3",
+      "title": "Comfortable Mystery",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "merakli, gizemli-hafif, soru-cevap formatina uygun"
+    },
+    {
+      "id": "sneaky-snitch",
+      "file": "audio/sneaky-snitch.mp3",
+      "title": "Sneaky Snitch",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "sinsi, komik, merak uyandirici"
+    },
+    {
+      "id": "gymnopedie-no-1",
+      "file": "audio/gymnopedie-no-1.mp3",
+      "title": "Gymnopedie No. 1",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "sakin, piyano, duygusal/sifa temali icerikler icin"
+    },
+    {
+      "id": "bumbly-march",
+      "file": "audio/bumbly-march.mp3",
+      "title": "Bumbly March",
+      "artist": "Kevin MacLeod (incompetech.com)",
+      "license": "CC BY 4.0",
+      "mood": "komik, sakar, mars temposu"
+    }
+  ]
+}
