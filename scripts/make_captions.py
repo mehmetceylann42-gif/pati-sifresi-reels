@@ -18,6 +18,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 HASHTAGS = "#hayvanbilgisi #dogabilgisi #hayvanlaralemi #patisifresi"
+MUSIC_CREDIT = "Muzik: Monkeys Spinning Monkeys - Kevin MacLeod (incompetech.com) - CC BY 4.0"
 
 
 def build_reel_caption(item: dict) -> str:
@@ -26,6 +27,7 @@ def build_reel_caption(item: dict) -> str:
         f"{item['fact']} 🐾\n\n"
         f"Kaydet, arkadaşına gönder, takip et.\n\n"
         f"🎨 Temsili AI görseli kullanılmıştır. Kaynak: {item['source_name']}\n\n"
+        f"🎵 {MUSIC_CREDIT}\n\n"
         f"{HASHTAGS}"
     )
 
