@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "01-ahtapot-uc-kalp",
+    "image": "assets/01-ahtapot.png",
+    "duration": 18,
+    "title": "Ahtapotların kaç kalbi var?",
+    "question": "Tahmin et: 1 · 2 · 3?",
+    "answer": "Cevap: 3 kalp.",
+    "fact": "Ahtapotların üç kalbi vardır; ikisi solungaçlara, biri vücuda kan pompalar.",
+    "source_name": "Smithsonian Ocean",
+    "source_url": "https://ocean.si.edu/ocean-life/invertebrates/octopus"
+  },
+  {
+    "slug": "02-arilar-yol-tarifi",
+    "image": "assets/02-ari.png",
+    "title": "Arılar birbirine yol tarifi verir mi?",
+    "question": "Bir dans, konumu anlatabilir mi?",
+    "answer": "Cevap: Evet.",
+    "fact": "Dansın açısı yönü, sallanma süresi ise uzaklığı anlatır.",
+    "source_name": "NC State Extension",
+    "source_url": "https://content.ces.ncsu.edu/honey-bee-dance-language"
+  },
+  {
+    "slug": "03-kargalar-yuzleri",
+    "image": "assets/03-karga.png",
+    "title": "Kargalar insan yüzlerini hatırlayabilir mi?",
+    "question": "Seni kalabalıkta tanıyabilir mi?",
+    "answer": "Cevap: Evet.",
+    "fact": "Araştırmalar, kargaların insan yüzlerini deneyimlerle ilişkilendirebildiğini gösteriyor.",
+    "source_name": "University of Washington",
+    "source_url": "https://www.washington.edu/news/2012/09/10/crows-react-to-threats-in-human-like-way/"
+  },
+  {
+    "slug": "04-deniz-samuru-tas",
+    "image": "assets/04-deniz-samuru.png",
+    "title": "Deniz samurları taş kullanır mı?",
+    "question": "Bu bir alet kullanımı mı?",
+    "answer": "Cevap: Evet.",
+    "fact": "Sert kabukluları açarken taş kullanabildikleri gözlemleniyor.",
+    "source_name": "Monterey Bay Aquarium",
+    "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-otter"
+  },
+  {
+    "slug": "05-filler-titresim",
+    "image": "assets/05-fil.png",
+    "title": "Filler yerden gelen sesi duyabilir mi?",
+    "question": "Sinyal toprağın içinden gider mi?",
+    "answer": "Cevap: Evet.",
+    "fact": "Derin çağrıların titreşimleri, diğer filler tarafından ayak ve hortumla algılanabilir.",
+    "source_name": "Smithsonian",
+    "source_url": "https://www.smithsonianmag.com/science-nature/how-elephants-and-songbirds-are-helping-humans-communicate-180956086/"
+  },
+  {
+    "slug": "06-baykus-gozleri",
+    "image": "assets/06-baykus.png",
+    "title": "Baykuşlar başını neden bu kadar çevirir?",
+    "question": "Gözlerini bizim gibi oynatamazlar mı?",
+    "answer": "Cevap: Hayır, oynatamaz.",
+    "fact": "Gözleri yuvalarında çok sınırlı hareket eder; boyunları yaklaşık 270 derece dönebilir.",
+    "source_name": "Cornell Lab · All About Birds",
+    "source_url": "https://www.allaboutbirds.org/news/bird-cams-faq-barred-owl-nest/?pid=2688"
+  },
+  {
+    "slug": "07-kedi-tatli-tadi",
+    "image": "assets/07-kedi-tatli-tadi.png",
+    "title": "Kediler tatlı tadını algılar mı?",
+    "question": "Şeker onlara bizim gibi gelir mi?",
+    "answer": "Cevap: Hayır.",
+    "fact": "Kedilerde işlevsel tatlı reseptörü yoktur; şekerli tadı bizim gibi algılamazlar.",
+    "source_name": "PNAS",
+    "source_url": "https://www.pnas.org/doi/full/10.1073/pnas.1118360109"
+  },
+  {
+    "slug": "08-kedi-dili",
+    "image": "assets/08-kedi-dili.png",
+    "title": "Kedi dili neden zımpara gibi?",
+    "question": "O minik kancalar ne işe yarar?",
+    "answer": "Cevap: Bakım için.",
+    "fact": "Geriye dönük papilla yapıları tükürüğü tüylerin arasına taşır ve bakımda yardımcı olur.",
+    "source_name": "PNAS · Georgia Tech",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115"
+  },
+  {
+    "slug": "09-kedi-uykusu",
+    "image": "assets/09-kedi-uykusu.png",
+    "title": "Kediler günde 14 saat uyur mu?",
+    "question": "Bu kadar uyku gerçekten normal mi?",
+    "answer": "Cevap: Çoğu zaman, evet.",
+    "fact": "Ev kedileri günde ortalama 12-16 saat, bazen 20 saate kadar uyuyabilir; bu doğal bir avcı içgüdüsüdür.",
+    "source_name": "Cornell Üniversitesi Veteriner Fakültesi",
+    "source_url": "https://www.vet.cornell.edu/about-us/news/20230908/inverse-why-my-cat-awake-night-veterinarian-reveals-answer-nighttime-antics"
+  },
+  {
+    "slug": "10-kopek-burun-izi",
+    "image": "assets/10-kopek-burun-izi.png",
+    "title": "Her köpeğin burun izi farklı mı?",
+    "question": "Parmak izi gibi çalışır mı?",
+    "answer": "Cevap: Evet.",
+    "fact": "Çalışmalarda burun yüzeyindeki oluk ve kabartı deseni her köpekte özgün bulundu.",
+    "source_name": "Animals (MDPI)",
+    "source_url": "https://doi.org/10.3390/ani11123372"
+  },
+  {
+    "slug": "11-kopek-renk-gorusu",
+    "image": "assets/11-kopek-renk-gorusu.png",
+    "title": "Köpekler dünyayı siyah-beyaz mı görür?",
+    "question": "Mavi ve sarıyı ayırt edebilir mi?",
+    "answer": "Cevap: Siyah-beyaz değil.",
+    "fact": "Köpeklerin iki tip konisi vardır; renk görüşleri mavi-sarı ekseninde sınırlıdır.",
+    "source_name": "VCA Animal Hospitals",
+    "source_url": "https://vcahospitals.com/know-your-pet/do-dogs-see-color"
+  }
+]

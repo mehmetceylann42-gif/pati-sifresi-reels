@@ -1,0 +1,108 @@
+{
+  "series": "Pati Şifresi | Hayvanlar Dünyası",
+  "format": "Instagram feed post, 1080x1350 (4:5)",
+  "visual_note": "Her karttaki arka plan özgün AI üretimidir. Kart metinleri güvenilir kurum kaynaklarındaki bilgilerden hazırlanmıştır.",
+  "recommended_cadence": "Günde 1 gönderi, 20:30 Türkiye saati. İlk 90 dakika yorumlara insan veya onaylı AI taslaklarıyla yanıt ver.",
+  "posts": [
+    {
+      "order": 1,
+      "file": "posts/01-sinek-kusu-geri-ucus.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-df8050cd-74df-4671-9059-a3569e28f4e0.png",
+      "title": "Sinek kuşları geri uçar mı?",
+      "fact": "Sinek kuşları geriye doğru uçabilen tek kuşlardır.",
+      "caption": "Geri geri uçmak sadece filmlerde yok. Sinek kuşları kanatlarını sekiz çizerek havada asılı kalabilir ve geriye doğru uçabilir. 🐦\n\nBunu bilen bir hayvanseveri etiketle.\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Cornell Lab of Ornithology — All About Birds\n\n#sinekkusu #kuslar #hayvanbilgisi #dogabilgisi #patisifresi",
+      "source_label": "Cornell Lab of Ornithology — All About Birds",
+      "source_url": "https://www.allaboutbirds.org/news/what-is-the-essence-of-iridescence-ask-a-hummingbird/"
+    },
+    {
+      "order": 2,
+      "file": "posts/02-denizati-gebelik.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-db078229-85d8-4153-9ec6-ff5fedc59304.png",
+      "title": "Denizatlarında gebelik kimde?",
+      "fact": "Yumurtalar erkeğin kesesine aktarılır; gebeliği erkek taşır.",
+      "caption": "Doğanın en sıra dışı ebeveynlik rollerinden biri denizatlarında. Yumurtalar erkeğin kesesine aktarılır ve yavrular oradan dünyaya gelir. 🌊\n\nBu bilgiyi kaydet.\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: NOAA Ocean Service\n\n#denizati #denizcanlilari #okyanus #hayvanbilgisi #patisifresi",
+      "source_label": "NOAA Ocean Service",
+      "source_url": "https://oceanservice.noaa.gov/facts/seahorse.html"
+    },
+    {
+      "order": 3,
+      "file": "posts/03-kelebek-tat-alma.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-82bc3d98-ff6c-4cb7-bef8-d10927e05849.png",
+      "title": "Kelebekler tadı nerede alır?",
+      "fact": "Kelebekler ayaklarındaki duyularla tat alabilir.",
+      "caption": "Bir kelebeğin çiçeğe konması sadece dinlenmek için değil: ayaklarıyla tadı da kontrol edebilir. 🦋\n\nBunu ilk kez duyanlar burada mı?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Smithsonian's National Zoo\n\n#kelebek #bocekler #polinator #hayvanbilgisi #patisifresi",
+      "source_label": "Smithsonian's National Zoo",
+      "source_url": "https://nationalzoo.si.edu/animals/news/8-reasons-bee-awe-pollinators"
+    },
+    {
+      "order": 4,
+      "file": "posts/04-flamingo-pembe.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-2097bee0-4983-45c6-8eb9-a91931f0b366.png",
+      "title": "Flamingolar neden pembe?",
+      "fact": "Pembe renkleri, alg ve küçük kabuklulardaki karotenoidlerden gelir.",
+      "caption": "Flamingolar pembe doğmaz. Renkleri, beslendikleri alg ve küçük kabuklulardaki pigmentlerden gelir. 🦩\n\nDoğanın en renkli menüsü olabilir mi?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Smithsonian's National Zoo\n\n#flamingo #kuslar #dogabilgisi #hayvanbilgisi #patisifresi",
+      "source_label": "Smithsonian's National Zoo",
+      "source_url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts"
+    },
+    {
+      "order": 5,
+      "file": "posts/05-kutup-tilkisi-kurk.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-12001c9a-fc40-44f3-91e7-37076ed8b808.png",
+      "title": "Kutup tilkisinin kürkü değişir mi?",
+      "fact": "Çoğu kutup tilkisi kışın beyaz, yazın kahverengi tonlarda kürk taşır.",
+      "caption": "Kutup tilkisinin gardırobu mevsimle değişiyor: kışın karla uyumlu beyaz, yazın tundrayla uyumlu koyu tonlar. 🦊\n\nHangi halini daha etkileyici buldun?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: U.S. National Park Service\n\n#kutuptilkisi #tilki #vahsidoga #hayvanbilgisi #patisifresi",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/kova/learn/nature/arctic-fox.htm"
+    },
+    {
+      "order": 6,
+      "file": "posts/06-yaprak-kesen-karinca.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-dab1f458-29ca-48d7-9d80-f0fc3e8aa076.png",
+      "title": "Yaprak kesen karıncalar yaprağı yer mi?",
+      "fact": "Yaprakları mantar bahçesi için kullanır; asıl besinleri mantardır.",
+      "caption": "Yaprak kesen karıncalar yaprağı doğrudan yemek için taşımaz. Onu, besin olarak tükettikleri mantarı yetiştirmek için kullanırlar. 🍃\n\nMinik ama gerçek bir çiftlik.\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Smithsonian National Museum of Natural History\n\n#karinca #yaprak-kesen-karinca #dogabilgisi #hayvanbilgisi #patisifresi",
+      "source_label": "Smithsonian National Museum of Natural History",
+      "source_url": "https://www.si.edu/newsdesk/releases/new-research-smithsonians-national-museum-natural-history-reveals-ants-fungus-farmers"
+    },
+    {
+      "order": 7,
+      "file": "posts/07-yunus-imza-isligi.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-87c92cbf-7094-4716-b527-6e5c8fd1fb50.png",
+      "title": "Yunusların kendine özgü adı var mı?",
+      "fact": "Birçok yunus, diğerlerinin tanıyabildiği bir imza ıslığı üretir.",
+      "caption": "Birçok yunusun kendine özgü bir imza ıslığı var. Bu sesler, birbirlerini tanımalarına yardımcı oluyor. 🐬\n\nSence bu bir isim sayılır mı?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: NOAA Office of National Marine Sanctuaries\n\n#yunus #denizcanlilari #okyanus #hayvanbilgisi #patisifresi",
+      "source_label": "NOAA Office of National Marine Sanctuaries",
+      "source_url": "https://sanctuaries.noaa.gov/news/apr20/eavesdropping-on-dolphins-stellwagen-bank-national-marine-sanctuary.html"
+    },
+    {
+      "order": 8,
+      "file": "posts/08-bukalemun-renk.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-f062f45a-364e-477c-a6a2-7af3919ac209.png",
+      "title": "Bukalemunlar niçin renk değiştirir?",
+      "fact": "Bu yalnızca kamuflaj değildir; iletişim ve stres de renklere yansır.",
+      "caption": "Bukalemunların renk değişimi sadece saklanmakla ilgili değil. Ruh hâli, stres ve iletişim de renklerinde iz bırakabilir. 🦎\n\nDoğanın duygusal ekranı gibi.\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Smithsonian's National Zoo\n\n#bukalemun #surungenler #dogabilgisi #hayvanbilgisi #patisifresi",
+      "source_label": "Smithsonian's National Zoo",
+      "source_url": "https://nationalzoo.si.edu/animals/mellers-chameleon"
+    },
+    {
+      "order": 9,
+      "file": "posts/09-ahtapot-deri-dokusu.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-5834bdc7-b289-48e6-b7f8-0d339b5ef29a.png",
+      "title": "Ahtapotlar yalnızca renk mi değiştirir?",
+      "fact": "Bazı kafadanbacaklılar renkleriyle birlikte deri dokusunu da değiştirebilir.",
+      "caption": "Ahtapotlar ve diğer bazı kafadanbacaklılar yalnızca renk değiştirmez; derilerinin dokusunu da çevreye daha çok benzetebilir. 🐙\n\nBu yetenek bir süper güç olsaydı, nerede kullanırdın?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: Smithsonian Ocean\n\n#ahtapot #denizcanlilari #okyanus #hayvanbilgisi #patisifresi",
+      "source_label": "Smithsonian Ocean",
+      "source_url": "https://ocean.si.edu/ocean-life/invertebrates/how-octopuses-and-squids-change-color"
+    },
+    {
+      "order": 10,
+      "file": "posts/10-yarasa-ucus.jpg",
+      "source_visual": "assets/feed-source-visuals/exec-729ac077-70df-4baf-8d12-57a7e2c610ef.png",
+      "title": "Gerçekten uçabilen tek memeli?",
+      "fact": "Yarasalar aktif uçuş yapan tek memelidir. Uçan sincaplar süzülür.",
+      "caption": "Yarasalar, kanat çırparak gerçek uçuş yapabilen tek memelidir. Uçan sincaplar ise aktif uçuş değil, süzülme yapar. 🦇\n\nBu ayrımı biliyor muydun?\n\n🎨 Temsili AI görseli kullanılmıştır. Kaynak: U.S. National Park Service\n\n#yarasa #memeliler #vahsidoga #hayvanbilgisi #patisifresi",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/subjects/bats/how-bats-fly.htm"
+    }
+  ]
+}
