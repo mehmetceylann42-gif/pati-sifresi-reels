@@ -13,17 +13,12 @@ BOLD = Path("C:/Windows/Fonts/segoeuib.ttf")
 REGULAR = Path("C:/Windows/Fonts/segoeui.ttf")
 
 ITEMS = [
-    ("01-ahtapot-uc-kalp", "01-ahtapot.png", "Ahtapotların üç kalbi var mı?"),
-    ("02-arilar-yol-tarifi", "02-ari.png", "Arılar birbirine yol tarifi verir mi?"),
-    ("03-kargalar-yuzleri", "03-karga.png", "Kargalar insan yüzlerini hatırlar mı?"),
-    ("04-deniz-samuru-tas", "04-deniz-samuru.png", "Deniz samurları taş kullanır mı?"),
-    ("05-filler-titresim", "05-fil.png", "Filler yerden gelen sesi duyabilir mi?"),
-    ("06-baykus-gozleri", "06-baykus.png", "Baykuşlar başını neden bu kadar çevirir?"),
     ("07-kedi-tatli-tadi", "07-kedi-tatli-tadi.png", "Kediler tatlı tadını algılar mı?"),
     ("08-kedi-dili", "08-kedi-dili.png", "Kedi dili neden zımpara gibi?"),
     ("09-kedi-uykusu", "09-kedi-uykusu.png", "Kediler günde 14 saat uyur mu?"),
     ("10-kopek-burun-izi", "10-kopek-burun-izi.png", "Her köpeğin burun izi farklı mı?"),
     ("11-kopek-renk-gorusu", "11-kopek-renk-gorusu.png", "Köpekler dünyayı siyah-beyaz mı görür?"),
+    ("12-kedi-mirilti-sifasi", "12-kedi-mirilti-sifasi.jpg", "Kedi mırıltısı kemikleri iyileştirebilir mi?"),
 ]
 
 

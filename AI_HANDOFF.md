@@ -4,12 +4,14 @@
 
 Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışlarını ve şaşırtıcı özelliklerini 30 saniyede açıkla.”
 
-## Mevcut durum (güncellendi: 2026-08-27, ikinci güncelleme)
+## Mevcut durum (güncellendi: 2026-08-27, üçüncü güncelleme)
 
-- 12 Reel üretildi (`videos/`), 10 feed görseli hazır (`posts/`). İlk 11'i AI görseliyle, 12.'yi (`12-kedi-mirilti-sifasi`) gerçek, CC0 lisanslı bir fotoğrafla (Wikimedia Commons/Unsplash, Scott Webb) üretildik — AI görseli zorunlu değil, gerçek+telifsiz bir fotoğraf bulunabiliyorsa o tercih edilir (daha güvenilir görünüyor, AI uyarısı gerekmiyor).
+- **(2026-08-27) Kanal kedi/köpek dışı tüm içerikten temizlendi.** Kullanıcının açık talebiyle 6 Reel (ahtapot, arı, karga, deniz samuru, fil, baykuş) ve 10 feed gönderisinin tamamı (hepsi kedi/köpek dışıydı) videosu/görseli/caption'ı/kapağıyla birlikte silindi; `content/reel_specs.json`'da yalnızca kedi/köpek Reel'leri kaldı (`07`–`12`). `content/feed_posts_plan.json` ve `captions/posts/`, `posts/`, `assets/feed-source-visuals/` tamamen kaldırıldı — `scripts/make_captions.py`'den feed-post üretim kodu da çıkarıldı. Bundan sonra üretilecek her Reel yalnızca kedi veya köpek konulu olacak (bkz. `CONTENT_AND_COMMERCE_RULES.md` → "Kanal konumu").
+- 6 Reel kaldı (`videos/`): `07-kedi-tatli-tadi`, `08-kedi-dili`, `09-kedi-uykusu`, `10-kopek-burun-izi`, `11-kopek-renk-gorusu`, `12-kedi-mirilti-sifasi`. İlk 5'i AI görseliyle, 12.'yi (`12-kedi-mirilti-sifasi`) gerçek, CC0 lisanslı bir fotoğrafla (Wikimedia Commons/Unsplash, Scott Webb) üretildik — AI görseli zorunlu değil, gerçek+telifsiz bir fotoğraf bulunabiliyorsa o tercih edilir (daha güvenilir görünüyor, AI uyarısı gerekmiyor).
 - Her video altyazılı, 16–18 saniye, 1080×1920 H.264/30 fps, artık hepsinde arka plan müziği var (aşağıya bakın).
 - AI görseli kullanılan Reel'lerde caption'da “Temsili AI görseli kullanılmıştır.” otomatik yer alır; gerçek fotoğraf kullanılanlarda (`item.image_is_ai: false`) bu satır otomatik atlanır (`scripts/make_captions.py`).
-- **İçerik özgünlüğü kriteri revize edildi (bkz. `CONTENT_AND_COMMERCE_RULES.md` → "İçerik özgünlüğü kriteri").** Amaç: hızlı takipçi büyümesi, bunun için herkesin bildiği fact'ler (ör. "ahtapotun 3 kalbi var", "baykuş başını 270° çevirir") artık kabul edilmiyor; yeni her fact "sokak testi" + "şaşırtma anı" + tek sağlam kaynak kriterinden geçmeli. İlk 11 Reel'den 4 tanesi (`01-ahtapot-uc-kalp`, `02-arilar-yol-tarifi`, `06-baykus-gozleri`, `09-kedi-uykusu`) bu kritere göre zayıf bulundu; şimdilik kuyrukta kalıyorlar ama ileride yer değiştirmek isteyeceksin — kullanıcıya sorulmadan silinmemeli/değiştirilmemeli.
+- **Profesyonellik/kalite kriteri eklendi (bkz. `CONTENT_AND_COMMERCE_RULES.md` → "Profesyonellik ve kalite kriteri").** Özet: (1) ilk 20 içerik kontrol noktasında Guezzo oranının yanında genel organik performans (kaydetme, paylaşım, tamamlanma) da gözden geçirilecek — en zayıf formatlar tekrarlanmayacak; (2) seslendirme eklenip eklenmeyeceğine sessiz+müzikli formatın ilk 20 gönderilik verisine bakılarak karar verilecek, sezgiyle değil; (3) yayın öncesi 5 maddelik kalite kontrol checklist'i (kaynak linki, yazım, AI etiketi, müzik atfı, altyazı zamanlaması) zorunlu.
+- **İçerik özgünlüğü kriteri revize edildi (bkz. `CONTENT_AND_COMMERCE_RULES.md` → "İçerik özgünlüğü kriteri").** Amaç: hızlı takipçi büyümesi, bunun için herkesin bildiği fact'ler artık kabul edilmiyor; yeni her fact "sokak testi" + "şaşırtma anı" + tek sağlam kaynak kriterinden geçmeli. Kalan Reel'lerden `09-kedi-uykusu` bu kritere göre hâlâ zayıf (çok bilinen) — sırası geldiğinde kullanıcıya danışıp daha şaşırtıcı bir kedi fact'iyle değiştirmeyi öner, sessizce silme.
 - Tüm Reel/gönderi caption'ları `captions/` altında dosya olarak hazır; `publish_reel.py` ve `publish_queue.py` bunları doğrudan kullanabilir.
 - **Meta API bağlantısı canlı.** Hesap: `@patisifresi` (Instagram Login akışı, `graph.instagram.com`, hesap türü Creator). Kimlik bilgileri yalnızca `.env` içinde (`IG_USER_ID`, `IG_ACCESS_TOKEN`, `IG_API_VERSION`) — bu dosya `.gitignore`'da, Git'e hiç girmedi. Başka bir oturum/AI bu kanala erişmek istediğinde token'ı sohbete yazmasın/yeniden istemesin, doğrudan `Hayvan-Kanali/.env` dosyasını okusun.
 - **Video hosting canlı.** Videolar public GitHub reposu `https://github.com/mehmetceylann42-gif/pati-sifresi-reels` (main branch) içinde; Meta API'ye doğru `Content-Type: video/mp4` ile servis etmek için GitHub raw değil **jsDelivr CDN** kullanılıyor.
@@ -26,7 +28,7 @@ Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışların
 - **Yayınlanmış medya API ile silinemiyor.** `DELETE /{media-id}` çağrısı `IGApiException` (code 100, subcode 33) ile reddediliyor — Instagram Content Publishing API bunu desteklemiyor. Bir gönderiyi kaldırmak gerekirse yalnızca hesap sahibi Instagram uygulamasından elle silebilir; bunu otomasyona bağlama.
 - **İlk gerçek yayın (sessiz, artık geçersiz):** `11-kopek-renk-gorusu` → https://www.instagram.com/reel/DchHwVWkUfv/ (media id `18121301962667160`). API ile silinemedi, hesap sahibi elle silecek.
 - **Güncel yayın (müzikli):** `11-kopek-renk-gorusu` → https://www.instagram.com/reel/DchNkKlD2dj/ (media id `18116998064511740`). `content/publish_log.json`'da bu kayıtlı.
-- **12. Reel render edildi, HENÜZ YAYINLANMADI/kuyruğa eklenmedi.** `12-kedi-mirilti-sifasi` yeni özgünlük kriteriyle üretildi, `Gymnopedie No. 1` müziği var, video/caption hazır ama `content/reel_specs.json`'a eklendi diye otomatik kuyruğa girmez — "Yeni Reel üretim kuralı" madde 5 gereği yayından önce kullanıcı onayı gerekiyor. Onay gelirse: (1) GitHub'a push et, (2) `git rev-parse HEAD` ile yeni commit hash'i al, (3) jsDelivr URL'sini güncelle + `https://purge.jsdelivr.net/gh/mehmetceylann42-gif/pati-sifresi-reels@{hash}/videos/12-kedi-mirilti-sifasi.mp4` ile purge dene (genelde işe yaramıyor, hash'e sabitlemek asıl çözüm), (4) `publish_reel.py` ile yayınla, (5) `publish_log.json`'a `music_id` dahil kaydet.
+- **12. Reel yayınlandı:** `12-kedi-mirilti-sifasi` → https://www.instagram.com/reel/DchZ9hGEkyy/ (media id `18159692227492822`), müzik `Gymnopedie No. 1`. `content/publish_log.json`'da kayıtlı. Yeni bir Reel üretilip onaylandığında aynı akış tekrarlanır: (1) GitHub'a push, (2) `git rev-parse HEAD` ile yeni commit hash'i al, (3) `daily_publish.ps1`'deki `$template`'i güncelle, (4) `publish_reel.py` ile yayınla, (5) `publish_log.json`'a `music_id` dahil kaydet.
 - **Günlük otomatik yayın açık.** Windows Görev Zamanlayıcı görevi `PatiSifresiDailyReel`, her gün saat 10:00'da `scripts/daily_publish.ps1`'i çalıştırıp kuyruktaki bir sonraki Reel'i **gerçekten yayınlar** (`publish_queue.py --publish --limit 1`). Bu, kullanıcının 2026-08-27 tarihli açık talebiyle kuruldu ve aşağıdaki "İlk 14 gün insan onayı" kuralını bu kuyruk için geçersiz kılar (bkz. `INSTAGRAM_SETUP.md`). Yeni/farklı içerik türleri (yorum otomasyonu, ticari/Guezzo paylaşım vb.) için o kural hâlâ geçerli.
   - Log: `logs/publish_YYYY-MM-DD_HHMMSS.log`
   - Kayıt: `content/publish_log.json` (hangi slug ne zaman/ hangi media id ile gitti)
@@ -37,37 +39,36 @@ Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışların
 
 ## Dosya haritası
 
-- `videos/`: Yayına hazırlanan, müzikli MP4'ler (12 adet).
-- `posts/`: Feed görselleri (10 adet, `content/feed_posts_plan.json` ile eşleşir).
-- `assets/`: Reel görselleri — çoğu AI üretimi, `12-kedi-mirilti-sifasi.jpg` gerçek/CC0 fotoğraf.
+- `videos/`: Yayına hazırlanan, müzikli MP4'ler — yalnızca kedi/köpek (6 adet: `07`–`12`).
+- `assets/`: Reel görselleri — çoğu AI üretimi, `12-kedi-mirilti-sifasi.jpg` gerçek/CC0 fotoğraf. (Feed gönderisi/diğer hayvan görselleri 2026-08-27'de kaldırıldı.)
 - `audio/`: Müzik kütüphanesi (8 mp3, hepsi CC BY 4.0 / Kevin MacLeod).
 - `content/music_library.json`: Müzik kütüphanesi kataloğu + rotasyon kuralı metni.
 - `scripts/pick_music.py`: Yeni Reel için son 7 yayında kullanılmamış bir parça önerir.
 - `scripts/reel_kit.py`: Tüm Reel render mantığının tutulduğu paylaşılan motor (önceki üç ayrı script buraya birleştirildi).
 - `scripts/render_reels.py`: `content/reel_specs.json` üzerinden tek veya toplu Reel üretir (`--only slug1,slug2` ile seçili).
-- `scripts/make_captions.py`: Her Reel/gönderi için yayına hazır caption dosyası üretir (`captions/`).
+- `scripts/make_captions.py`: Her Reel için yayına hazır caption dosyası üretir (`captions/reels/`). Feed-post üretimi 2026-08-27'de kaldırıldı.
 - `scripts/publish_reel.py`: Meta Graph API üzerinden tek bir Reel'i yayınlar (varsayılan kuru çalıştırma).
 - `scripts/publish_queue.py`: `content/reel_specs.json` + `content/publish_log.json` üzerinden sırayla yayın kuyruğunu işler.
-- `content/reel_specs.json`: Tüm Reel'lerin tek kaynağı — render girdisi (görsel, başlık, soru, cevap) ve yayın metadatası (fact, kaynak adı/URL) burada.
-- `content/feed_posts_plan.json`: Feed gönderilerinin planı ve hazır caption'ları.
+- `content/reel_specs.json`: Tüm Reel'lerin tek kaynağı — render girdisi (görsel, başlık, soru, cevap) ve yayın metadatası (fact, kaynak adı/URL) burada. Artık yalnızca kedi/köpek Reel'leri içerir.
 - `content/publish_log.json`: Hangi Reel'in ne zaman yayınlandığının kaydı (publish_queue.py tarafından güncellenir).
 - `requirements.txt`: Yerel video üretimi için Python paketleri.
 
 ## Yeni Reel üretim kuralı
 
-1. Önce güvenilir kaynak bul: üniversite, müze, bilim kurumu, hakemli araştırma veya resmi hayvan refahı kuruluşu.
-2. Fact, `CONTENT_AND_COMMERCE_RULES.md` → "İçerik özgünlüğü kriteri"nden geçmeli: sokak testi (herkes zaten biliyor mu?), şaşırtma anı, tek sağlam kaynak. Geçemiyorsa üretme.
-3. Tek videoda sadece bir ana iddia kullan.
-4. “Kesin teşhis”, tedavi önerisi, hayvanı strese sokacak uygulama, sahte kurtarma ve çalıntı Reels kullanma.
+1. **Yalnızca kedi veya köpek** (2026-08-27'den itibaren kesin kural, bkz. `CONTENT_AND_COMMERCE_RULES.md` → "Kanal konumu"). Başka türe çıkılmaz.
+2. Güvenilir kaynak bul: üniversite, müze, bilim kurumu, hakemli araştırma veya resmi hayvan refahı kuruluşu.
+3. Fact, `CONTENT_AND_COMMERCE_RULES.md` → "İçerik özgünlüğü kriteri"nden geçmeli: sokak testi (herkes zaten biliyor mu?), şaşırtma anı, tek sağlam kaynak. Geçemiyorsa üretme.
+4. Tek videoda sadece bir ana iddia kullan.
+5. “Kesin teşhis”, tedavi önerisi, hayvanı strese sokacak uygulama, sahte kurtarma ve çalıntı Reels kullanma.
 5. Görsel için önce gerçek + telifsiz/CC0 bir fotoğraf ara (ör. Wikimedia Commons, lisansı `CC0` veya `Public domain` olanlar — `CC BY-SA` atıf ister, mümkünse ondan kaçın). Uygun gerçek görsel yoksa AI görseli kullan ve `image_is_ai: true` bırak (varsayılan); AI kullanıldığında caption'da açıkça belirtilir, gerçek doğa görüntüsü izlenimi verilmez.
 6. `python scripts/pick_music.py` ile rotasyona uygun müziği seç, `reel_specs.json`'daki `music_id` alanına yaz, video render edildikten sonra ffmpeg ile göm (desen için "Müzik kütüphanesi" bölümüne bak).
 7. Yeni üretilen bir Reel'i doğrudan otomatik yayın kuyruğuna (`content/reel_specs.json` + `publish_queue.py`) ekleme — önce kullanıcıya göster, onay aldıktan sonra ekle. Kuyruğa zaten eklenmiş, onaylı Reel'ler için günlük otomatik yayın (`PatiSifresiDailyReel` görevi) zaten açık ve bu ayrı bir onay gerektirmez.
 
 ## Önerilen sonraki iş
 
-1. Her Reel için Türkçe seslendirme ekle (müzik artık var, seslendirme hâlâ yok).
-2. İlk 11 Reel'den özgünlük kriterini geçemeyen 4 tanesini (`01-ahtapot-uc-kalp`, `02-arilar-yol-tarifi`, `06-baykus-gozleri`, `09-kedi-uykusu`) daha şaşırtıcı fact'lerle değiştirmeyi kullanıcıya öner — kuyruktan sessizce çıkarma.
-3. Mevcut Reel kuyruğu tükenmeden önce (günde 1 gönderiyle ilerliyor) yeni Reel/caption üretimini planla, yoksa `PatiSifresiDailyReel` görevi "Yayınlanmamış Reel kalmadı" diyerek boşa döner.
-4. Feed gönderileri (`posts/`, `content/feed_posts_plan.json`) için de bir yayın mekanizması kurulmadı — henüz yalnızca Reels otomatikleşti.
+1. Her Reel için Türkçe seslendirme ekle (müzik artık var, seslendirme hâlâ yok) — ama "Profesyonellik ve kalite kriteri" kuralına göre bu karar veriyle verilecek, sezgiyle değil.
+2. `09-kedi-uykusu` özgünlük kriterini geçemiyor; daha şaşırtıcı bir kedi fact'iyle değiştirmeyi kullanıcıya öner — kuyruktan sessizce çıkarma.
+3. Mevcut Reel kuyruğu tükenmeden önce (günde 1 gönderiyle ilerliyor, kalan 4 Reel ~4 gün sonra biter) yeni kedi/köpek Reel'i üretimini planla, yoksa `PatiSifresiDailyReel` görevi "Yayınlanmamış Reel kalmadı" diyerek boşa döner.
+4. Feed gönderisi formatı 2026-08-27'de tamamen kaldırıldı (hepsi kedi/köpek dışıydı) — istenirse yeniden kurulacaksa yalnızca kedi/köpek temalı olmalı.
 5. 24 ve 72. saat metrikleriyle en çok kaydedilen/paylaşılan formatı çoğalt (`instagram_business_manage_insights` izni bunun için alındı, henüz kullanılmadı).
 

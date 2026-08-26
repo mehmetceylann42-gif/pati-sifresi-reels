@@ -6,17 +6,18 @@ Bu dosya, Pati Şifresi projesinde içerik üretirken uyulacak ana kural setidir
 
 - Kanal adı: **Pati Şifresi**.
 - Ana odak: kedi ve köpek sahiplerine kısa, güvenilir, paylaşılabilir bilgi ve günlük yaşam içeriği sunmak.
-- Diğer hayvanlar yalnızca kanalı tazelemek için, seyrek biçimde kullanılır.
+- **(2026-08-27 karar) Kanal artık yalnızca kedi ve köpek.** Diğer hayvanlarla çeşitlilik denemesi (ahtapot, arı, karga, deniz samuru, fil, baykuş + 10 feed gönderisi) kaldırıldı; bundan sonra üretilecek her Reel kedi veya köpek konulu olacak, başka türe çıkılmayacak.
 - Kanal bir reklam vitrini değil; güven inşa eden bir medya hesabıdır. Guezzo, bu güvenin içine yalnızca alakalı bir çözüm olarak girer.
 
 ## İçerik dengesi
 
 İlk 20 Reel/feed paylaşımı için hedef dağılım:
 
-- %70: Kedi-köpek bilgisi, davranışı, günlük bakım farkındalığı ve eğlenceli keşifler (14 paylaşım).
+- %75: Kedi-köpek bilgisi, davranışı, günlük bakım farkındalığı ve eğlenceli keşifler (15 paylaşım).
 - %15: Soru, anket, yorum tetikleyici, takipçi deneyimi ve topluluk içeriği (3 paylaşım).
 - %10: Guezzo ile doğal bağ kuran ticari paylaşım (2 paylaşım).
-- %5: Diğer hayvanlarla merak/çeşitlilik içeriği (1 paylaşım).
+
+(2026-08-27: "diğer hayvanlarla çeşitlilik" payı kaldırıldı, kedi-köpek payına eklendi — kanal artık yalnızca bu iki tür.)
 
 Başlangıçta Guezzo oranı %10'u geçmez. Son 20 içerikte kaydetme, izlenme, profil tıklaması ve satış verileri olumluysa oran en fazla %15'e çıkarılır. %20 oranı, ancak ticari içerikler organik içeriklerin erişimini ve takipçi artışını düşürmüyorsa test edilir.
 
@@ -62,16 +63,18 @@ onaylanmadan önce şu testten geçer:
    bir tanım tekrarı olmamalı.
 3. **Tek ve sağlam kaynak:** Üniversite, müze, hakemli dergi veya resmi
    kurum. Kaynak popüler bir "10 ilginç bilgi" listesi/blog ise kabul edilmez.
-4. **Kedi/köpek önceliği korunur:** Kanalın ana odağı kedi-köpek olduğu için
-   şaşırtıcı fact bulmak zorsa önce bu iki türde derinleşilir (davranış,
-   fizyoloji, duyu farkları), diğer hayvanlara nadiren çıkılır.
+4. **Yalnızca kedi/köpek (2026-08-27'den itibaren kesin kural):** Şaşırtıcı
+   fact bulmak zorlaşsa bile başka türe çıkılmaz; davranış, fizyoloji, duyu
+   farkları, ırk/tür-içi çeşitlilik gibi alt başlıklarda derinleşilir.
 
-Mevcut ilk 11 Reel'den şunlar bu kritere göre zayıf (çok bilinen), ileride
-değiştirilmesi önerilir ama şimdilik yayın kuyruğunda kalıyor: `01-ahtapot-uc-kalp`,
-`02-arilar-yol-tarifi`, `06-baykus-gozleri`, `09-kedi-uykusu`. Yeni üretilecek
-Reel'ler doğrudan bu kritere göre seçilir (bkz. `12-kedi-mirilti-sifasi` — kedi
-mırıltı frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilmediği,
-üniversite kaynaklı bir fact).
+2026-08-27'de kanal kedi/köpek dışı tüm içerikten (6 Reel: ahtapot, arı,
+karga, deniz samuru, fil, baykuş; 10 feed gönderisi) temizlendi — bunlar bu
+kritere zaten uymuyordu ve artık kanalın kapsamı dışında. Kalan `09-kedi-uykusu`
+de özgünlük kriterine göre zayıf bulunmuştu; sırası geldiğinde daha şaşırtıcı
+bir kedi fact'iyle değiştirilmesi önerilir. Yeni üretilecek Reel'ler doğrudan
+bu kritere göre seçilir (bkz. `12-kedi-mirilti-sifasi` — kedi mırıltı
+frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilmediği, üniversite
+kaynaklı bir fact).
 
 ## Müzik çeşitliliği kuralı (2026-08-27)
 
@@ -88,6 +91,52 @@ mırıltı frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilme
   `AI_HANDOFF.md`).
 - Kütüphane 8 parçanın altına düşerse (örn. yeni bir tema gerekiyorsa) yeni
   parça eklenir, asla aynı parça daha sık tekrar ettirilmez.
+
+## Profesyonellik ve kalite kriteri (2026-08-27)
+
+Soru: bu kanalı nasıl daha profesyonel hale getirir, nasıl daha kaliteli
+içerik üretiriz?
+
+İlk cevap bariz görünen üç adımdı: seslendirme ekle, ayrı bir "hook kilidi"
+kuralı yaz, topluluk/yorum stratejisi kur. Bu cevap tekrar sorgulandığında
+ikisi düşürüldü:
+
+- Görsel marka tutarlılığı zaten `reel_kit.py` motorunda var (amber marka
+  etiketi, ilerleme çubuğu, tüm Reel'ler tek şablondan geçiyor) — ayrı bir
+  kural gerekmiyor, korunacak.
+- Ayrı bir hook kilidi ve topluluk/yorum stratejisi, tek bir gönderi
+  yayınlanmışken veri yokken yazılırsa keyfi olur; mevcut soru→cevap kart
+  yapısı (başlık → soru → cevap) zaten doğal bir hook taşıyor. Veri
+  birikince (aşağıdaki performans döngüsüyle) tekrar değerlendirilir, şimdi
+  zorunlu kural yazılmıyor.
+- Seslendirme için ilk yanıt "profesyonel hesaplarda olur, o zaman ekle"
+  şeklindeydi; sorgulamada bu varsayım zayıf bulundu — sessiz+müzikli format
+  hiç ölçülmeden sesliye geçmek sezgiyle karar vermek olur, veriyle değil.
+  Bunun yerine aşağıdaki ölçüm noktasına bağlandı.
+
+Kurala yazılan sonuç:
+
+1. **Performans döngüsü zorunlu.** "İçerik dengesi" bölümündeki "ilk 20
+   içerik" kontrol noktasında yalnızca Guezzo oranı değil, genel organik
+   performans da gözden geçirilir: kaydetme, paylaşım, 3 sn izlenme,
+   tamamlanma oranı, profil tıklaması (`instagram_business_manage_insights`
+   izniyle — alınmış ama henüz hiç kullanılmadı). En zayıf 2 format/temayı
+   not et ve sonraki üretimde tekrarlama; en güçlü formatı çoğalt. Bu
+   kontrol noktası geçilmeden "hangi format daha iyi" sorusuna sezgiyle
+   cevap verilmez.
+2. **Seslendirme kararı veriyle verilir.** Sessiz+müzikli format ilk 20
+   gönderiye ulaşana kadar değişmez. 20. gönderiden sonraki performans
+   incelemesinde tamamlanma oranı veya kaydetme, benzer sessiz hesaplara
+   göre zayıf çıkarsa seslendirme denemesi bir sonraki üretim turunda
+   başlatılır; aksi halde sessiz format sürdürülür. "Seslendirme yoksa
+   amatör görünür" varsayımı tek başına yeterli gerekçe sayılmaz.
+3. **Yayın öncesi kalite kontrol checklist.** `publish_reel.py` /
+   `publish_queue.py` insan onayından önce şunlar kontrol edilir: (a) kaynak
+   linki hâlâ açılıyor mu, (b) caption'da yazım/imla hatası var mı, (c)
+   `image_is_ai` doğru mu (gerçek fotoğrafta AI etiketi kalmamış, AI
+   görselde etiket eksik değil), (d) müzik atıf satırı doğru parçayı
+   gösteriyor mu, (e) altyazı kartlarının zamanlaması video süresiyle
+   (`duration`) tutarlı mı. Bu beşi geçmeden yayınlanmaz.
 
 ## Yapay zekâ çalışma sınırı
 
