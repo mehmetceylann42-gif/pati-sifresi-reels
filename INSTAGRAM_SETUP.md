@@ -72,15 +72,18 @@ tarafından tamamlanır:
    veya toplu kuyruk için `python scripts/publish_queue.py --video-url-template ...`.
    Gerçek yayın ancak `--publish` bayrağıyla başlar.
 
-## Otomasyon sınırı (ilk 14 gün)
+## Otomasyon sınırı
 
 - AI: konu araştırması, video/görsel taslağı, caption, yorum yanıt taslağı,
   planlama ve performans özeti üretir.
-- AI, yayın için taslak oluşturur; **insan onayı olmadan yayınlamaz.**
 - Yorumlara AI taslak cevap üretir; otomatik göndermez.
-- Ticari (Guezzo) içerikler için onay her zaman insana aittir — 14 günden
-  sonra da değişmez.
-
-İlk 14 günün sonunda, metrikler ve içerik güvenliği kontrol edildikten
-sonra yalnızca onaylanmış yayın saatlerinde resmî API ile otomatik Reel
-paylaşımı açılabilir.
+- Ticari (Guezzo) içerikler için onay her zaman insana aittir — bu asla
+  değişmez.
+- **Güncelleme (2026-08-27):** Kullanıcı, Reel kuyruğunun (`content/reel_specs.json`
+  + `content/publish_log.json`) günde bir video olacak şekilde **insan
+  onayı olmadan, otomatik olarak** yayınlanmasını açıkça istedi. Bu artık
+  Windows Görev Zamanlayıcı görevi `PatiSifresiDailyReel` ile her gün
+  10:00'da çalışıyor (bkz. `AI_HANDOFF.md`). Aşağıdaki "yayın öncesi insan
+  onayı" kuralı yalnızca bu otomatik Reel kuyruğu için geçersizdir; yeni bir
+  içerik türü (yorum otomasyonu, ticari paylaşım, farklı bir hesap/kuyruk)
+  eklenmeden önce yine kullanıcıya sorulmalıdır.

@@ -1,0 +1,10 @@
+$ErrorActionPreference = "Stop"
+$root = "C:\Users\efeka\Hayvan-Kanali"
+$python = "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\python3.12.exe"
+$template = "https://cdn.jsdelivr.net/gh/mehmetceylann42-gif/pati-sifresi-reels@main/videos/{slug}.mp4"
+$logDir = Join-Path $root "logs"
+if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
+$logFile = Join-Path $logDir ("publish_{0}.log" -f (Get-Date -Format "yyyy-MM-dd_HHmmss"))
+
+Set-Location $root
+& $python "scripts\publish_queue.py" --video-url-template $template --publish --limit 1 *>> $logFile
