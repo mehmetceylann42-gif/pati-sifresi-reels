@@ -70,11 +70,11 @@ onaylanmadan önce şu testten geçer:
 2026-08-27'de kanal kedi/köpek dışı tüm içerikten (6 Reel: ahtapot, arı,
 karga, deniz samuru, fil, baykuş; 10 feed gönderisi) temizlendi — bunlar bu
 kritere zaten uymuyordu ve artık kanalın kapsamı dışında. Kalan `09-kedi-uykusu`
-de özgünlük kriterine göre zayıf bulunmuştu; sırası geldiğinde daha şaşırtıcı
-bir kedi fact'iyle değiştirilmesi önerilir. Yeni üretilecek Reel'ler doğrudan
-bu kritere göre seçilir (bkz. `12-kedi-mirilti-sifasi` — kedi mırıltı
-frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilmediği, üniversite
-kaynaklı bir fact).
+de özgünlük kriterine göre zayıf bulunmuştu; 2026-08-27'de `09-kedi-goz-bebegi`
+(kedinin dikey yarık göz bebeği ve pusu avcılığı bağlantısı) ile değiştirildi.
+Yeni üretilecek Reel'ler doğrudan bu kritere göre seçilir (bkz.
+`12-kedi-mirilti-sifasi` — kedi mırıltı frekansının kemik iyileşmesiyle
+örtüşmesi, çoğu sahibin bilmediği, üniversite kaynaklı bir fact).
 
 ### Doygunluk ve açı farkı kontrolü (2026-08-27, başka bir kanal için kullanılan araştırma yönteminden uyarlandı)
 
@@ -162,6 +162,30 @@ Kurala yazılan sonuç:
    görselde etiket eksik değil), (d) müzik atıf satırı doğru parçayı
    gösteriyor mu, (e) altyazı kartlarının zamanlaması video süresiyle
    (`duration`) tutarlı mı. Bu beşi geçmeden yayınlanmaz.
+
+## Görsel estetiği kriteri (2026-08-27)
+
+Kullanıcı `14-kopek-burun-kizilotesi` için kullanılan aşırı yakın burun
+makro görselini beğenmedi: bilimsel olarak faktla uyumluydu ama göze hoş
+gelmiyordu. Bundan sonra görsel seçimi yalnızca "fact'i doğru temsil
+ediyor mu?" sorusuyla değil, şu ek testle de yapılır:
+
+1. **Göz zevki testi:** Görsel, konusu dışında hiçbir bağlam olmadan tek
+   başına görülse "ne güzel/sevimli" dedirtir mi? Cevap hayırsa (itici,
+   klinik, rahatsız edici, aşırı makro/deri-doku odaklı bir kadraj) görsel
+   reddedilir, faktı başka açıdan gösteren daha sıcak/çekici bir görsel
+   aranır.
+2. **Sevimlilik önceliği:** Hayvanın tüm yüzü/ifadesi veya doğal duruşu
+   görünen, iyi ışıklandırılmış, sıcak tonlu fotoğraflar; salt bir organın
+   (burun deliği, diş, pençe ucu gibi) aşırı yakın çekimine tercih edilir
+   — fact bir organla ilgili olsa bile, o organ hayvanın genel/sevimli
+   görünümü içinde gösterilir, izole/klinik biçimde değil.
+3. **Gerçek+telifsiz fotoğraf tercihi bu kuralla çelişmez:** Madde 6'daki
+   "önce gerçek/CC0 fotoğraf ara" kuralı geçerliliğini korur, ama artık
+   yalnızca "gerçek ve telifsiz" değil, "gerçek, telifsiz ve göze hoş
+   gelen" bir fotoğraf aranır. İkisi de sağlanamıyorsa önce estetikten
+   ödün verilmez — daha fazla arama yapılır veya farklı bir açı/kadraj
+   denenir.
 
 ## Yapay zekâ çalışma sınırı
 

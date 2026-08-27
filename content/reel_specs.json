@@ -22,15 +22,17 @@
     "music_id": "monkeys-spinning-monkeys"
   },
   {
-    "slug": "09-kedi-uykusu",
-    "image": "assets/09-kedi-uykusu.png",
-    "title": "Kediler günde 14 saat uyur mu?",
-    "question": "Bu kadar uyku gerçekten normal mi?",
-    "answer": "Cevap: Çoğu zaman, evet.",
-    "fact": "Ev kedileri günde ortalama 12-16 saat, bazen 20 saate kadar uyuyabilir; bu doğal bir avcı içgüdüsüdür.",
-    "source_name": "Cornell Üniversitesi Veteriner Fakültesi",
-    "source_url": "https://www.vet.cornell.edu/about-us/news/20230908/inverse-why-my-cat-awake-night-veterinarian-reveals-answer-nighttime-antics",
-    "music_id": "monkeys-spinning-monkeys"
+    "slug": "09-kedi-goz-bebegi",
+    "image": "assets/09-kedi-goz-bebegi.jpg",
+    "image_is_ai": false,
+    "duration": 17,
+    "title": "Kedinin gözü neden dikey yarık?",
+    "question": "Aslanlarda da aynı şekil var mı?",
+    "answer": "Cevap: Hayır, sadece küçük kediler.",
+    "fact": "Kedinin göz bebeği, karanlıkta ve gün ışığında arasında 135 kata kadar büyüyüp küçülebilir (insanda bu yalnızca 15 kat); bu dikey yarık şekli, yere yakın pusu kuran küçük avcıların avın uzaklığını çok hassas ölçmesini sağlıyor. Aslan ve kaplan gibi büyük kediler daha uzun boylu avcı oldukları için bu şekle ihtiyaç duymaz, göz bebekleri yuvarlaktır.",
+    "source_name": "Science Advances (UC Berkeley & Durham Üniversitesi, 2015)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/26601232/",
+    "music_id": "pixelland"
   },
   {
     "slug": "10-kopek-burun-izi",
