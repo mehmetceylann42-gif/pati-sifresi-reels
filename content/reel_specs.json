@@ -83,6 +83,19 @@
     "music_id": "carefree"
   },
   {
+    "slug": "15-kopek-burun-deligi",
+    "image": "assets/15-kopek-burun-deligi.jpg",
+    "image_is_ai": false,
+    "duration": 17,
+    "title": "Köpekler yeni kokuyu hangi burun deliğiyle koklar?",
+    "question": "Sağ mı sol mu, fark eder mi?",
+    "answer": "Cevap: Evet, çok fark eder.",
+    "fact": "Köpekler yeni veya tedirgin edici bir kokuyu önce sağ burun deliğiyle koklar; bu taraf beyinde tehdit/kaçış tepkisini yöneten yarımküreyle bağlantılı. Koku tanıdık ve zararsız olduğu anlaşıldıkça köpek sol burun deliğine geçiş yapar.",
+    "source_name": "Animal Behaviour (Univ. of Bari & Trento, Siniscalchi ve ark. 2011)",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347211002284",
+    "music_id": "comfortable-mystery"
+  },
+  {
     "slug": "14-kopek-burun-kizilotesi",
     "image": "assets/14-kopek-burun-kizilotesi.jpg",
     "image_is_ai": false,
