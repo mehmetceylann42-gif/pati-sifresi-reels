@@ -76,6 +76,31 @@ bu kritere göre seçilir (bkz. `12-kedi-mirilti-sifasi` — kedi mırıltı
 frekansının kemik iyileşmesiyle örtüşmesi, çoğu sahibin bilmediği, üniversite
 kaynaklı bir fact).
 
+### Doygunluk ve açı farkı kontrolü (2026-08-27, başka bir kanal için kullanılan araştırma yönteminden uyarlandı)
+
+"Sokak testi" bugüne kadar sezgiyle uygulandı (ekip biliyor mu diye tahmin
+edilerek). Bir fact üretime geçmeden önce bu tahmine ek olarak kısa bir
+ampirik kontrol yapılır:
+
+1. **Doygunluk taraması:** Fact'in konusunu (ör. "kedi mırıltı frekansı",
+   "köpek koku izi") Instagram/TikTok/YouTube Shorts'ta 2-3 aramayla tara.
+   Aynı spesifik fact üzerine son dönemde birden fazla küçük/orta hesabın
+   iyi performans aldığı videolar varsa doygunluk YÜKSEK — konu ya
+   tamamen bırakılır ya da madde 2'deki açı farkı bulunmadan üretilmez.
+2. **Açı farkı:** Konu daha önce işlenmiş ama doygun değilse, mevcut
+   videoların **neyi anlatmadığını** tespit et (ör. hepsi genel/yüzeysel
+   anlatıyor ama mekanizmayı/nedeni açıklamıyor) ve Reel'i özellikle o
+   boşluğa göre kur — aynı fact'in yeniden anlatımı değil.
+3. **Taze talep sinyali:** Genel konuda (ör. "kedi mırıltısı") yüksek
+   izlenmeli eski içerik var ama spesifik fact'in (ör. "35-50 Hz kemik
+   iyileşmesiyle örtüşüyor") kendisi hiç işlenmemişse, bu en güçlü aday
+   türüdür — talep zaten kanıtlı, doygunluk baskısı yok, açı farkı
+   aramaya bile gerek kalmaz.
+
+Bu kontrol "sokak testi"nin yerine geçmez, onu tahminden ölçüme taşır:
+madde 1'deki "herkes zaten biliyor mu?" sorusu artık arama sonucuyla
+doğrulanır, yalnızca ekibin izlenimiyle değil.
+
 ## Müzik çeşitliliği kuralı (2026-08-27)
 
 - Aynı arka plan müziği **art arda en fazla 7 gönderide bir tekrar edebilir**;
