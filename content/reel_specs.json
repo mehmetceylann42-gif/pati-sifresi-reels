@@ -66,5 +66,18 @@
     "source_name": "Science World (UC Davis Veteriner Fakültesi kaynaklı)",
     "source_url": "https://www.scienceworld.ca/stories/secret-power-cats-purr/",
     "music_id": "gymnopedie-no-1"
+  },
+  {
+    "slug": "13-kopek-kuyruk-yonu",
+    "image": "assets/13-kopek-kuyruk-yonu.jpg",
+    "image_is_ai": false,
+    "duration": 18,
+    "title": "Köpeğin kuyruk yönü ne anlatır?",
+    "question": "Sağa mı sola mı? Fark eder mi?",
+    "answer": "Cevap: Evet, çok fark eder.",
+    "fact": "Köpekler mutlu/güvende hissettiğinde kuyruğunu daha çok sağa, kaygılı/tedirginken daha çok sola sallar; başka bir köpek bu yön farkını görünce kalp atışı hızlanıp geriliyor.",
+    "source_name": "Current Biology (Univ. of Trento/Bari, Siniscalchi ve ark. 2013)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/24184108/",
+    "music_id": "carefree"
   }
 ]
