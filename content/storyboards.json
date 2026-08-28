@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "13-kopek-kuyruk-yonu",
+    "source_name": "Current Biology · Trento Üniversitesi, 2013",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/24184108/",
+    "music_id": "carefree",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog wagging tail",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.32,
+          0.3
+        ]
+      },
+      {
+        "query": "happy dog running in garden",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.32,
+          0.3
+        ]
+      },
+      {
+        "query": "scared dog hiding",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "focus": [
+          0.55,
+          0.45
+        ]
+      },
+      {
+        "query": "dog face close up looking at camera",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.3,
+          0.28
+        ]
+      },
+      {
+        "query": "two dogs meeting in park",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "focus": [
+          0.55,
+          0.45
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin kuyruk salladı diye rahat sanma.",
+        "chunks": [
+          "Köpeğin kuyruk salladı diye",
+          "RAHAT SANMA"
+        ],
+        "emph": [
+          "rahat",
+          "olduğunu",
+          "sanma"
+        ],
+        "y": 900,
+        "size": 84,
+        "pitch": "+8Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Mesele sallaması değil. Hangi tarafa salladığı.",
+        "chunks": [
+          "Mesele sallaması değil",
+          "HANGİ TARAFA salladığı"
+        ],
+        "emph": [
+          "hangi",
+          "tarafa"
+        ],
+        "pitch": "+2Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "payoff-a",
+        "shot": 1,
+        "vo": "Sağa sallıyorsa keyfi yerinde.",
+        "chunks": [
+          "Sağa sallıyorsa",
+          "KEYFİ YERİNDE"
+        ],
+        "emph": [
+          "sağa",
+          "keyfi",
+          "yerinde"
+        ],
+        "pitch": "+5Hz",
+        "pause_after": 0.22
+      },
+      {
+        "role": "payoff-b",
+        "shot": 2,
+        "vo": "Sola sallıyorsa tedirgin.",
+        "chunks": [
+          "Sola sallıyorsa",
+          "TEDİRGİN"
+        ],
+        "emph": [
+          "sola",
+          "tedirgin"
+        ],
+        "pitch": "-4Hz",
+        "pause_after": 0.34
+      },
+      {
+        "role": "mechanism",
+        "shot": 3,
+        "vo": "Çünkü kaygıyı beynin sağ yarım küresi yönetir, o taraf da kuyruğu sola çeker.",
+        "chunks": [
+          "Çünkü kaygıyı",
+          "beynin SAĞ YARIM KÜRESİ",
+          "yönetir",
+          "o taraf da kuyruğu",
+          "sola çeker"
+        ],
+        "emph": [
+          "sağ",
+          "yarım",
+          "küresi"
+        ],
+        "pitch": "-2Hz",
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 4,
+        "vo": "Trento Üniversitesi ölçtü: sola sallanan kuyruğu gören köpeklerin kalp atışı hızlandı.",
+        "chunks": [
+          "Trento Üniversitesi ölçtü:",
+          "sola sallanan kuyruğu gören",
+          "köpeklerin kalp atışı",
+          "HIZLANDI"
+        ],
+        "emph": [
+          "hızlandı"
+        ],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 4,
+        "vo": "Bu akşam köpeğine bak. Hangi tarafa? Yoruma yaz.",
+        "chunks": [
+          "Bu akşam köpeğine bak",
+          "hangi tarafa?",
+          "YORUMA YAZ"
+        ],
+        "emph": [
+          "yoruma",
+          "yaz"
+        ],
+        "pitch": "+5Hz"
+      }
+    ]
+  },
+  {
+    "slug": "09-kedi-goz-bebegi",
+    "source_name": "Science Advances · UC Berkeley & Durham, 2015",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/26601232/",
+    "music_id": "pixelland",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "cat eyes close up",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [
+          0.5,
+          0.34
+        ]
+      },
+      {
+        "query": "cat stalking crouching hunting",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "crop": [
+          0.16,
+          0.22,
+          0.94,
+          1.0
+        ]
+      },
+      {
+        "query": "lion portrait resting savanna",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [
+          0.5,
+          0.34
+        ]
+      },
+      {
+        "query": "cat looking at camera indoor",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [
+          0.5,
+          0.32
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Kedinin göz bebeği 135 kat açılıp kapanabiliyor. İnsanda bu sadece 15.",
+        "chunks": [
+          "Kedinin göz bebeği",
+          "135 KAT açılıp kapanabiliyor",
+          "insanda bu sadece 15"
+        ],
+        "emph": [
+          "135",
+          "kat"
+        ],
+        "y": 900,
+        "size": 84,
+        "pitch": "+8Hz",
+        "pause_after": 0.32
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Peki neden yuvarlak değil de dikey yarık?",
+        "chunks": [
+          "Peki neden yuvarlak değil de",
+          "DİKEY YARIK?"
+        ],
+        "emph": [
+          "dikey",
+          "yarık"
+        ],
+        "pitch": "+3Hz",
+        "pause_after": 0.32
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Çünkü bu şekil, avın uzaklığını milimetrik ölçüyor.",
+        "chunks": [
+          "Çünkü bu şekil",
+          "avın uzaklığını",
+          "MİLİMETRİK ölçüyor"
+        ],
+        "emph": [
+          "milimetrik"
+        ],
+        "pause_after": 0.24
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Yere yakın pusu kuran küçük avcıların merceği.",
+        "chunks": [
+          "Yere yakın PUSU kuran",
+          "küçük avcıların merceği"
+        ],
+        "emph": [
+          "pusu"
+        ],
+        "pitch": "-2Hz",
+        "pause_after": 0.34
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Kanıtı şu: aslanda ve kaplanda bu yarık yok. Onların göz bebeği yuvarlak.",
+        "chunks": [
+          "Kanıtı şu:",
+          "aslanda ve kaplanda",
+          "bu yarık YOK",
+          "onların göz bebeği yuvarlak"
+        ],
+        "emph": [
+          "yok"
+        ],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 3,
+        "vo": "Kedine bak. Yarık mı, yuvarlak mı? Yoruma yaz.",
+        "chunks": [
+          "Kedine bak",
+          "yarık mı, yuvarlak mı?",
+          "YORUMA YAZ"
+        ],
+        "emph": [
+          "yoruma",
+          "yaz"
+        ],
+        "pitch": "+5Hz"
+      }
+    ]
+  }
+]

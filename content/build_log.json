@@ -1,0 +1,96 @@
+{
+  "13-kopek-kuyruk-yonu": {
+    "built_at": "2026-08-28T01:27:47+00:00",
+    "duration": 26.0,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "carefree",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog wagging tail",
+        "path": "footage/pexels-6666532.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/video-of-dog-wagging-its-tail-6666532/"
+      },
+      {
+        "shot": 1,
+        "query": "happy dog running in garden",
+        "path": "footage/pexels-11920071.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dogs-playing-in-house-garden-11920071/"
+      },
+      {
+        "shot": 2,
+        "query": "scared dog hiding",
+        "path": "footage/pexels-6666675.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-walking-towards-the-camera-6666675/"
+      },
+      {
+        "shot": 3,
+        "query": "dog face close up looking at camera",
+        "path": "footage/pexels-19823143.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/love-dog-19823143/"
+      },
+      {
+        "shot": 4,
+        "query": "two dogs meeting in park",
+        "path": "footage/pexels-7197702.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-playing-with-two-pet-dogs-7197702/"
+      }
+    ]
+  },
+  "09-kedi-goz-bebegi": {
+    "built_at": "2026-08-28T01:29:03+00:00",
+    "duration": 26.33,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "pixelland",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "cat eyes close up",
+        "path": "footage/pexels-7691954.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/cats-on-outdoors-7691954/"
+      },
+      {
+        "shot": 1,
+        "query": "cat stalking crouching hunting",
+        "path": "footage/pexels-34814981.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/curious-cat-exploring-urban-environment-34814981/"
+      },
+      {
+        "shot": 2,
+        "query": "lion portrait resting savanna",
+        "path": "footage/pexels-37266667.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/lion-resting-in-natural-habitat-outdoors-37266667/"
+      },
+      {
+        "shot": 3,
+        "query": "cat looking at camera indoor",
+        "path": "footage/pexels-6865082.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-with-her-cat-on-the-bed-6865082/"
+      }
+    ]
+  }
+}

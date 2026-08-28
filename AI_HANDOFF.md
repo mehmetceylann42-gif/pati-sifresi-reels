@@ -1,5 +1,37 @@
 # Başka yapay zekâ için devam notu
 
+## ⚠️ 2026-08-28 — önce bunları oku
+
+1. **Meta API şu anda kapalı.** `python scripts/test_connection.py` bile
+   `{"error":{"message":"API access blocked.","type":"OAuthException","code":200}}`
+   döndürüyor. Kod 190 (token süresi doldu) değil, kod 200 — yani sorun
+   token'ın kendisi değil, uygulama/hesap seviyesinde bir kısıt. Bu
+   düzelmeden `PatiSifresiDailyReel` görevi her gün 10:00'da boşa çalışacak.
+   Meta App Dashboard'daki uyarıları ve Instagram hesabındaki kısıtlamaları
+   kontrol et.
+2. **Gerçek access token public repoda açıktaydı.** `.env.example` içinde
+   `.env` ile birebir aynı canlı `IG_ACCESS_TOKEN` duruyordu ve ilk commit'ten
+   (`d4d3925`) beri `github.com/mehmetceylann42-gif/pati-sifresi-reels`
+   (public) reposundaydı. Dosya 2026-08-28'de temizlendi ama **token hâlâ Git
+   geçmişinde.** Yapılacaklar: (a) Meta'dan token'ı iptal edip yenisini üret,
+   (b) yalnızca `.env`'e yaz, (c) geçmişi temizle veya repoyu yeniden kur.
+   Sızmış token'ın Meta tarafından tespiti, 1. maddedeki bloğun en olası
+   nedenidir.
+3. **v2 üretim hattı kuruldu** (bkz. `PIPELINE_V2.md`). Eski hat
+   (`reel_kit.py` + `render_reels.py`) hâlâ duruyor ama yeni Reel'ler
+   `scripts/build_reel.py` ile üretilmeli. Özet: Pexels'ten gerçek dikey
+   video klipler, Türkçe seslendirme (Edge TTS, `tr-TR-EmelNeural`),
+   ölçülmüş kinetik altyazı, kesintisiz döngü.
+4. **Ses ÜCRETSİZ kalacak** (2026-08-28 kullanıcı kararı). ElevenLabs kodu
+   duruyor ama varsayılan kapalı; yalnızca `--paid-voice` bayrağıyla açılır
+   ve kotası `youtube otomasyon türkçe` projesiyle ORTAKTIR. Ayrıca erkek
+   ses (`tr-TR-AhmetNeural`) "çok kalın ve ürkütücü" bulundu — varsayılan
+   `tr-TR-EmelNeural`, ona geri dönme.
+5. **Pexels/Pixabay anahtarları bu projede tutulmuyor.** `.env` içindeki
+   `EXTERNAL_ENV` satırı `youtube otomasyon türkçe/.env` dosyasını gösteriyor;
+   anahtarlar oradan okunuyor (`scripts/keys.py`).
+
+
 ## Amaç
 
 Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışlarını ve şaşırtıcı özelliklerini 30 saniyede açıkla.”

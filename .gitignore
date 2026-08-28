@@ -2,3 +2,11 @@
 __pycache__/
 *.pyc
 logs/
+# Stok klipler yeniden indirilebilir; index.json hangi terimin hangi klibe
+# cozuldugunu tuttugu icin Git'te kalir.
+footage/*.mp4
+
+# Seslendirme onbellegi: yeniden uretilebilir, Git'te tutulmaz.
+voice_cache/
+# Yayina giden kopya videos/ altinda; videos_v2 calisma ciktisi.
+videos_v2/
