@@ -92,5 +92,75 @@
         "source_page": "https://www.pexels.com/video/a-woman-with-her-cat-on-the-bed-6865082/"
       }
     ]
+  },
+  "demo-mizah-kopek-burun": {
+    "built_at": "2026-08-28T14:02:22+00:00",
+    "duration": 31.9,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "comfortable-mystery",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog sniffing suspicious object curious",
+        "path": "footage/pexels-6666675.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-walking-towards-the-camera-6666675/"
+      },
+      {
+        "shot": 1,
+        "query": "dog nose close up sniffing ground outdoor",
+        "path": "footage/pexels-35637296.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/curly-coated-dog-enjoys-treat-on-rocky-path-35637296/"
+      },
+      {
+        "shot": 2,
+        "query": "happy relaxed dog panting sitting",
+        "path": "footage/pexels-7515914.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-breed-brown-dog-sitting-on-the-floor-7515914/"
+      }
+    ]
+  },
+  "15-kopek-burun-deligi": {
+    "built_at": "2026-08-28T14:37:41+00:00",
+    "duration": 31.92,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "comfortable-mystery",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog sniffing suspicious object curious",
+        "path": "footage/pexels-6666675.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-walking-towards-the-camera-6666675/"
+      },
+      {
+        "shot": 1,
+        "query": "dog nose close up sniffing ground outdoor",
+        "path": "footage/pexels-35637296.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/curly-coated-dog-enjoys-treat-on-rocky-path-35637296/"
+      },
+      {
+        "shot": 2,
+        "query": "happy relaxed dog panting sitting",
+        "path": "footage/pexels-7515914.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-breed-brown-dog-sitting-on-the-floor-7515914/"
+      }
+    ]
   }
 }

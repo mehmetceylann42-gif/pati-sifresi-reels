@@ -306,5 +306,113 @@
         "pitch": "+5Hz"
       }
     ]
+  },
+  {
+    "slug": "15-kopek-burun-deligi",
+    "source_name": "Animal Behaviour · Bari & Trento Üniversitesi, 2011",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347211002284",
+    "music_id": "comfortable-mystery",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog sniffing suspicious object curious",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "dog nose close up sniffing ground outdoor",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy relaxed dog panting sitting",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin burnunda gizli bir mesai sistemi var, senden habersiz çalışıyor.",
+        "chunks": [
+          "Köpeğin burnunda gizli bir",
+          "mesai sistemi var,",
+          "senden habersiz ÇALIŞIYOR."
+        ],
+        "emph": ["çalışıyor"],
+        "y": 900,
+        "size": 84,
+        "pitch": "+8Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yeni ya da ürkütücü bir koku gelince nöbeti hangi delik devralıyor, tahmin et.",
+        "chunks": [
+          "Yeni ya da ürkütücü bir koku gelince",
+          "nöbeti HANGİ DELİK devralıyor,",
+          "tahmin et."
+        ],
+        "emph": ["hangi", "delik"],
+        "pitch": "+2Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Cevap: Sağ burun deliği. O, işin 'önce güvenlik' kısmına bakıyor.",
+        "chunks": [
+          "Cevap: SAĞ BURUN DELİĞİ.",
+          "O, işin 'önce güvenlik'",
+          "kısmına bakıyor."
+        ],
+        "emph": ["sağ", "burun", "deliği"],
+        "pitch": "+5Hz",
+        "pause_after": 0.24
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Çünkü o taraf beynin tehdit alarmını çalıştıran yarım küreye bağlı; koku tanıdık çıkana kadar mesai onda.",
+        "chunks": [
+          "Çünkü o taraf beynin",
+          "TEHDİT ALARMINI çalıştıran yarım küreye bağlı;",
+          "koku tanıdık çıkana kadar",
+          "mesai onda."
+        ],
+        "emph": ["tehdit", "alarmını"],
+        "pitch": "-2Hz",
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Bari Üniversitesi ölçtü: aynı koku ikinci kez verildiğinde köpekler işi sessizce sol burun deliğine devretti.",
+        "chunks": [
+          "Bari Üniversitesi ölçtü:",
+          "aynı koku ikinci kez verildiğinde",
+          "köpekler işi sessizce",
+          "SOL BURUN DELİĞİNE DEVRETTİ."
+        ],
+        "emph": ["sol", "burun", "deliğine", "devretti"],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Köpeğine yabancı bir koku tut, hangi delik önce kalkıyor izle. Yoruma yaz.",
+        "chunks": [
+          "Köpeğine yabancı bir koku tut,",
+          "hangi delik önce kalkıyor izle.",
+          "YORUMA YAZ."
+        ],
+        "emph": ["yoruma", "yaz"],
+        "pitch": "+5Hz"
+      }
+    ]
   }
 ]

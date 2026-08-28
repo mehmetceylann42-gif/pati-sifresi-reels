@@ -306,5 +306,49 @@
     "height": 2048,
     "motion": 7.3,
     "query": "cat looking at camera indoor"
+  },
+  "00bbfa24a8ff": {
+    "provider": "pexels",
+    "video_id": 6666675,
+    "path": "footage/pexels-6666675.mp4",
+    "source_page": "https://www.pexels.com/video/a-dog-walking-towards-the-camera-6666675/",
+    "duration": 9.0,
+    "width": 1440,
+    "height": 2496,
+    "motion": 16.49,
+    "query": "dog sniffing suspicious object curious"
+  },
+  "bd77714689ec": {
+    "provider": "pexels",
+    "video_id": 35637296,
+    "path": "footage/pexels-35637296.mp4",
+    "source_page": "https://www.pexels.com/video/curly-coated-dog-enjoys-treat-on-rocky-path-35637296/",
+    "duration": 27.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 31.54,
+    "query": "dog nose close up sniffing ground outdoor"
+  },
+  "d673460f570e": {
+    "provider": "pexels",
+    "video_id": 7515914,
+    "path": "footage/pexels-7515914.mp4",
+    "source_page": "https://www.pexels.com/video/a-breed-brown-dog-sitting-on-the-floor-7515914/",
+    "duration": 16.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 2.29,
+    "query": "happy relaxed dog panting sitting"
+  },
+  "e6b34341b0f1": {
+    "provider": "pexels",
+    "video_id": 7515914,
+    "path": "footage/pexels-7515914.mp4",
+    "source_page": "https://www.pexels.com/video/a-breed-brown-dog-sitting-on-the-floor-7515914/",
+    "duration": 16.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 2.29,
+    "query": "happy relaxed dog panting sitting"
   }
 }
