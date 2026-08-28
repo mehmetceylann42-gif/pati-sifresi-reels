@@ -350,5 +350,38 @@
     "height": 1920,
     "motion": 2.29,
     "query": "happy relaxed dog panting sitting"
+  },
+  "97b214360b86": {
+    "provider": "pexels",
+    "video_id": 7691957,
+    "path": "footage/pexels-7691957.mp4",
+    "source_page": "https://www.pexels.com/video/cat-grooming-itself-7691957/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 8.35,
+    "query": "cat licking fur grooming close up"
+  },
+  "4ab2c5efa6fe": {
+    "provider": "pexels",
+    "video_id": 7691945,
+    "path": "footage/pexels-7691945.mp4",
+    "source_page": "https://www.pexels.com/video/cat-licking-its-toes-7691945/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 16.81,
+    "query": "cat tongue close up licking"
+  },
+  "1d465f1983a3": {
+    "provider": "pexels",
+    "video_id": 7592608,
+    "path": "footage/pexels-7592608.mp4",
+    "source_page": "https://www.pexels.com/video/a-close-up-video-of-a-cat-s-face-7592608/",
+    "duration": 25.0,
+    "width": 1440,
+    "height": 2496,
+    "motion": 5.0,
+    "query": "cute cat close up face portrait"
   }
 }

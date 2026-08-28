@@ -162,5 +162,40 @@
         "source_page": "https://www.pexels.com/video/a-breed-brown-dog-sitting-on-the-floor-7515914/"
       }
     ]
+  },
+  "08-kedi-dili": {
+    "built_at": "2026-08-28T15:11:49+00:00",
+    "duration": 25.9,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "sneaky-snitch",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "cat licking fur grooming close up",
+        "path": "footage/pexels-7691957.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/cat-grooming-itself-7691957/"
+      },
+      {
+        "shot": 1,
+        "query": "cat tongue close up licking",
+        "path": "footage/pexels-7691945.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/cat-licking-its-toes-7691945/"
+      },
+      {
+        "shot": 2,
+        "query": "cute cat close up face portrait",
+        "path": "footage/pexels-7592608.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-close-up-video-of-a-cat-s-face-7592608/"
+      }
+    ]
   }
 }

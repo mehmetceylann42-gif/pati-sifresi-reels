@@ -414,5 +414,112 @@
         "pitch": "+5Hz"
       }
     ]
+  },
+  {
+    "slug": "08-kedi-dili",
+    "source_name": "PNAS · Georgia Tech (Noel & Hu, 2018)",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115",
+    "music_id": "sneaky-snitch",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "cat licking fur grooming close up",
+        "fallback_media": "assets/08-kedi-dili.png",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "cat tongue close up licking",
+        "fallback_media": "assets/08-kedi-dili.png",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "cute cat close up face portrait",
+        "fallback_media": "assets/08-kedi-dili.png",
+        "focus": [0.5, 0.35]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Kedinin dilinde gizli bir sünger var, sen fark etmeden çalışıyor.",
+        "chunks": [
+          "Kedinin dilinde gizli bir",
+          "sünger var,",
+          "sen fark etmeden ÇALIŞIYOR."
+        ],
+        "emph": ["çalışıyor"],
+        "y": 900,
+        "size": 84,
+        "pitch": "+8Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "O pürüzlerin gerçek şekli ne, hiç baktın mı?",
+        "chunks": [
+          "O pürüzlerin GERÇEK ŞEKLİ ne,",
+          "hiç baktın mı?"
+        ],
+        "emph": ["gerçek", "şekli"],
+        "pitch": "+2Hz",
+        "pause_after": 0.3
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Cevap: Huni gibi, içi boş, küçük kepçeler.",
+        "chunks": [
+          "Cevap: HUNİ GİBİ,",
+          "içi boş,",
+          "küçük kepçeler."
+        ],
+        "emph": ["huni", "gibi"],
+        "pitch": "+5Hz",
+        "pause_after": 0.24
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Her kepçe tükürüğü tüylerin dibine kadar çekiyor; hem temizliyor hem serinletiyor.",
+        "chunks": [
+          "Her kepçe tükürüğü",
+          "TÜYLERİN DİBİNE kadar çekiyor;",
+          "hem temizliyor",
+          "hem serinletiyor."
+        ],
+        "emph": ["tüylerin", "dibine"],
+        "pitch": "-2Hz",
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Georgia Tech bu yapıyı görünce gerçek bir fırça tasarladı: TIGR, parmakla silinip temizleniyor.",
+        "chunks": [
+          "Georgia Tech bu yapıyı görünce",
+          "gerçek bir fırça tasarladı:",
+          "TIGR, parmakla",
+          "silinip TEMİZLENİYOR."
+        ],
+        "emph": ["parmakla", "temizleniyor"],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Kedini tımarlarken diline bak, küçük kepçeleri göreceksin. Yoruma yaz.",
+        "chunks": [
+          "Kedini tımarlarken diline bak,",
+          "küçük kepçeleri göreceksin.",
+          "YORUMA YAZ."
+        ],
+        "emph": ["yoruma", "yaz"],
+        "pitch": "+5Hz"
+      }
+    ]
   }
 ]
