@@ -209,35 +209,67 @@ yayınlandı: https://www.instagram.com/reel/DclmWIwj23k/. Bu Reel,
 tondaki referans örnektir — yeni bir Reel'in tonu belirsizse buna
 bakılır.
 
+**Revizyon (2026-08-28, ikinci):** Kullanıcı yukarıdaki "kişileştirme"
+yaklaşımının iki örneğini (15 ve 08. Reel) beğenmedi: "bu mizahı
+beğenmedim, daha profesyonel ve komik mizah oluştur" dedi. Teşhis: bir
+organı/refleksi "gizli mesai sistemi", "önce güvenliğe bakan birim" gibi
+kurumsal bir role büründürmek zorlama/tuhaf duruyor, gerçek bir espri
+üretmiyor — sadece süslü bir tanım oluyor. Bunun üzerine profesyonel
+komedi yazımının temel araçları araştırıldı: **setup→punchline yapısı**
+(izleyicide bir beklenti kurup ardından beklenmedik yöne çevirmek —
+"misdirection"), **rule of three** (bir örüntüyü iki adımda kurup üçüncüde
+kırmak) ve **tag line** (ana espriden sonra ikinci, daha kısa bir espri
+ekleyerek ikinci bir gülüşü tetiklemek). Kişileştirme/organ-karakterleştirme
+tekniği bu revizyonla **terk edildi**; yerine gerçek bir yanlış inanışı
+kurup yıkan misdirection yapısı geçti — mizah bir metafordan değil, gerçeğin
+kendisinin şaşırtıcı olmasından geliyor.
+
 **Ne yapılır:**
 
-1. **Kişileştirme + gerçek mekanizma.** Fact'in mekanizması (bir organ,
-   bir refleks, bir davranış) kısa süreliğine bir "rol"e/karaktere
-   büründürülür (ör. "gizli bir mesai sistemi", "önce güvenliğe bakan
-   birim") — ama bilimsel mekanizma bu kişileştirmenin ardından tam ve
-   doğru anlatılır. Mizah bilgiyi süslemek için var, bilginin yerine
-   geçmez.
-2. **Deadpan/ölçülü ton.** Anlatım hâlâ kart yapısına (hook → turn →
-   payoff → mechanism → proof → cta) oturur; espri abartılı bir "komedyen"
-   sesiyle değil, ciddiyetini koruyan, ölçülü bir sesle söylenir.
-3. **Tek, spesifik benzetme yeter.** Beat başına en fazla bir esprili
-   çerçeveleme; art arda şaka üst üste binmez (bkz. araştırma:
-   "too many jokes overwhelm the payoff").
+1. **Setup→punchline (misdirection).** Hook, izleyicinin zaten inandığı
+   yaygın bir varsayımı kendinden emin bir dille söyler (sanki onaylayacak
+   gibi). Turn beat'i bunu tek, kısa ve keskin bir cümleyle çürütür (ör.
+   "Yanlış." / "Hayır, tam tersi."). Espri, metaforun süslemesinden değil,
+   bu ters köşeden gelir.
+2. **Tag line = ikinci punch.** CTA'dan hemen önce, fact'in en çarpıcı
+   yan sonucunu tek cümlelik ek bir espriye çevir (ör. "en masum olan en
+   suçlu görünebiliyor" gibi bir ironi) — asıl payoff'tan sonra gelen,
+   ekstra kısa bir gülüş.
+3. **Kuru/ölçülü teslimat.** Pitch/tonlama oynamaları abartılı ve sık
+   olmaz (önceki örneklerde beat başına farklı `pitch` değeri "çizgi film"
+   gibi durdu) — 1-2 vurgulu an dışında sesin nötr kalması daha profesyonel
+   ve komik algılanıyor (şakanın "flat" teslimatı gülüşü güçlendirir).
+   Varsayılan olarak `pitch` alanı boş bırakılır; yalnızca punchline
+   beat'inde (turn) hafif bir düşüş (`-2Hz`/`-4Hz`) kullanılabilir.
+4. **Gerçek mekanizma hâlâ tam anlatılır.** Misdirection sadece çerçeve;
+   mechanism/proof beat'leri fact'i eksiksiz ve doğru aktarır — mizah
+   bilginin yerine geçmez (bu ilke revizyondan etkilenmedi).
 
 **Ne yapılmaz:**
 
+- **Organ/refleksi kurumsal bir karaktere büründürme** (mesai, vardiya,
+  nöbet, "departman" gibi ofis metaforları) — bu revizyonla kaldırıldı,
+  zorlama duruyor.
 - Kaba, alaycı veya hayvanı küçük düşüren espri.
 - Bilimsel doğruluğu çarpıtan veya abartan şaka (kaynağa sadakat mizahtan
   önce gelir — bkz. "İçerik özgünlüğü kriteri").
 - Marka güvenini zedeleyecek argo/küstah ton (Guezzo'nun içine girdiği
   "güven inşa eden medya hesabı" konumuyla çelişir).
-- CTA'yı gölgeleyen espri — kapanış hâlâ tek ve net bir soru olmalı.
+- CTA'yı gölgeleyen espri — kapanış hâlâ tek ve net bir soru olmalı; tag
+  line CTA'nın *öncesinde* biter, CTA'ya karışmaz.
+- Beat başına birden fazla şaka üst üste binmez (setup→punch, tag line
+  dahil en fazla iki "gülüş anı").
 
-**Süre notu:** İlk örnek 31,9 saniye çıktı (mevcut Reel'ler 16-18 sn).
-Kişileştirme + mekanizma + kanıt anlatımı doğal olarak daha fazla kelime
-istiyor; 42 sn üst sınırı (`build_reel.py` uyarısı) hâlâ geçerli ama
-mümkün olduğunda 20-25 sn aralığına yaklaşmak için cümleler kısaltılmaya
-çalışılır — mizah cümleyi uzatma bahanesi olmamalı.
+**Süre notu:** İlk iki örnek 31,9 ve 25,9 saniye çıktı; hedef hâlâ 20-25
+sn aralığı, 42 sn üst sınırı (`build_reel.py` uyarısı) geçerliliğini
+korur.
+
+**Onay süreci (ikinci tur):** Bu revizyondan sonra da kurallar
+kesinleşmeden önce kullanıcıya yeni bir örnek video sunulur — özellikle
+Instagram'ın API ile yayından kaldırmayı desteklememesi nedeniyle
+(bkz. "İlk gerçek yayın" notu, `AI_HANDOFF.md`) yayına alınan bir Reel'i
+beğenilmezse geri almak mümkün değil; bu yüzden ton değişikliklerinde
+"önce göster, sonra yayınla" adımı atlanmaz.
 
 ## Yapay zekâ çalışma sınırı
 
