@@ -626,5 +626,213 @@
         "emph": ["en", "suçlu", "bakışı", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "17-kopek-oyun-egilmesi",
+    "source_name": "Behaviour · University of Colorado Boulder (Bekoff, 1995)",
+    "source_url": "https://www.wellbeingintlstudiesrepository.org/acwp_ena/30/",
+    "music_id": "gymnopedie-no-1",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog play bow front paws down tail up grass",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      },
+      {
+        "query": "two dogs playing wrestling chasing in park",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy dog running playful outdoor",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpek oyunda öne eğilip kuyruğunu çılgın gibi sallarsa, sırf heyecanlıdır.",
+        "chunks": [
+          "Köpek oyunda öne eğilip",
+          "kuyruğunu çılgın gibi sallarsa,",
+          "sırf heyecanlıdır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. O eğilme bir heyecan değil, bir uyarı.",
+        "chunks": [
+          "YANLIŞ.",
+          "O eğilme bir heyecan",
+          "değil, bir uyarı."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Köpek aslında şunu diyor: 'Şimdi yapacağım şey oyun, kavga değil.'",
+        "chunks": [
+          "Köpek aslında şunu diyor:",
+          "'Şimdi yapacağım şey oyun,",
+          "kavga değil.'"
+        ],
+        "emph": [],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Isırma, kovalama, üstüne atlama; normalde kavga sinyalidir. Ama bu eğilmeden hemen sonra gelirse, oyun sayılır.",
+        "chunks": [
+          "Isırma, kovalama, üstüne atlama;",
+          "normalde kavga sinyalidir.",
+          "Ama bu eğilmeden hemen sonra gelirse,",
+          "oyun sayılır."
+        ],
+        "emph": ["oyun"],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Bekoff'un araştırmasına göre köpekler, oyun sertleştiğinde bu eğilmeyi bilerek tekrarlıyor.",
+        "chunks": [
+          "Bekoff'un araştırmasına göre",
+          "köpekler, oyun sertleştiğinde",
+          "bu eğilmeyi BİLEREK tekrarlıyor."
+        ],
+        "emph": ["bilerek"],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani en sert oyun bile en kibar köpeğin işi olabilir. Ne zaman gördün, yoruma yaz.",
+        "chunks": [
+          "Yani en sert oyun bile",
+          "EN KİBAR köpeğin işi olabilir.",
+          "Ne zaman gördün,",
+          "YORUMA YAZ."
+        ],
+        "emph": ["en", "kibar", "yoruma", "yaz"]
+      }
+    ]
+  },
+  {
+    "slug": "18-kedi-yuze-bakma",
+    "source_name": "Animal Cognition · Milano Üniversitesi (Merola ve ark., 2015)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/25573289/",
+    "music_id": "gymnopedie-no-1",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "cat looking up at owner face curious",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "cat cautiously approaching unfamiliar object indoor",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.45]
+      },
+      {
+        "query": "relaxed cat sitting calm indoor",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.4]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Kedi, tanımadığı bir şeyle karşılaşınca kararı tek başına verir.",
+        "chunks": [
+          "Kedi, tanımadığı bir şeyle",
+          "karşılaşınca kararı",
+          "tek başına verir."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. Kararsız kalınca doğrudan senin yüzüne bakıyor.",
+        "chunks": [
+          "YANLIŞ.",
+          "Kararsız kalınca doğrudan",
+          "senin yüzüne bakıyor."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Kedilerin yüzde yetmiş dokuzu, nesneyle senin yüzün arasında gidip geliyor.",
+        "chunks": [
+          "Kedilerin yüzde yetmiş dokuzu,",
+          "nesneyle senin yüzün",
+          "arasında gidip geliyor."
+        ],
+        "emph": ["yetmiş", "dokuzu"],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Sen sakin ve olumlu tepki verirsen kedi rahatlıyor; endişeli tepki verirsen o da mesafeli duruyor.",
+        "chunks": [
+          "Sen sakin ve olumlu",
+          "tepki verirsen kedi rahatlıyor;",
+          "endişeli tepki verirsen",
+          "o da mesafeli duruyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Milano Üniversitesi'nin deneyinde kediler, sahibinin tepkisine göre nesneye yaklaşma kararını değiştirdi.",
+        "chunks": [
+          "Milano Üniversitesi'nin deneyinde",
+          "kediler, sahibinin tepkisine göre",
+          "nesneye yaklaşma kararını değiştirdi."
+        ],
+        "emph": [],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani 'umursamaz' görünen kedi, aslında senin tepkini ölçüyor. Yeni bir şey getirdiğinde seni izliyor mu, yoruma yaz.",
+        "chunks": [
+          "Yani 'UMURSAMAZ' görünen kedi,",
+          "aslında senin tepkini ölçüyor.",
+          "Yeni bir şey getirdiğinde",
+          "seni izliyor mu, YORUMA YAZ."
+        ],
+        "emph": ["umursamaz", "yoruma", "yaz"]
+      }
+    ]
   }
 ]

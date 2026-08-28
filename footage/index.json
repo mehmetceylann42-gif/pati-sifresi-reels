@@ -416,5 +416,137 @@
     "height": 2048,
     "motion": 2.46,
     "query": "happy relaxed dog sitting living room"
+  },
+  "ea541a3a1bdf": {
+    "provider": "pexels",
+    "video_id": 34523922,
+    "path": "footage/pexels-34523922.mp4",
+    "source_page": "https://www.pexels.com/video/dog-in-open-field-amidst-lush-trees-34523922/",
+    "duration": 21.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 17.08,
+    "query": "dog play bow front paws down tail up grass"
+  },
+  "55eb0cc515f2": {
+    "provider": "pexels",
+    "video_id": 9631974,
+    "path": "footage/pexels-9631974.mp4",
+    "source_page": "https://www.pexels.com/video/person-playing-with-a-dog-at-the-park-9631974/",
+    "duration": 20.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 24.09,
+    "query": "two dogs playing wrestling chasing in park"
+  },
+  "7a0ad9d29fa3": {
+    "provider": "pexels",
+    "video_id": 37676969,
+    "path": "footage/pexels-37676969.mp4",
+    "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/",
+    "duration": 31.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.73,
+    "query": "happy dog running playful outdoor"
+  },
+  "75c6e88dd210": {
+    "provider": "pexels",
+    "video_id": 34523922,
+    "path": "footage/pexels-34523922.mp4",
+    "source_page": "https://www.pexels.com/video/dog-in-open-field-amidst-lush-trees-34523922/",
+    "duration": 21.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 17.08,
+    "query": "dog play bow front paws down tail up grass"
+  },
+  "97c2527be8dd": {
+    "provider": "pexels",
+    "video_id": 9631974,
+    "path": "footage/pexels-9631974.mp4",
+    "source_page": "https://www.pexels.com/video/person-playing-with-a-dog-at-the-park-9631974/",
+    "duration": 20.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 24.09,
+    "query": "two dogs playing wrestling chasing in park"
+  },
+  "c7dcc674299e": {
+    "provider": "pexels",
+    "video_id": 37676969,
+    "path": "footage/pexels-37676969.mp4",
+    "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/",
+    "duration": 31.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.73,
+    "query": "happy dog running playful outdoor"
+  },
+  "18e1a2f719ae": {
+    "provider": "pexels",
+    "video_id": 34523922,
+    "path": "footage/pexels-34523922.mp4",
+    "source_page": "https://www.pexels.com/video/dog-in-open-field-amidst-lush-trees-34523922/",
+    "duration": 21.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 17.08,
+    "query": "dog play bow front paws down tail up grass"
+  },
+  "486e56578b7a": {
+    "provider": "pexels",
+    "video_id": 9631974,
+    "path": "footage/pexels-9631974.mp4",
+    "source_page": "https://www.pexels.com/video/person-playing-with-a-dog-at-the-park-9631974/",
+    "duration": 20.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 24.09,
+    "query": "two dogs playing wrestling chasing in park"
+  },
+  "5e3c0ca03f79": {
+    "provider": "pexels",
+    "video_id": 37676969,
+    "path": "footage/pexels-37676969.mp4",
+    "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/",
+    "duration": 31.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.73,
+    "query": "happy dog running playful outdoor"
+  },
+  "4f1e81e339d0": {
+    "provider": "pexels",
+    "video_id": 7691953,
+    "path": "footage/pexels-7691953.mp4",
+    "source_page": "https://www.pexels.com/video/close-up-of-cat-s-face-7691953/",
+    "duration": 14.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 16.67,
+    "query": "cat looking up at owner face curious"
+  },
+  "f33da28a9384": {
+    "provider": "pexels",
+    "video_id": 6853911,
+    "path": "footage/pexels-6853911.mp4",
+    "source_page": "https://www.pexels.com/video/a-ginger-cat-on-the-floor-6853911/",
+    "duration": 21.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.38,
+    "query": "cat cautiously approaching unfamiliar object indoor"
+  },
+  "e91f509d7389": {
+    "provider": "pexels",
+    "video_id": 6853910,
+    "path": "footage/pexels-6853910.mp4",
+    "source_page": "https://www.pexels.com/video/two-pet-cats-resting-indoors-6853910/",
+    "duration": 27.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.77,
+    "query": "relaxed cat sitting calm indoor"
   }
 }

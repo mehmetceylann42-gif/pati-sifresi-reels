@@ -232,5 +232,75 @@
         "source_page": "https://www.pexels.com/video/a-man-petting-his-dog-8434009/"
       }
     ]
+  },
+  "17-kopek-oyun-egilmesi": {
+    "built_at": "2026-08-28T17:56:05+00:00",
+    "duration": 32.0,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog play bow front paws down tail up grass",
+        "path": "footage/pexels-34523922.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dog-in-open-field-amidst-lush-trees-34523922/"
+      },
+      {
+        "shot": 1,
+        "query": "two dogs playing wrestling chasing in park",
+        "path": "footage/pexels-9631974.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/person-playing-with-a-dog-at-the-park-9631974/"
+      },
+      {
+        "shot": 2,
+        "query": "happy dog running playful outdoor",
+        "path": "footage/pexels-37676969.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/"
+      }
+    ]
+  },
+  "18-kedi-yuze-bakma": {
+    "built_at": "2026-08-28T19:31:04+00:00",
+    "duration": 32.68,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "cat looking up at owner face curious",
+        "path": "footage/pexels-7691953.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/close-up-of-cat-s-face-7691953/"
+      },
+      {
+        "shot": 1,
+        "query": "cat cautiously approaching unfamiliar object indoor",
+        "path": "footage/pexels-6853911.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-ginger-cat-on-the-floor-6853911/"
+      },
+      {
+        "shot": 2,
+        "query": "relaxed cat sitting calm indoor",
+        "path": "footage/pexels-6853910.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/two-pet-cats-resting-indoors-6853910/"
+      }
+    ]
   }
 }

@@ -271,6 +271,62 @@ Instagram'ın API ile yayından kaldırmayı desteklememesi nedeniyle
 beğenilmezse geri almak mümkün değil; bu yüzden ton değişikliklerinde
 "önce göster, sonra yayınla" adımı atlanmaz.
 
+**Revizyon (2026-08-28, üçüncü):** `16-kopek-sucluluk-bakisi` (misdirection
++ tag line örneği) kullanıcıya gösterildi, "paylaş" onayıyla yayınlandı
+(https://www.instagram.com/reel/DclwH2Kkm61/) ama kullanıcı mizahı yine
+yeterince beğenmedi. Teşhis: yapı (misdirection + tag line) doğruydu ama
+turn beat'in punchline'ı gerçek bir espri değil, çıplak bir olumsuzlamaydı
+("Hayır." tek başına bir görüntü/karşılaştırma taşımıyor, sadece düzeltme
+gibi duruyor) — gülüş, sürprizden değil bir şakadan gelmeli. Bunun üzerine
+başka mizahi/bilgilendirici kanalların ("Half as Interesting" tarzı
+abartılı-deadpan anlatım, klasik stand-up yazım araçları: rule of three,
+callback, hiperbol/canlı benzetme) teknikleri araştırılıp eklendi:
+
+1. **Punchline mutlaka somut bir görüntü/benzetme taşır, çıplak
+   olumsuzlama olmaz.** Turn beat'i yalnızca "Hayır." / "Yanlış." demez;
+   gerçeği herkesin tanıdığı, komik ve canlı bir imgeyle anlatır (ör. bir
+   film sahnesi, günlük bir nesne, tanıdık bir sahne — kurumsal/ofis
+   metaforu hâlâ yasak, madde aşağıda). İmge ne kadar somut ve beklenmedik
+   o kadar iyi.
+2. **Rule of three, mekanizma/proof beat'inde somut olarak kullanılır.**
+   Normalde tehlikeli/olumsuz görünecek iki-üç örnek art arda sayılır,
+   üçüncüsü (ya da üçünün toplamı) örüntüyü kırıp asıl noktayı gösterir —
+   soyut bir ilke olarak bırakılmaz, gerçek bir liste olarak yazılır.
+3. **Callback ile kapanış.** Tag line, hook veya turn'de kurulan imgeyi
+   *aynı kelime/benzetmeyle* geri çağırır (yeni bir espri icat etmez) —
+   döngü kapandığı için ikinci gülüş daha güçlü olur.
+4. Setup→punchline iskeleti, kuru/ölçülü teslimat ve mekanizmanın eksiksiz
+   anlatılması ilkeleri (yukarıdaki 1-4) geçerliliğini korur.
+
+**Ne yapılmaz (ek):**
+
+- Turn beat'i tek başına "Hayır."/"Yanlış." gibi çıplak bir olumsuzlamayla
+  bitmez — punchline'ın içinde mutlaka bir imge/benzetme olmalı.
+- Callback'te yeni bir espri icat edilmez; hook/turn'deki imge aynen (veya
+  hafif varyasyonla) geri çağrılır.
+- Kurumsal/ofis metaforu yasağı (mesai, vardiya, departman) devam eder —
+  yeni imgeler gündelik hayattan, filmden, tanıdık sahnelerden gelir, iş
+  yerinden değil.
+
+**Onay süreci (üçüncü tur):** Aynı gerekçeyle (API ile geri alma yok)
+yeni örnek yine yayınlanmadan önce kullanıcıya gösterilir.
+
+**Üçüncü revizyon GERİ ALINDI (2026-08-28).** Bu tekniğin örneği
+(`17-kopek-oyun-egilmesi`, oyun eğilmesi/"play bow" fact'i, hiç
+yayınlanmadı) kullanıcıya gösterildi, beğenilmedi: "bu güzel değil, bir
+önceki köpeğin suçlu suçlu bakması videosundaki mizah kurallarına geri
+dön." Yani üçüncü revizyonun **zorunlu** maddeleri (punchline'ın mutlaka
+somut bir imge/benzetme taşıması, mekanizmada rule of three, kapanışta
+callback) artık geçerli **değil** — bunlar tercihen kullanılabilir ama
+şart değil. **Aktif/geçerli kural yeniden ikinci revizyondur** (yukarı
+bakınız: setup→punchline/misdirection, tek kısa ve keskin bir turn
+cümlesi — "Hayır."/"Yanlış." gibi çıplak bir olumsuzlama da olabilir,
+üçüncü revizyonun bunu yasaklayan maddesi kaldırılmıştır — tag line ikinci
+punch, kuru/ölçülü teslimat). Üçüncü revizyonun araştırma notu ve
+teknikleri (rule of three, callback, somut imge) yukarıda kayıtlı
+kalıyor, ileride tekrar denenmek istenirse referans olarak durur, ama
+şu an hiçbir Reel için zorunlu değil.
+
 ## Yapay zekâ çalışma sınırı
 
 - AI; konu araştırması, video/görsel taslağı, caption, yanıt taslağı, planlama ve performans özeti üretir.
