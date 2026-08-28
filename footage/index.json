@@ -548,5 +548,71 @@
     "height": 2048,
     "motion": 7.77,
     "query": "relaxed cat sitting calm indoor"
+  },
+  "5544b25bff5d": {
+    "provider": "pexels",
+    "video_id": 19823143,
+    "path": "footage/pexels-19823143.mp4",
+    "source_page": "https://www.pexels.com/video/love-dog-19823143/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 2.98,
+    "query": "dog sad puppy eyes close up looking at camera"
+  },
+  "1dfec49242df": {
+    "provider": "pexels",
+    "video_id": 5961889,
+    "path": "footage/pexels-5961889.mp4",
+    "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 13.09,
+    "query": "dog looking up at owner begging face"
+  },
+  "c14fa2082f9e": {
+    "provider": "pexels",
+    "video_id": 7516718,
+    "path": "footage/pexels-7516718.mp4",
+    "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/",
+    "duration": 22.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.99,
+    "query": "happy dog close up face outdoor"
+  },
+  "33cb3086c0ef": {
+    "provider": "pexels",
+    "video_id": 19823143,
+    "path": "footage/pexels-19823143.mp4",
+    "source_page": "https://www.pexels.com/video/love-dog-19823143/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 2.98,
+    "query": "dog sad puppy eyes close up looking at camera"
+  },
+  "8ae1093fbd65": {
+    "provider": "pexels",
+    "video_id": 5961889,
+    "path": "footage/pexels-5961889.mp4",
+    "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 13.09,
+    "query": "dog looking up at owner begging face"
+  },
+  "462d2c9a4937": {
+    "provider": "pexels",
+    "video_id": 7516718,
+    "path": "footage/pexels-7516718.mp4",
+    "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/",
+    "duration": 22.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.99,
+    "query": "happy dog close up face outdoor"
   }
 }

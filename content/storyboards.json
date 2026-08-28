@@ -834,5 +834,117 @@
         "emph": ["umursamaz", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "19-kopek-uzgun-bakis",
+    "source_name": "PNAS · Portsmouth Üniversitesi (Kaminski ve ark., 2019)",
+    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1820653116",
+    "music_id": "monkeys-spinning-monkeys",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog sad puppy eyes close up looking at camera",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "dog looking up at owner begging face",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy dog close up face outdoor",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin sana üzgün üzgün bakması, duygusal olduğu için sanılır.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_00_hook.wav",
+        "chunks": [
+          "Köpeğin sana üzgün üzgün",
+          "bakması, duygusal olduğu",
+          "için sanılır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. O bakış, kurtlarda hiç olmayan bir kas sayesinde oluyor.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_01_turn.wav",
+        "chunks": [
+          "YANLIŞ.",
+          "O bakış, kurtlarda",
+          "hiç olmayan bir kas",
+          "sayesinde oluyor."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Köpekler evcilleşirken, kaşın iç kısmını kaldıran bir kas kazandı.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_02_payoff.wav",
+        "chunks": [
+          "Köpekler evcilleşirken,",
+          "kaşın iç kısmını",
+          "kaldıran bir kas kazandı."
+        ],
+        "emph": [],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Bu kas gözleri daha büyük, daha yavru gösteriyor; sen baktığında beynin bakım isteği tetikleniyor.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_03_mechanism.wav",
+        "chunks": [
+          "Bu kas gözleri daha büyük,",
+          "daha yavru gösteriyor;",
+          "sen baktığında beynin",
+          "bakım isteği tetikleniyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Kaminski'nin araştırmasına göre köpekler bu hareketi, sen bakarken çok daha sık yapıyor.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_04_proof.wav",
+        "chunks": [
+          "Kaminski'nin araştırmasına göre",
+          "köpekler bu hareketi,",
+          "sen bakarken çok",
+          "daha sık yapıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani o üzgün bakış duygu değil, sevimli bir manipülasyon. Köpeğin en son ne zaman böyle baktı, yoruma yaz.",
+        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_05_cta.wav",
+        "chunks": [
+          "Yani o üzgün bakış",
+          "duygu değil, SEVİMLİ BİR MANİPÜLASYON.",
+          "Köpeğin en son ne zaman böyle baktı,",
+          "YORUMA YAZ."
+        ],
+        "emph": ["sevimli", "bir", "manipülasyon", "yoruma", "yaz"]
+      }
+    ]
   }
 ]

@@ -214,6 +214,34 @@ def mix_audio(vo_path: Path, music: Path | None, total: float, out_path: Path) -
     )
 
 
+def music_only_mix(music: Path | None, total: float, out_path: Path) -> None:
+    """Seslendirme olmadan yalnızca müzik (veya tam sessizlik) — 'sessiz' önizleme için.
+
+    Ducking yok (bastırılacak bir seslendirme yok), bu yüzden müzik normal
+    dinleme seviyesinde çalar.
+    """
+    if music is None or not music.exists():
+        subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi",
+             "-i", f"anullsrc=r=48000:cl=stereo:d={total:.3f}",
+             "-c:a", "aac", "-b:a", "160k", str(out_path)],
+            check=True,
+        )
+        return
+    fade_start = max(total - 1.2, 0.1)
+    graph = (
+        f"[0:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume=0.9,"
+        f"afade=t=in:st=0:d=0.5,afade=t=out:st={fade_start:.3f}:d=1.2,"
+        f"aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[out]"
+    )
+    subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(music),
+         "-filter_complex", graph, "-map", "[out]",
+         "-c:a", "aac", "-b:a", "160k", str(out_path)],
+        check=True,
+    )
+
+
 def shrink_if_needed(path: Path, duration: float) -> None:
     """20 MB (jsDelivr limiti) altına indirir — hedef bit hızıyla, CRF'le değil.
 
@@ -271,7 +299,7 @@ def write_manifest(slug: str, board: dict, total: float, clips: list, provenance
 
 
 def build(slug: str, out_dir: Path, keep_work: bool = False,
-          paid_voice: bool = False) -> Path:
+          paid_voice: bool = False, silent: bool = False) -> Path:
     board = load_storyboard(slug)
     beats = board["beats"]
     work = Path(tempfile.mkdtemp(prefix=f"reel_{slug}_"))
@@ -340,44 +368,50 @@ def build(slug: str, out_dir: Path, keep_work: bool = False,
     shots = build_shots(board, beats, starts, ends, total, work, provenance)
 
     print(f"[3/6] Görüntü render ediliyor ({int(total * FPS)} kare, {len(shots)} çekim)")
-    silent = work / "silent.mp4"
+    silent_track = work / "silent.mp4"
     # CRF ile kodla: v1'in sabit `quality=8` ayarı tüylü/dokulu fotoğraflarda
     # 100 MB+ dosya üretip her seferinde yeniden kodlama gerektiriyordu.
     with imageio.get_writer(
-        silent, fps=FPS, codec="libx264", macro_block_size=1,
+        silent_track, fps=FPS, codec="libx264", macro_block_size=1,
         ffmpeg_params=["-crf", "21", "-preset", "medium", "-pix_fmt", "yuv420p"],
     ) as writer:
         render_timeline(shots, cards, board["source_name"], total, writer)
 
-    print("[4/6] Seslendirme birleştiriliyor")
-    raw_vo = work / "vo_raw.wav"
-    lead = work / "lead.wav"
-    subprocess.run(
-        ["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi",
-         "-i", f"anullsrc=r=48000:cl=mono:d={LEAD_IN}", str(lead)],
-        check=True,
-    )
-    padded = [VoiceClip(-1, "", lead, audio_duration(lead))] + clips
-    concat_with_gaps(padded, [0.0] + gaps, raw_vo)
+    if silent:
+        print("[4/6] Seslendirme atlandı (--silent) — yalnızca müzik/sessizlik")
+        mixed = work / "mixed.m4a"
+        music_only_mix(music_path(board.get("music_id", "")), total, mixed)
+    else:
+        print("[4/6] Seslendirme birleştiriliyor")
+        raw_vo = work / "vo_raw.wav"
+        lead = work / "lead.wav"
+        subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi",
+             "-i", f"anullsrc=r=48000:cl=mono:d={LEAD_IN}", str(lead)],
+            check=True,
+        )
+        padded = [VoiceClip(-1, "", lead, audio_duration(lead))] + clips
+        concat_with_gaps(padded, [0.0] + gaps, raw_vo)
 
-    print("[5/6] Ses doğallaştırılıyor (de-esser, EQ, kompresyon, oda)")
-    vo_track = work / "vo.wav"
-    shape_voice(raw_vo, vo_track)
+        print("[5/6] Ses doğallaştırılıyor (de-esser, EQ, kompresyon, oda)")
+        vo_track = work / "vo.wav"
+        shape_voice(raw_vo, vo_track)
 
-    print("[6/6] Müzik karıştırılıyor ve birleştiriliyor")
-    mixed = work / "mixed.m4a"
-    mix_audio(vo_track, music_path(board.get("music_id", "")), total, mixed)
+        print("[6/6] Müzik karıştırılıyor ve birleştiriliyor")
+        mixed = work / "mixed.m4a"
+        mix_audio(vo_track, music_path(board.get("music_id", "")), total, mixed)
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    output = out_dir / f"{slug}.mp4"
+    output = out_dir / (f"{slug}.silent.mp4" if silent else f"{slug}.mp4")
     subprocess.run(
-        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mixed),
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent_track), "-i", str(mixed),
          "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "copy",
          "-shortest", str(output)],
         check=True,
     )
     shrink_if_needed(output, total)
-    write_manifest(slug, board, total, clips, provenance)
+    if not silent:
+        write_manifest(slug, board, total, clips, provenance)
     print(f"      -> {output}  ({output.stat().st_size / 1e6:.1f} MB, {total:.1f} sn)")
 
     if keep_work:
@@ -394,10 +428,12 @@ def main() -> int:
     parser.add_argument("--keep-work", action="store_true", help="ara dosyaları silme")
     parser.add_argument("--paid-voice", action="store_true",
                         help="ElevenLabs kullan (ücretli, kota youtube projesiyle ortak)")
+    parser.add_argument("--silent", action="store_true",
+                        help="Seslendirmesiz önizleme üret ({slug}.silent.mp4) — kullanıcı kendi sesini kaydedecekse")
     args = parser.parse_args()
     for slug in args.slugs:
         print(f"\n=== {slug} ===")
-        build(slug, args.out_dir, args.keep_work, args.paid_voice)
+        build(slug, args.out_dir, args.keep_work, args.paid_voice, args.silent)
     return 0
 
 

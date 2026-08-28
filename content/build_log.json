@@ -302,5 +302,40 @@
         "source_page": "https://www.pexels.com/video/two-pet-cats-resting-indoors-6853910/"
       }
     ]
+  },
+  "19-kopek-uzgun-bakis": {
+    "built_at": "2026-08-28T21:23:58+00:00",
+    "duration": 34.5,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": false,
+    "music_id": "monkeys-spinning-monkeys",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog sad puppy eyes close up looking at camera",
+        "path": "footage/pexels-19823143.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/love-dog-19823143/"
+      },
+      {
+        "shot": 1,
+        "query": "dog looking up at owner begging face",
+        "path": "footage/pexels-5961889.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/"
+      },
+      {
+        "shot": 2,
+        "query": "happy dog close up face outdoor",
+        "path": "footage/pexels-7516718.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/"
+      }
+    ]
   }
 }
