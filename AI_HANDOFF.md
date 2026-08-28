@@ -2,13 +2,12 @@
 
 ## ⚠️ 2026-08-28 — önce bunları oku
 
-1. **Meta API şu anda kapalı.** `python scripts/test_connection.py` bile
-   `{"error":{"message":"API access blocked.","type":"OAuthException","code":200}}`
-   döndürüyor. Kod 190 (token süresi doldu) değil, kod 200 — yani sorun
-   token'ın kendisi değil, uygulama/hesap seviyesinde bir kısıt. Bu
-   düzelmeden `PatiSifresiDailyReel` görevi her gün 10:00'da boşa çalışacak.
-   Meta App Dashboard'daki uyarıları ve Instagram hesabındaki kısıtlamaları
-   kontrol et.
+1. **Meta API tekrar açık (2026-08-28, aynı gün içinde düzeldi).** Daha
+   önce bu bölüm "API access blocked" (kod 200) diyordu; `python
+   scripts/test_connection.py` şimdi normal hesap bilgisiyle dönüyor
+   (`patisifresi`, media_count güncel). Ne düzelttiği bilinmiyor — muhtemelen
+   Meta tarafında geçici bir kısıttı. Yine de her yayından önce
+   `test_connection.py` ile doğrula, sessizce varsayma.
 2. **Gerçek access token public repoda açıktaydı.** `.env.example` içinde
    `.env` ile birebir aynı canlı `IG_ACCESS_TOKEN` duruyordu ve ilk commit'ten
    (`d4d3925`) beri `github.com/mehmetceylann42-gif/pati-sifresi-reels`
@@ -36,8 +35,9 @@
 
 Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışlarını ve şaşırtıcı özelliklerini 30 saniyede açıkla.”
 
-## Mevcut durum (güncellendi: 2026-08-27, yedinci güncelleme)
+## Mevcut durum (güncellendi: 2026-08-28, sekizinci güncelleme)
 
+- **(2026-08-28) "Anlatım tonu kriteri" eklendi ve 15. Reel bu tonla yayınlandı.** Kullanıcı kanalın artık yalnızca kuru bilgi değil, "bilgilendirici + mizahi (basit olmayan)" bir sesle konuşmasını istedi. Önce araştırma yapıldı (genel senaryo yazım tekniği + Ze Frank'in "True Facts" formatından kişileştirme/absürt-ama-kesin-benzetme ilkesi, argosu/küstahlığı çıkarılarak kanalın "güven inşa eden hesap" konumuna uyarlandı), sonra kurallar değiştirilmeden önce kullanıcıya örnek bir video sunuldu: onaylı `15-kopek-burun-deligi` fact'i (köpeklerin yeni/ürkütücü kokuyu önce sağ burun deliğiyle koklaması, Bari & Trento Üniversitesi 2011) yeni tonla yeniden yazılıp v2 hattıyla (`content/storyboards.json` → slug `15-kopek-burun-deligi`) render edildi. Kullanıcı beğendi, video doğrudan yayınlandı: https://www.instagram.com/reel/DclmWIwj23k/ (media id `18130943527629277`), müzik `comfortable-mystery`. Detay ve "ne yapılır / ne yapılmaz" listesi: `CONTENT_AND_COMMERCE_RULES.md` → "Anlatım tonu kriteri". Bundan sonra üretilecek her Reel'in senaryosu bu tona göre yazılır; ton belirsizse bu Reel referans alınır. Not: video 31,9 sn çıktı (mevcut Reel'lerden uzun) — yeni ton daha fazla kelime istiyor, sonraki üretimlerde 20-25 sn'ye yaklaşmak için cümleler sıkılaştırılmaya çalışılsın.
 - **(2026-08-27) "Görsel estetiği kriteri" eklendi ve `09-kedi-uykusu` daha iyi bir fact + daha sevimli görselle değiştirildi.** Kullanıcı 14. Reel'in burun makro görselini beğenmedi ("güzel tatlı görseller olsun, göz zevkine hitap etsin") ve bunun kurala yazılmasını istedi — bkz. `CONTENT_AND_COMMERCE_RULES.md` → "Görsel estetiği kriteri". Bu vesileyle özgünlük kriterini geçemeyen `09-kedi-uykusu` (kedi uykusu, çok bilinen) yeni slug `09-kedi-goz-bebegi` olarak değiştirildi: fact artık kedilerin dikey yarık göz bebeğinin pusu avcılığı için göz bebeği alanını 135 kata kadar değiştirebilmesi ve aslan/kaplan gibi büyük kedilerde bu şeklin bulunmaması (Science Advances, UC Berkeley & Durham Üniversitesi, 2015, kaynak: PubMed 26601232). Görsel: Unsplash'ten (Nabih E. Navarro) gündüz ışığında, sevimli, gözleri net görünen bir kedi portresi — orijinal görsel `reel_kit.py`'nin metin kutularının gözleri kapattığını fark ettirdiği için elle yeniden kadrajlandı (gözler artık "cevap+fact" kutusunun altında, video boyunca net görünüyor). Furry doku yine 20MB jsDelivr limitini aştı (32.9MB) — CRF 18 ile 9.5MB'a indirildi. Kullanıcının açık "üret ve paylaş" talebiyle üretimden yayına insan onayı beklenmeden yapıldı. Yayınlandı: https://www.instagram.com/reel/DcjLpimFwfz/ (media id `18108212234605632`), commit `5c6729da66560044bb9cb4e0f9f8d96f7f717c11`.
 - **(2026-08-27) 14. Reel üretildi ve yayınlandı:** `14-kopek-burun-kizilotesi` → https://www.instagram.com/reel/DcjFC3TitG9/ (media id `18137732947607423`), müzik `wallpaper`. Fact: köpeklerin burun ucu (rhinarium) vücuttan ~5°C daha soğuktur, bu soğukluk 1 metre öteden gelen zayıf ısı ışınımını (kızılötesi) algılamasını sağlıyor — vampir yarasadan sonra bu yeteneğe sahip bilinen ikinci memeli tür (Scientific Reports, Lund Üniversitesi & Eötvös Loránd Üniversitesi, 2020). Doygunluk taraması: Instagram/TikTok/Shorts'ta bu spesifik fact üzerine Türkçe içerik bulunamadı (yalnızca genel "köpek burnu neden ıslak" içeriği var) — doygunluk düşük. Görsel gerçek/telifsiz fotoğraf (Unsplash, Anastassia Anufrieva — `assets/14-kopek-burun-kizilotesi.jpg`, `image_is_ai: false`). Kullanıcının açık "bul, üret, yükle" talebiyle üretimden yayına insan onayı beklenmeden tek seferde yapıldı. Akış: (1) GitHub'a push (commit `25c3edada043c8d3c7bf46e103ac2c124580bf5c`), (2) jsDelivr 200 doğrulandı, (3) `daily_publish.ps1`'deki `$template` güncellendi, (4) `publish_reel.py --publish` ile yayınlandı, (5) `content/publish_log.json`'a kaydedildi.
 - **(2026-08-27) "Doygunluk ve açı farkı kontrolü" eklendi (bkz. `CONTENT_AND_COMMERCE_RULES.md` → "İçerik özgünlüğü kriteri" altındaki alt bölüm).** Başka bir kanal için kullanılan içerik-araştırma yönteminden (bir konunun outlier kanıtı, doygunluk ölçümü, açı farkı tespiti) uyarlandı: yeni bir fact üretime geçmeden önce "sokak testi" artık yalnızca sezgiyle değil, 2-3 platform aramasıyla (doygunluk taraması) doğrulanıyor; konu doygunsa ya bırakılıyor ya da mevcut videoların anlatmadığı bir açı farkı bulunmadan üretilmiyor; genel konuda talep kanıtlı ama spesifik fact hiç işlenmemişse açı farkı aramaya bile gerek kalmıyor. `09-kedi-uykusu` gibi zayıf fact'ler bu kontrolden de geçirilip değiştirilmeli.

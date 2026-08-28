@@ -187,6 +187,58 @@ ediyor mu?" sorusuyla değil, şu ek testle de yapılır:
    ödün verilmez — daha fazla arama yapılır veya farklı bir açı/kadraj
    denenir.
 
+## Anlatım tonu kriteri (2026-08-28)
+
+Kullanıcı kararı: kanal artık yalnızca kuru bilgi vermiyor, **hem
+bilgilendirici hem mizahi** bir sesle konuşuyor — ama "basit mizah" değil.
+Bu karardan önce iki kaynaktan araştırma yapıldı: (1) genel senaryo yazım
+tekniği (espri dozunu düşük tutmak, "setup" kadar "payoff"a özen, izleyiciyi
+bilgiyi bildiği için akıllı hissettirmek — kelime oyunu/karşılaştırma,
+slapstick değil); (2) somut referans olarak Ze Frank'in "True Facts"
+formatı (gerçek bilimsel içeriği kişileştirme ve absürt ama kesin
+benzetmelerle, deadpan tonla anlatma). İkinci kaynak doğrudan kopyalanmadı
+— o format küstah/argo, bu kanal ise güven inşa eden bir hesap (bkz.
+"Kanal konumu") — yalnızca "gerçek mekanizmayı şaşırtıcı, spesifik bir
+kişileştirmeyle anlatma" ilkesi sıcak/sevimli tona uyarlandı.
+
+**Onay süreci:** Kural yazılmadan önce kullanıcıya örnek bir video
+sunuldu (mevcut, onaylı `15-kopek-burun-deligi` fact'i yeni tonla
+yeniden yazılıp v2 hattıyla render edildi). Kullanıcı beğendi
+("YÜKLE... bundan sonra videolar bu şekilde olsun") ve video doğrudan
+yayınlandı: https://www.instagram.com/reel/DclmWIwj23k/. Bu Reel,
+tondaki referans örnektir — yeni bir Reel'in tonu belirsizse buna
+bakılır.
+
+**Ne yapılır:**
+
+1. **Kişileştirme + gerçek mekanizma.** Fact'in mekanizması (bir organ,
+   bir refleks, bir davranış) kısa süreliğine bir "rol"e/karaktere
+   büründürülür (ör. "gizli bir mesai sistemi", "önce güvenliğe bakan
+   birim") — ama bilimsel mekanizma bu kişileştirmenin ardından tam ve
+   doğru anlatılır. Mizah bilgiyi süslemek için var, bilginin yerine
+   geçmez.
+2. **Deadpan/ölçülü ton.** Anlatım hâlâ kart yapısına (hook → turn →
+   payoff → mechanism → proof → cta) oturur; espri abartılı bir "komedyen"
+   sesiyle değil, ciddiyetini koruyan, ölçülü bir sesle söylenir.
+3. **Tek, spesifik benzetme yeter.** Beat başına en fazla bir esprili
+   çerçeveleme; art arda şaka üst üste binmez (bkz. araştırma:
+   "too many jokes overwhelm the payoff").
+
+**Ne yapılmaz:**
+
+- Kaba, alaycı veya hayvanı küçük düşüren espri.
+- Bilimsel doğruluğu çarpıtan veya abartan şaka (kaynağa sadakat mizahtan
+  önce gelir — bkz. "İçerik özgünlüğü kriteri").
+- Marka güvenini zedeleyecek argo/küstah ton (Guezzo'nun içine girdiği
+  "güven inşa eden medya hesabı" konumuyla çelişir).
+- CTA'yı gölgeleyen espri — kapanış hâlâ tek ve net bir soru olmalı.
+
+**Süre notu:** İlk örnek 31,9 saniye çıktı (mevcut Reel'ler 16-18 sn).
+Kişileştirme + mekanizma + kanıt anlatımı doğal olarak daha fazla kelime
+istiyor; 42 sn üst sınırı (`build_reel.py` uyarısı) hâlâ geçerli ama
+mümkün olduğunda 20-25 sn aralığına yaklaşmak için cümleler kısaltılmaya
+çalışılır — mizah cümleyi uzatma bahanesi olmamalı.
+
 ## Yapay zekâ çalışma sınırı
 
 - AI; konu araştırması, video/görsel taslağı, caption, yanıt taslağı, planlama ve performans özeti üretir.
