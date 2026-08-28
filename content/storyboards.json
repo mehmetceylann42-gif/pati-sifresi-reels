@@ -521,5 +521,110 @@
         "pitch": "+5Hz"
       }
     ]
+  },
+  {
+    "slug": "16-kopek-sucluluk-bakisi",
+    "source_name": "Behavioural Processes · Barnard College (Horowitz, 2009)",
+    "source_url": "https://barnard.edu/sites/default/files/inline-files/Disambiguating%20the%20guilty%20look.pdf",
+    "music_id": "bumbly-march",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "guilty looking dog head down ears back",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "dog next to torn pillow mess indoor",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy relaxed dog sitting living room",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin suçlu suçlu bakması, bir şey yaptığını anladığının kanıtı.",
+        "chunks": [
+          "Köpeğin suçlu suçlu bakması,",
+          "bir şey yaptığını",
+          "anladığının kanıtı."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.34
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Hayır. O bakışın suçla hiçbir ilgisi yok.",
+        "chunks": [
+          "HAYIR.",
+          "O bakışın suçla",
+          "hiçbir ilgisi yok."
+        ],
+        "emph": ["hayır"],
+        "pitch": "-3Hz",
+        "pause_after": 0.4
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Cevap: O bakış senin sesine tepki, kendi vicdanına değil.",
+        "chunks": [
+          "Cevap: O bakış",
+          "SENİN SESİNE tepki,",
+          "kendi vicdanına değil."
+        ],
+        "emph": ["senin", "sesine"],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Kızgın konuşunca kulaklar yatar, kuyruk kısılır, suçlu olsun olmasın tepki aynı.",
+        "chunks": [
+          "Kızgın konuşunca",
+          "kulaklar yatar, kuyruk kısılır,",
+          "suçlu olsun olmasın",
+          "tepki aynı."
+        ],
+        "emph": ["aynı"],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Horowitz'in deneyinde en suçlu görünen köpekler, hiçbir şey yapmadığı halde azarlanan köpeklerdi.",
+        "chunks": [
+          "Horowitz'in deneyinde",
+          "EN SUÇLU GÖRÜNEN köpekler,",
+          "hiçbir şey yapmadığı halde",
+          "azarlanan köpeklerdi."
+        ],
+        "emph": ["en", "suçlu", "görünen"],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani en masum köpek en suçlu bakışı atabiliyor. Bir dahaki azarlayışında bak, yoruma yaz.",
+        "chunks": [
+          "Yani en masum köpek",
+          "EN SUÇLU BAKIŞI atabiliyor.",
+          "Bir dahaki azarlayışında bak,",
+          "YORUMA YAZ."
+        ],
+        "emph": ["en", "suçlu", "bakışı", "yoruma", "yaz"]
+      }
+    ]
   }
 ]

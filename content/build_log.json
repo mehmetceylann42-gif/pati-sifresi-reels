@@ -197,5 +197,40 @@
         "source_page": "https://www.pexels.com/video/a-close-up-video-of-a-cat-s-face-7592608/"
       }
     ]
+  },
+  "16-kopek-sucluluk-bakisi": {
+    "built_at": "2026-08-28T15:36:12+00:00",
+    "duration": 29.04,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "bumbly-march",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "guilty looking dog head down ears back",
+        "path": "footage/pexels-36040941.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dog-standing-on-gravel-path-outdoors-36040941/"
+      },
+      {
+        "shot": 1,
+        "query": "dog next to torn pillow mess indoor",
+        "path": "footage/pexels-7117646.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-playing-indoors-7117646/"
+      },
+      {
+        "shot": 2,
+        "query": "happy relaxed dog sitting living room",
+        "path": "footage/pexels-8434009.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-man-petting-his-dog-8434009/"
+      }
+    ]
   }
 }

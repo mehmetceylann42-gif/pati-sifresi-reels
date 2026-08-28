@@ -383,5 +383,38 @@
     "height": 2496,
     "motion": 5.0,
     "query": "cute cat close up face portrait"
+  },
+  "f7b3331c5cfb": {
+    "provider": "pexels",
+    "video_id": 36040941,
+    "path": "footage/pexels-36040941.mp4",
+    "source_page": "https://www.pexels.com/video/dog-standing-on-gravel-path-outdoors-36040941/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 18.83,
+    "query": "guilty looking dog head down ears back"
+  },
+  "ee56dc63a11c": {
+    "provider": "pexels",
+    "video_id": 7117646,
+    "path": "footage/pexels-7117646.mp4",
+    "source_page": "https://www.pexels.com/video/a-dog-playing-indoors-7117646/",
+    "duration": 33.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.91,
+    "query": "dog next to torn pillow mess indoor"
+  },
+  "3743db08c3de": {
+    "provider": "pexels",
+    "video_id": 8434009,
+    "path": "footage/pexels-8434009.mp4",
+    "source_page": "https://www.pexels.com/video/a-man-petting-his-dog-8434009/",
+    "duration": 26.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 2.46,
+    "query": "happy relaxed dog sitting living room"
   }
 }
