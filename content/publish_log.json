@@ -16,17 +16,21 @@
   },
   "13-kopek-kuyruk-yonu": {
     "published": true,
-    "published_at": "2026-08-27T00:08:00+00:00",
-    "media_id": "18097113848055000",
-    "permalink": "https://www.instagram.com/reel/DchdvEegjTF/",
-    "music_id": "carefree"
+    "published_at": "2026-08-28T13:54:49+00:00",
+    "media_id": "17962657110187962",
+    "permalink": "https://www.instagram.com/reel/Dclg1XijL9y/",
+    "music_id": "carefree",
+    "note": "v2 format (gercek video klipler, Turkce seslendirme, olculmus altyazi). Ayni konunun v1 surumu de yayinda kaldi; API silmeyi desteklemedigi icin hesap sahibi uygulamadan elle silecek.",
+    "supersedes": "https://www.instagram.com/reel/DchdvEegjTF/"
   },
   "09-kedi-goz-bebegi": {
     "published": true,
-    "published_at": "2026-08-27T16:09:22+00:00",
-    "media_id": "18108212234605632",
-    "permalink": "https://www.instagram.com/reel/DcjLpimFwfz/",
-    "music_id": "pixelland"
+    "published_at": "2026-08-28T13:54:49+00:00",
+    "media_id": "17961110486982128",
+    "permalink": "https://www.instagram.com/reel/Dclg_5_AKM_/",
+    "music_id": "pixelland",
+    "note": "v2 format (gercek video klipler, Turkce seslendirme, olculmus altyazi). Ayni konunun v1 surumu de yayinda kaldi; API silmeyi desteklemedigi icin hesap sahibi uygulamadan elle silecek.",
+    "supersedes": "https://www.instagram.com/reel/DcjLpimFwfz/"
   },
   "14-kopek-burun-kizilotesi": {
     "published": true,
