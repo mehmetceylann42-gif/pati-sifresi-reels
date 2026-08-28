@@ -78,5 +78,13 @@
     "permalink": "https://www.instagram.com/reel/DcmKafVDil4/",
     "music_id": "gymnopedie-no-1",
     "note": "v2 format. Ucuncu ton revizyonu (rule of three + callback + zorunlu imgeli punchline) denendi (17-kopek-oyun-egilmesi ornegi, beyenilmedi), geri alindi -- aktif kural yeniden ikinci revizyon (misdirection + tag line, ciplak 'Hayir.'/'Yanlis.' serbest). Bu Reel kedi konusunda (kediler belirsiz bir nesneyle karsilasinca %79 ihtimalle sahibinin yuzune bakip tepkisine gore davranisini ayarliyor; Merola ve ark. 2015, Animal Cognition, Milano Universitesi) ikinci revizyon uslubuyla uretildi, kullanici onayladi ('yukle'), yayinlandi."
+  },
+  "19-kopek-uzgun-bakis": {
+    "published": true,
+    "published_at": "2026-08-29T00:35:00+00:00",
+    "media_id": "17984272146027870",
+    "permalink": "https://www.instagram.com/reel/DcmVPqSD1TQ/",
+    "music_id": "monkeys-spinning-monkeys",
+    "note": "v2 format, ilk KENDI SESLENDIRMESI ile yayinlanan Reel. Fact: kopeklerin 'uzgun bakisi' evcillesirken kazanilan bir kastan (levator anguli oculi medialis) geliyor, kurtlarda yok (Kaminski ve ark. 2019, PNAS, Portsmouth Universitesi). Kullanici build_reel.py'ye eklenen --silent secenegiyle sessiz onizleme + script metnini aldi, kendi sesiyle tek parca halinde kaydetti; kayit Whisper (faster-whisper) ile transkript edilip script'e kelime kelime eslendi, gercek sessizlik bosluklarindan 6 beat'e bolundu (voice_recordings/19-kopek-uzgun-bakis/), storyboard'a voice_file olarak islendi, TTS kullanilmadan (motor: 'kayit') render edildi. Onayladi ('paylas'), yayinlandi."
   }
 }
