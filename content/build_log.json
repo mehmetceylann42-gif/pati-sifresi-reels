@@ -337,5 +337,40 @@
         "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/"
       }
     ]
+  },
+  "20-kopek-seker-kokusu": {
+    "built_at": "2026-08-29T17:59:25+00:00",
+    "duration": 33.83,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "wallpaper",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog sniffing owner hand close up",
+        "path": "footage/pexels-5961889.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/"
+      },
+      {
+        "shot": 1,
+        "query": "dog resting head on owner lap",
+        "path": "footage/pexels-8433834.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-man-cuddling-his-dog-8433834/"
+      },
+      {
+        "shot": 2,
+        "query": "happy dog with owner outdoor",
+        "path": "footage/pexels-7616855.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-petting-her-dog-7616855/"
+      }
+    ]
   }
 }

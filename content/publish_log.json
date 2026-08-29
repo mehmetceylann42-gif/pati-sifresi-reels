@@ -86,5 +86,9 @@
     "permalink": "https://www.instagram.com/reel/DcmVPqSD1TQ/",
     "music_id": "monkeys-spinning-monkeys",
     "note": "v2 format, ilk KENDI SESLENDIRMESI ile yayinlanan Reel. Fact: kopeklerin 'uzgun bakisi' evcillesirken kazanilan bir kastan (levator anguli oculi medialis) geliyor, kurtlarda yok (Kaminski ve ark. 2019, PNAS, Portsmouth Universitesi). Kullanici build_reel.py'ye eklenen --silent secenegiyle sessiz onizleme + script metnini aldi, kendi sesiyle tek parca halinde kaydetti; kayit Whisper (faster-whisper) ile transkript edilip script'e kelime kelime eslendi, gercek sessizlik bosluklarindan 6 beat'e bolundu (voice_recordings/19-kopek-uzgun-bakis/), storyboard'a voice_file olarak islendi, TTS kullanilmadan (motor: 'kayit') render edildi. Onayladi ('paylas'), yayinlandi."
+  },
+  "10-kopek-burun-izi": {
+    "published": true,
+    "published_at": "2026-08-29T07:00:43.374423+00:00"
   }
 }

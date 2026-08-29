@@ -946,5 +946,109 @@
         "emph": ["sevimli", "bir", "manipülasyon", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "20-kopek-seker-kokusu",
+    "source_name": "Diabetes Care · Cambridge Üniversitesi (Neupane ve ark., 2016)",
+    "source_url": "https://www.cam.ac.uk/research/news/diabetes-sniffer-dogs-scent-of-hypos-could-aid-development-of-new-tests",
+    "music_id": "wallpaper",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog sniffing owner hand close up",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "dog resting head on owner lap",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy dog with owner outdoor",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Diyabet uyarı köpekleri, sahibinin ne hissettiğini anlayıp onu uyarıyor.",
+        "chunks": [
+          "Diyabet uyarı köpekleri,",
+          "sahibinin ne hissettiğini",
+          "anlayıp onu uyarıyor."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. Köpek senin nefesindeki tek bir kimyasalı kokluyor.",
+        "chunks": [
+          "YANLIŞ.",
+          "Köpek senin nefesindeki",
+          "tek bir kimyasalı kokluyor."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Kan şekerin düşünce, nefesindeki izopren miktarı neredeyse ikiye katlanıyor.",
+        "chunks": [
+          "Kan şekerin düşünce,",
+          "nefesindeki izopren miktarı",
+          "neredeyse ikiye katlanıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Bu değişimi sen fark etmiyorsun, çünkü kokusu yok; ama köpeğin burnu bu farkı rahatça yakalıyor.",
+        "chunks": [
+          "Bu değişimi sen fark etmiyorsun,",
+          "çünkü kokusu yok;",
+          "ama köpeğin burnu",
+          "bu farkı rahatça yakalıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Cambridge Üniversitesi'nin araştırmasına göre bu artış, hipoglisemi anında tutarlı şekilde ortaya çıkıyor.",
+        "chunks": [
+          "Cambridge Üniversitesi'nin araştırmasına göre",
+          "bu artış, hipoglisemi anında",
+          "tutarlı şekilde ortaya çıkıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani köpeğin sana sokulması sevgi değil, bir laboratuvar sonucu olabilir. Alışılmadık bir yakınlaşma fark ettin mi, yoruma yaz.",
+        "chunks": [
+          "Yani köpeğin sana sokulması",
+          "sevgi değil, BİR LABORATUVAR SONUCU olabilir.",
+          "Alışılmadık bir yakınlaşma fark ettin mi,",
+          "YORUMA YAZ."
+        ],
+        "emph": ["bir", "laboratuvar", "sonucu", "yoruma", "yaz"]
+      }
+    ]
   }
 ]

@@ -614,5 +614,38 @@
     "height": 1920,
     "motion": 12.99,
     "query": "happy dog close up face outdoor"
+  },
+  "6686e5981608": {
+    "provider": "pexels",
+    "video_id": 5961889,
+    "path": "footage/pexels-5961889.mp4",
+    "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 13.09,
+    "query": "dog sniffing owner hand close up"
+  },
+  "b22050664bcb": {
+    "provider": "pexels",
+    "video_id": 8433834,
+    "path": "footage/pexels-8433834.mp4",
+    "source_page": "https://www.pexels.com/video/a-man-cuddling-his-dog-8433834/",
+    "duration": 37.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.85,
+    "query": "dog resting head on owner lap"
+  },
+  "a47ace791ae8": {
+    "provider": "pexels",
+    "video_id": 7616855,
+    "path": "footage/pexels-7616855.mp4",
+    "source_page": "https://www.pexels.com/video/a-woman-petting-her-dog-7616855/",
+    "duration": 19.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 11.74,
+    "query": "happy dog with owner outdoor"
   }
 }
