@@ -89,6 +89,15 @@
   },
   "10-kopek-burun-izi": {
     "published": true,
-    "published_at": "2026-08-29T07:00:43.374423+00:00"
+    "published_at": "2026-08-29T07:00:43.374423+00:00",
+    "note": "PatiSifresiDailyReel zamanlanmis gorevi tarafindan v1 kuyruktan otomatik yayinlandi. Daha once AI_HANDOFF.md'de ozgunluk re-vetting gerektigi flaglenmisti (parmak izi benzetmesi klise olabilir) ama otomasyon bu kontrolu yapmadan eski v1 surumu yayinladi -- kullanicidan geri alma/duzeltme talebi gelmedi."
+  },
+  "20-kopek-seker-kokusu": {
+    "published": true,
+    "published_at": "2026-08-29T07:35:00+00:00",
+    "media_id": "18083695130311946",
+    "permalink": "https://www.instagram.com/reel/DcoiRfQDdFc/",
+    "music_id": "wallpaper",
+    "note": "v2 format, ikinci revizyon uslubuyla (misdirection + tag line). Fact: diyabet uyari kopekleri sahibinin duygusunu degil, nefesteki izopren artisini (hipoglisemi belirtisi) kokluyor (Neupane ve ark. 2016, Diabetes Care, Cambridge Universitesi). Kullanicinin acik 'uret ve paylas' talebiyle onay beklenmeden dogrudan yayinlandi."
   }
 }
