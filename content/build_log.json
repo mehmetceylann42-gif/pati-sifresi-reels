@@ -479,8 +479,8 @@
     ]
   },
   "24-kopek-manyetik-pusula": {
-    "built_at": "2026-08-30T14:00:21+00:00",
-    "duration": 32.84,
+    "built_at": "2026-08-30T14:11:47+00:00",
+    "duration": 29.94,
     "voice_engine": [
       "edge"
     ],
@@ -489,27 +489,43 @@
     "shots": [
       {
         "shot": 0,
-        "query": "dog sniffing grass in park sunny",
-        "path": "footage/pexels-34755400.mp4",
+        "query": "",
+        "path": "footage/pexels-32309993.mp4",
         "kind": "video",
         "provider": "pexels",
-        "source_page": "https://www.pexels.com/video/dog-and-cow-interaction-in-sunny-field-34755400/"
+        "source_page": "https://www.pexels.com/video/happy-dog-relaxing-in-sunny-park-daytime-32309993/"
       },
       {
         "shot": 1,
-        "query": "close up dog face outdoors looking around",
-        "path": "footage/pexels-30432348.mp4",
+        "query": "",
+        "path": "footage/pexels-37353341.mp4",
         "kind": "video",
         "provider": "pexels",
-        "source_page": "https://www.pexels.com/video/lonely-dog-at-night-urban-setting-30432348/"
+        "source_page": "https://www.pexels.com/video/large-fluffy-dog-relaxing-on-sunny-lawn-37353341/"
       },
       {
         "shot": 2,
-        "query": "dog running in open field towards camera",
-        "path": "footage/pexels-37676969.mp4",
+        "query": "",
+        "path": "footage/pexels-5794702.mp4",
         "kind": "video",
         "provider": "pexels",
-        "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/"
+        "source_page": "https://www.pexels.com/video/dog-giving-paw-to-his-owner-5794702/"
+      },
+      {
+        "shot": 3,
+        "query": "",
+        "path": "footage/pexels-38087082.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/fluffy-dog-walks-through-forest-trail-38087082/"
+      },
+      {
+        "shot": 4,
+        "query": "",
+        "path": "footage/pexels-32320875.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playful-puppy-in-sunny-backyard-retreat-32320875/"
       }
     ]
   },

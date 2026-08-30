@@ -1577,28 +1577,24 @@
     "image_is_ai": false,
     "shots": [
       {
-        "query": "dog sniffing grass in park sunny",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.42
-        ]
+        "media": "footage/pexels-32309993.mp4",
+        "note": "golden retriever yakin plan, gulumseyen yuz - kanca"
       },
       {
-        "query": "close up dog face outdoors looking around",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
+        "media": "footage/pexels-37353341.mp4",
+        "note": "papatyalarin arasinda uzanan golden - eksen/mekanizma"
       },
       {
-        "query": "dog running in open field towards camera",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
+        "media": "footage/pexels-5794702.mp4",
+        "note": "cimende oturan weimaraner - kanit beat'i"
+      },
+      {
+        "media": "footage/pexels-38087082.mp4",
+        "note": "orman patikasinda yuruyen kopek, yakin plan - eve donus/kestirme"
+      },
+      {
+        "media": "footage/pexels-32320875.mp4",
+        "note": "kameraya kosan yavru - kapanis"
       }
     ],
     "beats": [
@@ -1659,7 +1655,7 @@
       },
       {
         "role": "proof",
-        "shot": 1,
+        "shot": 2,
         "vo": "Çek araştırmacılar iki yıl boyunca 1893 köpek kakası ölçtü.",
         "chunks": [
           "Çek araştırmacılar",
@@ -1673,7 +1669,7 @@
       },
       {
         "role": "tag",
-        "shot": 2,
+        "shot": 3,
         "vo": "Eve dönerken de aynı pusula: önce 20 metre kuzey-güney koşuyorlar.",
         "chunks": [
           "Eve dönerken de aynı pusula:",
@@ -1687,7 +1683,7 @@
       },
       {
         "role": "cta",
-        "shot": 2,
+        "shot": 4,
         "vo": "Pusulanı aç, köpeğin hangi yöne döndü yaz. Köpeği olana gönder.",
         "chunks": [
           "Pusulanı aç,",
