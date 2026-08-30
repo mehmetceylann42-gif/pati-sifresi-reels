@@ -442,5 +442,40 @@
         "source_page": "https://www.pexels.com/video/a-cat-sitting-7056812/"
       }
     ]
+  },
+  "23-kopek-sevinc-gozyasi": {
+    "built_at": "2026-08-30T10:49:29+00:00",
+    "duration": 33.97,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog running to greet owner at door excited",
+        "path": "footage/pexels-7085357.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-young-girl-running-with-her-dog-7085357/"
+      },
+      {
+        "shot": 1,
+        "query": "close up dog face eyes nuzzling owner",
+        "path": "footage/pexels-5961889.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/"
+      },
+      {
+        "shot": 2,
+        "query": "owner hugging dog warmly",
+        "path": "footage/pexels-6568510.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/"
+      }
+    ]
   }
 }

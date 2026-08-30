@@ -713,5 +713,38 @@
     "height": 2496,
     "motion": 16.19,
     "query": "relaxed cat sitting outdoor"
+  },
+  "fcaa788da31e": {
+    "provider": "pexels",
+    "video_id": 7085357,
+    "path": "footage/pexels-7085357.mp4",
+    "source_page": "https://www.pexels.com/video/a-young-girl-running-with-her-dog-7085357/",
+    "duration": 20.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.33,
+    "query": "dog running to greet owner at door excited"
+  },
+  "4cec684da15a": {
+    "provider": "pexels",
+    "video_id": 5961889,
+    "path": "footage/pexels-5961889.mp4",
+    "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 13.09,
+    "query": "close up dog face eyes nuzzling owner"
+  },
+  "f9c631a0ff5f": {
+    "provider": "pexels",
+    "video_id": 6568510,
+    "path": "footage/pexels-6568510.mp4",
+    "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/",
+    "duration": 22.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 6.8,
+    "query": "owner hugging dog warmly"
   }
 }

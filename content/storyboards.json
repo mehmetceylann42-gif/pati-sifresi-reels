@@ -1260,5 +1260,108 @@
         "emph": ["anatomik", "kader", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "23-kopek-sevinc-gozyasi",
+    "source_name": "Current Biology · Azabu Üniversitesi (Murata ve ark., 2022)",
+    "source_url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01132-0",
+    "music_id": "gymnopedie-no-1",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog running to greet owner at door excited",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "close up dog face eyes nuzzling owner",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "owner hugging dog warmly",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin sana koşarak gelmesi sadece heyecandan sanılır.",
+        "chunks": [
+          "Köpeğin sana koşarak",
+          "gelmesi sadece",
+          "heyecandan sanılır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.32
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Aslında bazen gözlerinde gerçek yaş birikiyor.",
+        "chunks": [
+          "Aslında bazen gözlerinde",
+          "gerçek yaş birikiyor."
+        ],
+        "emph": ["gerçek"],
+        "pause_after": 0.4
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Sahibiyle yeniden buluşan köpeklerde gözyaşı miktarı gerçekten artıyor.",
+        "chunks": [
+          "Sahibiyle yeniden buluşan",
+          "köpeklerde gözyaşı miktarı",
+          "gerçekten artıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Bu artış, sevgi hormonu oksitosinden kaynaklanıyor; ve bu sadece sana özel, tanıdık bir yabancıyla olmuyor.",
+        "chunks": [
+          "Bu artış, sevgi hormonu",
+          "oksitosinden kaynaklanıyor;",
+          "ve bu sadece sana özel,",
+          "tanıdık bir yabancıyla olmuyor."
+        ],
+        "emph": ["sana", "özel"],
+        "pause_after": 0.3
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Azabu Üniversitesi'nin araştırmasına göre bu gözyaşları, insanlarda köpeğe daha çok sahip çıkma isteği de uyandırıyor.",
+        "chunks": [
+          "Azabu Üniversitesi'nin araştırmasına göre",
+          "bu gözyaşları, insanlarda",
+          "köpeğe daha çok",
+          "sahip çıkma isteği de uyandırıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.32
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani eve döndüğünde gözlerindeki o parlaklık, gerçekten seni özlediğinin kanıtı. Sen de onu kucakladığında ne hissediyorsun, yoruma yaz.",
+        "chunks": [
+          "Yani eve döndüğünde",
+          "gözlerindeki o parlaklık,",
+          "gerçekten seni özlediğinin kanıtı.",
+          "Sen de onu kucakladığında ne hissediyorsun, yoruma yaz."
+        ],
+        "emph": ["seni", "özlediğinin"]
+      }
+    ]
   }
 ]
