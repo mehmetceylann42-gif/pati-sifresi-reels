@@ -647,5 +647,38 @@
     "height": 1920,
     "motion": 11.74,
     "query": "happy dog with owner outdoor"
+  },
+  "a2bdb335bfa8": {
+    "provider": "pexels",
+    "video_id": 4936241,
+    "path": "footage/pexels-4936241.mp4",
+    "source_page": "https://www.pexels.com/video/a-woman-sitting-at-a-table-with-a-dalmatian-dog-4936241/",
+    "duration": 17.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 19.75,
+    "query": "owner pointing hand dog looking at cup"
+  },
+  "b6b80fb1a0b7": {
+    "provider": "pexels",
+    "video_id": 8434087,
+    "path": "footage/pexels-8434087.mp4",
+    "source_page": "https://www.pexels.com/video/dog-eating-on-a-pet-bowl-8434087/",
+    "duration": 25.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 4.17,
+    "query": "dog running to find hidden treat bowl"
+  },
+  "695266865470": {
+    "provider": "pexels",
+    "video_id": 11920096,
+    "path": "footage/pexels-11920096.mp4",
+    "source_page": "https://www.pexels.com/video/woman-with-dogs-in-garden-11920096/",
+    "duration": 15.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 8.73,
+    "query": "happy dog with owner outdoor"
   }
 }

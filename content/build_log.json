@@ -372,5 +372,40 @@
         "source_page": "https://www.pexels.com/video/a-woman-petting-her-dog-7616855/"
       }
     ]
+  },
+  "21-kopek-isaret-anlama": {
+    "built_at": "2026-08-30T07:18:24+00:00",
+    "duration": 32.25,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "carefree",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "owner pointing hand dog looking at cup",
+        "path": "footage/pexels-4936241.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-sitting-at-a-table-with-a-dalmatian-dog-4936241/"
+      },
+      {
+        "shot": 1,
+        "query": "dog running to find hidden treat bowl",
+        "path": "footage/pexels-8434087.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dog-eating-on-a-pet-bowl-8434087/"
+      },
+      {
+        "shot": 2,
+        "query": "happy dog with owner outdoor",
+        "path": "footage/pexels-11920096.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-with-dogs-in-garden-11920096/"
+      }
+    ]
   }
 }

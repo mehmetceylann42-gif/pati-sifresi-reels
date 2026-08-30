@@ -1050,5 +1050,110 @@
         "emph": ["bir", "laboratuvar", "sonucu", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "21-kopek-isaret-anlama",
+    "source_name": "Science · Duke Üniversitesi (Hare ve ark., 2002)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/12446914/",
+    "music_id": "carefree",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "owner pointing hand dog looking at cup",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "dog running to find hidden treat bowl",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "happy dog with owner outdoor",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin, akıl konusunda şempanzenin gerisinde kaldığı sanılır.",
+        "chunks": [
+          "Köpeğin, akıl konusunda",
+          "şempanzenin gerisinde",
+          "kaldığı sanılır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. Tek bir konuda köpek şempanzeyi kolayca geçiyor.",
+        "chunks": [
+          "YANLIŞ.",
+          "Tek bir konuda",
+          "köpek şempanzeyi kolayca geçiyor."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Sen bir kabı işaret edince, köpek doğru kaba dosdoğru gidiyor.",
+        "chunks": [
+          "Sen bir kabı işaret edince,",
+          "köpek doğru kaba",
+          "dosdoğru gidiyor."
+        ],
+        "emph": [],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Şempanze aynı işareti görmezden geliyor; köpek, seninle bin yıllardır yaşadığı için onu doğrudan okuyor.",
+        "chunks": [
+          "Şempanze aynı işareti görmezden geliyor;",
+          "köpek, seninle bin yıllardır",
+          "yaşadığı için onu",
+          "doğrudan okuyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "Duke Üniversitesi'nin deneyinde köpekler bu konuda insan bebekleri kadar başarılı çıktı.",
+        "chunks": [
+          "Duke Üniversitesi'nin deneyinde",
+          "köpekler bu konuda",
+          "insan bebekleri kadar",
+          "başarılı çıktı."
+        ],
+        "emph": [],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani parmağını takip etme konusunda köpeğin diploması var, şempanzenin yok. Köpeğin işaretini hiç kaçırıyor mu, yoruma yaz.",
+        "chunks": [
+          "Yani parmağını takip etme",
+          "konusunda KÖPEĞİN DİPLOMASI VAR,",
+          "şempanzenin yok. Köpeğin işaretini",
+          "hiç kaçırıyor mu, YORUMA YAZ."
+        ],
+        "emph": ["köpeğin", "diploması", "var", "yoruma", "yaz"]
+      }
+    ]
   }
 ]
