@@ -680,5 +680,38 @@
     "height": 1920,
     "motion": 8.73,
     "query": "happy dog with owner outdoor"
+  },
+  "6fb774f533cd": {
+    "provider": "pexels",
+    "video_id": 7691942,
+    "path": "footage/pexels-7691942.mp4",
+    "source_page": "https://www.pexels.com/video/cat-playing-on-a-tree-trunk-7691942/",
+    "duration": 23.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 13.3,
+    "query": "cat climbing up tree trunk"
+  },
+  "2e6d72f449ff": {
+    "provider": "pexels",
+    "video_id": 7691958,
+    "path": "footage/pexels-7691958.mp4",
+    "source_page": "https://www.pexels.com/video/playing-with-a-cat-7691958/",
+    "duration": 16.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 15.66,
+    "query": "cat stuck at top of tree looking down"
+  },
+  "195ed013fab0": {
+    "provider": "pexels",
+    "video_id": 7056812,
+    "path": "footage/pexels-7056812.mp4",
+    "source_page": "https://www.pexels.com/video/a-cat-sitting-7056812/",
+    "duration": 21.0,
+    "width": 1440,
+    "height": 2496,
+    "motion": 16.19,
+    "query": "relaxed cat sitting outdoor"
   }
 }

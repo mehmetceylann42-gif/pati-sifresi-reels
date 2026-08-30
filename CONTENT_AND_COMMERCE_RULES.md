@@ -327,6 +327,20 @@ teknikleri (rule of three, callback, somut imge) yukarıda kayıtlı
 kalıyor, ileride tekrar denenmek istenirse referans olarak durur, ama
 şu an hiçbir Reel için zorunlu değil.
 
+**Not (2026-08-30):** `21-kopek-isaret-anlama` (köpek vs şempanze, misdirection
++ tag line, tercihen sade — üçüncü revizyonun somut-imge/rule-of-three
+araçları kullanılmadı) kullanıcı tarafından yine beğenilmedi: "bu mizahı
+beğenmedim daha komik bilgiler ve komik bir dil kullanarak bir video daha
+üret." Kural değişmedi (hâlâ ikinci revizyon aktif, hiçbir madde zorunlu
+hale gelmedi) ama pratik ders: **çıplak "Hayır." + sade fact'in yeterince
+komik bulunmama ihtimali yüksek** — bundan sonraki üretimlerde üçüncü
+revizyonun somut-imge ve gerçekten şaşırtıcı/absürt fact seçimi araçları
+varsayılan olarak (zorunlu olmasa da) tercih edilsin. Ayrıca fact seçiminde
+"bilgi olarak şaşırtıcı" ile "kendi başına komik/görsel olarak gülünç"
+ayrımına dikkat edilsin — ikincisi mizahı metaforsuz, doğal olarak taşıyor
+(örnek: `22-kedi-agactan-inememe` — kedin ağaca çıkabiliyor ama dünyada
+başı önde inebilen sadece iki kedi türü var, seninki onlardan biri değil).
+
 ## Yapay zekâ çalışma sınırı
 
 - AI; konu araştırması, video/görsel taslağı, caption, yanıt taslağı, planlama ve performans özeti üretir.

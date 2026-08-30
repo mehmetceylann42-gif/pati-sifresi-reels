@@ -1155,5 +1155,110 @@
         "emph": ["köpeğin", "diploması", "var", "yoruma", "yaz"]
       }
     ]
+  },
+  {
+    "slug": "22-kedi-agactan-inememe",
+    "source_name": "Zoology (Jena) · CONICET, Arjantin (Morales ve ark., 2017)",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/29329954/",
+    "music_id": "pixelland",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "cat climbing up tree trunk",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "cat stuck at top of tree looking down",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.4]
+      },
+      {
+        "query": "relaxed cat sitting outdoor",
+        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+        "focus": [0.5, 0.45]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Kedin ağaca kolayca tırmanıyorsa, aynı rahatlıkla aşağı da inebilir sanılır.",
+        "chunks": [
+          "Kedin ağaca kolayca tırmanıyorsa,",
+          "aynı rahatlıkla aşağı da",
+          "inebilir sanılır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.3
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Yanlış. Başı önde inebilen sadece iki kedi türü var, seninki onlardan biri değil.",
+        "chunks": [
+          "YANLIŞ.",
+          "Başı önde inebilen",
+          "sadece iki kedi türü var,",
+          "seninki onlardan biri değil."
+        ],
+        "emph": ["yanlış"],
+        "pitch": "-3Hz",
+        "pause_after": 0.36
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Sebep pati değil, bilek: margay ve bulutlu leopar bileğini yüz seksen derece çevirebiliyor.",
+        "chunks": [
+          "Sebep pati değil, bilek:",
+          "margay ve bulutlu leopar",
+          "bileğini yüz seksen derece çevirebiliyor."
+        ],
+        "emph": [],
+        "pause_after": 0.26
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Senin kedinin bileği tek yöne bakıyor, bu yüzden inerken pençeleri tutunamıyor.",
+        "chunks": [
+          "Senin kedinin bileği",
+          "tek yöne bakıyor,",
+          "bu yüzden inerken",
+          "pençeleri tutunamıyor."
+        ],
+        "emph": [],
+        "pause_after": 0.28
+      },
+      {
+        "role": "proof",
+        "shot": 2,
+        "vo": "2017'deki bir anatomi çalışması, bu dönüşü yalnızca bu iki türün kasında buldu.",
+        "chunks": [
+          "2017'deki bir anatomi çalışması,",
+          "bu dönüşü yalnızca",
+          "bu iki türün kasında buldu."
+        ],
+        "emph": [],
+        "pause_after": 0.3
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Yani itfaiyenin ağaçtan kedi indirmesi tembellik değil, anatomik kader. Kedin hiç ağaçta mahsur kaldı mı, yoruma yaz.",
+        "chunks": [
+          "Yani itfaiyenin ağaçtan kedi indirmesi",
+          "tembellik değil, ANATOMİK KADER.",
+          "Kedin hiç ağaçta mahsur kaldı mı,",
+          "YORUMA YAZ."
+        ],
+        "emph": ["anatomik", "kader", "yoruma", "yaz"]
+      }
+    ]
   }
 ]
