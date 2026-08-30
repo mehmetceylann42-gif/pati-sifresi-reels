@@ -131,5 +131,13 @@
     "permalink": "https://www.instagram.com/reel/DcqrygygOpa/",
     "music_id": "gymnopedie-no-1",
     "note": "v2 format, YENI ICERIK TURU: hayvan siddetine karsi duygusal PSA (fact-humor kalibinin disinda, kullanicinin acik talebi: 'bir video yap ve paylas, hayvan siddetine karsi duygusal bir video olsun'). Fact: hoarding/ihmal gibi kotu kosullardan gelen barinak kopeklerinde stres hormonu (kortizol) ve korku/donup kalma davranisi diger barinak kopeklerinden belirgin yuksek cikiyor, ve bu fark kopek guvenli bir eve yerlestirildikten sonra bile suruyor (Buttner & Strasser, 2022, Applied Animal Behaviour Science, Nebraska Omaha Universitesi -- https://doi.org/10.1016/j.applanim.2022.105693). CTA: siddete asla / sabra evet, kotu muamele gordugunu dusundugun hayvani ihbar et. Gorsel: hicbir sahnede siddet/istismar ani gosterilmiyor -- korkmus/donup kalmis bir sokak kopegi, sonra sahiplenme/kucaklama sahnesiyle kapaniyor (Pexels, telifsiz). Muzik rotasyon disi bilincli secim (gymnopedie-no-1, 'duygusal/sifa' etiketli -- Reel 23'teki gibi). Kullanicinin acik 'yap ve paylas' talebiyle, projede yerlesik olan bu ifade kalibina gore (bkz. AI_HANDOFF.md 20-23. Reel kayitlari) onay beklenmeden dogrudan yayinlandi. NOT: build/render sirasinda ayni depoda paralel calisan baska bir oturum/otomasyonun 'scripts/make_captions_v2.py'yi yeniden calistirdigi ve bu Reel'in caption dosyasindaki elle eklenen hashtag'leri (#hayvanhaklari vb.) sildigi gozlemlendi; yayindan once fark edilip yeniden eklendi. Ayni anda ayni repoda calisan baska bir surec/oturum oldugu kullaniciya bildirilmeli."
+  },
+  "24-kopek-manyetik-pusula": {
+    "published": true,
+    "published_at": "2026-08-30T15:20:36.792542+00:00",
+    "media_id": "18091780814447157",
+    "permalink": "https://www.instagram.com/reel/Dcq0X2jD_Xn/",
+    "music_id": "comfortable-mystery",
+    "note": "v2 format. Fact: kopekler tuvaletini kuzey-guney manyetik eksende yapiyor (sadece alan sakinken), eve donerken de ayni pusula ile 20m 'olculu kosu' yapiyorlar (Hart ve ark. 2013, Frontiers in Zoology; tag beat Benediktova ve ark. 2020, eLife). Turkce icerikte spesifik acisi (tuvalet + sakin-alan kosulu) islenmemisti. Kullaniciya once video gosterildi, 'yayinla' onayiyla yayina alindi."
   }
 }
