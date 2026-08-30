@@ -319,17 +319,26 @@
       {
         "query": "dog sniffing suspicious object curious",
         "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "dog nose close up sniffing ground outdoor",
         "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy relaxed dog panting sitting",
         "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -342,7 +351,9 @@
           "mesai sistemi var,",
           "senden habersiz ÇALIŞIYOR."
         ],
-        "emph": ["çalışıyor"],
+        "emph": [
+          "çalışıyor"
+        ],
         "y": 900,
         "size": 84,
         "pitch": "+8Hz",
@@ -357,7 +368,10 @@
           "nöbeti HANGİ DELİK devralıyor,",
           "tahmin et."
         ],
-        "emph": ["hangi", "delik"],
+        "emph": [
+          "hangi",
+          "delik"
+        ],
         "pitch": "+2Hz",
         "pause_after": 0.3
       },
@@ -370,7 +384,11 @@
           "O, işin 'önce güvenlik'",
           "kısmına bakıyor."
         ],
-        "emph": ["sağ", "burun", "deliği"],
+        "emph": [
+          "sağ",
+          "burun",
+          "deliği"
+        ],
         "pitch": "+5Hz",
         "pause_after": 0.24
       },
@@ -384,7 +402,10 @@
           "koku tanıdık çıkana kadar",
           "mesai onda."
         ],
-        "emph": ["tehdit", "alarmını"],
+        "emph": [
+          "tehdit",
+          "alarmını"
+        ],
         "pitch": "-2Hz",
         "pause_after": 0.28
       },
@@ -398,7 +419,12 @@
           "köpekler işi sessizce",
           "SOL BURUN DELİĞİNE DEVRETTİ."
         ],
-        "emph": ["sol", "burun", "deliğine", "devretti"],
+        "emph": [
+          "sol",
+          "burun",
+          "deliğine",
+          "devretti"
+        ],
         "pause_after": 0.34
       },
       {
@@ -410,7 +436,10 @@
           "hangi delik önce kalkıyor izle.",
           "YORUMA YAZ."
         ],
-        "emph": ["yoruma", "yaz"],
+        "emph": [
+          "yoruma",
+          "yaz"
+        ],
         "pitch": "+5Hz"
       }
     ]
@@ -427,17 +456,26 @@
       {
         "query": "cat licking fur grooming close up",
         "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "cat tongue close up licking",
         "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "cute cat close up face portrait",
         "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [0.5, 0.35]
+        "focus": [
+          0.5,
+          0.35
+        ]
       }
     ],
     "beats": [
@@ -450,7 +488,9 @@
           "sünger var,",
           "sen fark etmeden ÇALIŞIYOR."
         ],
-        "emph": ["çalışıyor"],
+        "emph": [
+          "çalışıyor"
+        ],
         "y": 900,
         "size": 84,
         "pitch": "+8Hz",
@@ -464,7 +504,10 @@
           "O pürüzlerin GERÇEK ŞEKLİ ne,",
           "hiç baktın mı?"
         ],
-        "emph": ["gerçek", "şekli"],
+        "emph": [
+          "gerçek",
+          "şekli"
+        ],
         "pitch": "+2Hz",
         "pause_after": 0.3
       },
@@ -477,7 +520,10 @@
           "içi boş,",
           "küçük kepçeler."
         ],
-        "emph": ["huni", "gibi"],
+        "emph": [
+          "huni",
+          "gibi"
+        ],
         "pitch": "+5Hz",
         "pause_after": 0.24
       },
@@ -491,7 +537,10 @@
           "hem temizliyor",
           "hem serinletiyor."
         ],
-        "emph": ["tüylerin", "dibine"],
+        "emph": [
+          "tüylerin",
+          "dibine"
+        ],
         "pitch": "-2Hz",
         "pause_after": 0.28
       },
@@ -505,7 +554,10 @@
           "TIGR, parmakla",
           "silinip TEMİZLENİYOR."
         ],
-        "emph": ["parmakla", "temizleniyor"],
+        "emph": [
+          "parmakla",
+          "temizleniyor"
+        ],
         "pause_after": 0.34
       },
       {
@@ -517,7 +569,10 @@
           "küçük kepçeleri göreceksin.",
           "YORUMA YAZ."
         ],
-        "emph": ["yoruma", "yaz"],
+        "emph": [
+          "yoruma",
+          "yaz"
+        ],
         "pitch": "+5Hz"
       }
     ]
@@ -534,17 +589,26 @@
       {
         "query": "guilty looking dog head down ears back",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "dog next to torn pillow mess indoor",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy relaxed dog sitting living room",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -571,7 +635,9 @@
           "O bakışın suçla",
           "hiçbir ilgisi yok."
         ],
-        "emph": ["hayır"],
+        "emph": [
+          "hayır"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.4
       },
@@ -584,7 +650,10 @@
           "SENİN SESİNE tepki,",
           "kendi vicdanına değil."
         ],
-        "emph": ["senin", "sesine"],
+        "emph": [
+          "senin",
+          "sesine"
+        ],
         "pause_after": 0.26
       },
       {
@@ -597,7 +666,9 @@
           "suçlu olsun olmasın",
           "tepki aynı."
         ],
-        "emph": ["aynı"],
+        "emph": [
+          "aynı"
+        ],
         "pause_after": 0.28
       },
       {
@@ -610,7 +681,11 @@
           "hiçbir şey yapmadığı halde",
           "azarlanan köpeklerdi."
         ],
-        "emph": ["en", "suçlu", "görünen"],
+        "emph": [
+          "en",
+          "suçlu",
+          "görünen"
+        ],
         "pause_after": 0.34
       },
       {
@@ -623,7 +698,13 @@
           "Bir dahaki azarlayışında bak,",
           "YORUMA YAZ."
         ],
-        "emph": ["en", "suçlu", "bakışı", "yoruma", "yaz"]
+        "emph": [
+          "en",
+          "suçlu",
+          "bakışı",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -639,17 +720,26 @@
       {
         "query": "dog play bow front paws down tail up grass",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       },
       {
         "query": "two dogs playing wrestling chasing in park",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy dog running playful outdoor",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -676,7 +766,9 @@
           "O eğilme bir heyecan",
           "değil, bir uyarı."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -702,7 +794,9 @@
           "Ama bu eğilmeden hemen sonra gelirse,",
           "oyun sayılır."
         ],
-        "emph": ["oyun"],
+        "emph": [
+          "oyun"
+        ],
         "pause_after": 0.28
       },
       {
@@ -714,7 +808,9 @@
           "köpekler, oyun sertleştiğinde",
           "bu eğilmeyi BİLEREK tekrarlıyor."
         ],
-        "emph": ["bilerek"],
+        "emph": [
+          "bilerek"
+        ],
         "pause_after": 0.3
       },
       {
@@ -727,7 +823,12 @@
           "Ne zaman gördün,",
           "YORUMA YAZ."
         ],
-        "emph": ["en", "kibar", "yoruma", "yaz"]
+        "emph": [
+          "en",
+          "kibar",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -743,17 +844,26 @@
       {
         "query": "cat looking up at owner face curious",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "cat cautiously approaching unfamiliar object indoor",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       },
       {
         "query": "relaxed cat sitting calm indoor",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       }
     ],
     "beats": [
@@ -780,7 +890,9 @@
           "Kararsız kalınca doğrudan",
           "senin yüzüne bakıyor."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -793,7 +905,10 @@
           "nesneyle senin yüzün",
           "arasında gidip geliyor."
         ],
-        "emph": ["yetmiş", "dokuzu"],
+        "emph": [
+          "yetmiş",
+          "dokuzu"
+        ],
         "pause_after": 0.26
       },
       {
@@ -831,7 +946,11 @@
           "Yeni bir şey getirdiğinde",
           "seni izliyor mu, YORUMA YAZ."
         ],
-        "emph": ["umursamaz", "yoruma", "yaz"]
+        "emph": [
+          "umursamaz",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -847,17 +966,26 @@
       {
         "query": "dog sad puppy eyes close up looking at camera",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "dog looking up at owner begging face",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy dog close up face outdoor",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -887,7 +1015,9 @@
           "hiç olmayan bir kas",
           "sayesinde oluyor."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -943,7 +1073,13 @@
           "Köpeğin en son ne zaman böyle baktı,",
           "YORUMA YAZ."
         ],
-        "emph": ["sevimli", "bir", "manipülasyon", "yoruma", "yaz"]
+        "emph": [
+          "sevimli",
+          "bir",
+          "manipülasyon",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -959,17 +1095,26 @@
       {
         "query": "dog sniffing owner hand close up",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "dog resting head on owner lap",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy dog with owner outdoor",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -996,7 +1141,9 @@
           "Köpek senin nefesindeki",
           "tek bir kimyasalı kokluyor."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -1047,7 +1194,13 @@
           "Alışılmadık bir yakınlaşma fark ettin mi,",
           "YORUMA YAZ."
         ],
-        "emph": ["bir", "laboratuvar", "sonucu", "yoruma", "yaz"]
+        "emph": [
+          "bir",
+          "laboratuvar",
+          "sonucu",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -1063,17 +1216,26 @@
       {
         "query": "owner pointing hand dog looking at cup",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "dog running to find hidden treat bowl",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "happy dog with owner outdoor",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -1100,7 +1262,9 @@
           "Tek bir konuda",
           "köpek şempanzeyi kolayca geçiyor."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -1152,7 +1316,13 @@
           "şempanzenin yok. Köpeğin işaretini",
           "hiç kaçırıyor mu, YORUMA YAZ."
         ],
-        "emph": ["köpeğin", "diploması", "var", "yoruma", "yaz"]
+        "emph": [
+          "köpeğin",
+          "diploması",
+          "var",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -1168,17 +1338,26 @@
       {
         "query": "cat climbing up tree trunk",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "cat stuck at top of tree looking down",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "relaxed cat sitting outdoor",
         "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -1206,7 +1385,9 @@
           "sadece iki kedi türü var,",
           "seninki onlardan biri değil."
         ],
-        "emph": ["yanlış"],
+        "emph": [
+          "yanlış"
+        ],
         "pitch": "-3Hz",
         "pause_after": 0.36
       },
@@ -1257,7 +1438,12 @@
           "Kedin hiç ağaçta mahsur kaldı mı,",
           "YORUMA YAZ."
         ],
-        "emph": ["anatomik", "kader", "yoruma", "yaz"]
+        "emph": [
+          "anatomik",
+          "kader",
+          "yoruma",
+          "yaz"
+        ]
       }
     ]
   },
@@ -1273,17 +1459,26 @@
       {
         "query": "dog running to greet owner at door excited",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "close up dog face eyes nuzzling owner",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.4]
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "query": "owner hugging dog warmly",
         "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [0.5, 0.45]
+        "focus": [
+          0.5,
+          0.45
+        ]
       }
     ],
     "beats": [
@@ -1309,7 +1504,9 @@
           "Aslında bazen gözlerinde",
           "gerçek yaş birikiyor."
         ],
-        "emph": ["gerçek"],
+        "emph": [
+          "gerçek"
+        ],
         "pause_after": 0.4
       },
       {
@@ -1334,7 +1531,10 @@
           "ve bu sadece sana özel,",
           "tanıdık bir yabancıyla olmuyor."
         ],
-        "emph": ["sana", "özel"],
+        "emph": [
+          "sana",
+          "özel"
+        ],
         "pause_after": 0.3
       },
       {
@@ -1360,7 +1560,287 @@
           "gerçekten seni özlediğinin kanıtı.",
           "Sen de onu kucakladığında ne hissediyorsun, yoruma yaz."
         ],
-        "emph": ["seni", "özlediğinin"]
+        "emph": [
+          "seni",
+          "özlediğinin"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "24-kopek-manyetik-pusula",
+    "source_name": "Frontiers in Zoology - Hart ve ark. 2013 (Cek Yasam Bilimleri Universitesi & Duisburg-Essen Universitesi)",
+    "source_url": "https://frontiersinzoology.biomedcentral.com/articles/10.1186/1742-9994-10-80",
+    "music_id": "comfortable-mystery",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "dog sniffing grass in park sunny",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      {
+        "query": "close up dog face outdoors looking around",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      {
+        "query": "dog running in open field towards camera",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.5,
+          0.45
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Köpeğin tuvaletini yapmadan önce dönüp duruyor. Yer beğenmiyor sanılır.",
+        "chunks": [
+          "Köpeğin tuvaletini",
+          "yapmadan önce dönüp duruyor.",
+          "Yer beğenmiyor sanılır."
+        ],
+        "emph": [],
+        "y": 900,
+        "size": 84,
+        "pause_after": 0.34
+      },
+      {
+        "role": "turn",
+        "shot": 0,
+        "vo": "Aslında pusulasını ayarlıyor.",
+        "chunks": [
+          "Aslında pusulasını ayarlıyor."
+        ],
+        "emph": [
+          "pusulasını"
+        ],
+        "pitch": "-2Hz",
+        "pause_after": 0.42
+      },
+      {
+        "role": "payoff",
+        "shot": 1,
+        "vo": "Köpekler tuvaletini kuzey-güney ekseninde yapıyor, doğu-batıya değil.",
+        "chunks": [
+          "Köpekler tuvaletini",
+          "kuzey-güney ekseninde yapıyor,",
+          "doğu-batıya değil."
+        ],
+        "emph": [
+          "kuzey-güney"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Ama sadece manyetik alan sakinken; dalgalanınca tercih kayboluyor.",
+        "chunks": [
+          "Ama sadece",
+          "manyetik alan sakinken;",
+          "dalgalanınca tercih kayboluyor."
+        ],
+        "emph": [
+          "sakinken"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "proof",
+        "shot": 1,
+        "vo": "Çek araştırmacılar iki yıl boyunca 1893 köpek kakası ölçtü.",
+        "chunks": [
+          "Çek araştırmacılar",
+          "iki yıl boyunca",
+          "1893 köpek kakası ölçtü."
+        ],
+        "emph": [
+          "1893"
+        ],
+        "pause_after": 0.32
+      },
+      {
+        "role": "tag",
+        "shot": 2,
+        "vo": "Eve dönerken de aynı pusula: önce 20 metre kuzey-güney koşuyorlar.",
+        "chunks": [
+          "Eve dönerken de aynı pusula:",
+          "önce 20 metre",
+          "kuzey-güney koşuyorlar."
+        ],
+        "emph": [
+          "20 metre"
+        ],
+        "pause_after": 0.34
+      },
+      {
+        "role": "cta",
+        "shot": 2,
+        "vo": "Pusulanı aç, köpeğin hangi yöne döndü yaz. Köpeği olana gönder.",
+        "chunks": [
+          "Pusulanı aç,",
+          "köpeğin hangi yöne döndü yaz.",
+          "Köpeği olana gönder."
+        ],
+        "emph": [
+          "hangi yöne"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "24-kopek-siddetin-izi",
+    "source_name": "Applied Animal Behaviour Science · Nebraska Omaha Üniversitesi (Buttner & Strasser, 2022)",
+    "source_url": "https://doi.org/10.1016/j.applanim.2022.105693",
+    "music_id": "gymnopedie-no-1",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+5%",
+    "image_is_ai": false,
+    "shots": [
+      {
+        "query": "sad dog behind shelter cage bars looking out",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "must_include": [
+          "dog"
+        ],
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      {
+        "query": "scared rescue dog cowering corner trembling",
+        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+        "must_include": [
+          "dog"
+        ],
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "query": "person gently reaching hand to nervous dog",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "must_include": [
+          "dog"
+        ],
+        "focus": [
+          0.45,
+          0.4
+        ]
+      },
+      {
+        "query": "close up dog worried eyes",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      {
+        "query": "person softly hugging rescued dog",
+        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+        "must_include": [
+          "dog"
+        ],
+        "focus": [
+          0.5,
+          0.45
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Kötü muamele gören bir köpek eve alındığında her şeyin düzeldiğini sanırız.",
+        "chunks": [
+          "Kötü muamele gören bir köpek",
+          "eve alındığında",
+          "her şeyin düzeldiğini sanırız."
+        ],
+        "emph": [],
+        "y": 860,
+        "size": 80,
+        "pause_after": 0.34
+      },
+      {
+        "role": "turn",
+        "shot": 1,
+        "vo": "Ama bilim öyle demiyor.",
+        "chunks": [
+          "Ama bilim",
+          "ÖYLE DEMİYOR."
+        ],
+        "emph": [
+          "öyle",
+          "demiyor"
+        ],
+        "pause_after": 0.4
+      },
+      {
+        "role": "mechanism",
+        "shot": 1,
+        "vo": "Kötü koşullardan gelen köpeklerin stres hormonu belirgin biçimde daha yüksek çıkıyor; korku ve donup kalma davranışı diğer barınak köpeklerinden fazla.",
+        "chunks": [
+          "Kötü koşullardan gelen köpeklerin",
+          "stres hormonu belirgin biçimde",
+          "daha yüksek çıkıyor;",
+          "korku ve donup kalma davranışı",
+          "diğer barınak köpeklerinden fazla."
+        ],
+        "emph": [
+          "daha",
+          "yüksek"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "proof",
+        "shot": 3,
+        "vo": "Nebraska Üniversitesi'nin araştırmasına göre bu fark, köpek güvenli bir eve yerleştirildikten sonra bile sürüyor.",
+        "chunks": [
+          "Nebraska Üniversitesi'nin araştırmasına göre",
+          "bu fark, köpek güvenli bir eve",
+          "yerleştirildikten sonra bile",
+          "sürüyor."
+        ],
+        "emph": [
+          "sürüyor"
+        ],
+        "pause_after": 0.32
+      },
+      {
+        "role": "cta",
+        "shot": 4,
+        "vo": "Yani bir hayvana yapılan kötülüğün izi kendiliğinden silinmiyor. Şiddete asla, sabra her zaman evet. Kötü muamele gördüğünü düşündüğün bir hayvan varsa sessiz kalma, ihbar et.",
+        "chunks": [
+          "Yani bir hayvana yapılan kötülüğün izi",
+          "kendiliğinden silinmiyor.",
+          "ŞİDDETE ASLA, SABRA HER ZAMAN EVET.",
+          "Kötü muamele gördüğünü düşündüğün",
+          "bir hayvan varsa sessiz kalma, ihbar et."
+        ],
+        "emph": [
+          "şiddete",
+          "asla",
+          "sabra",
+          "evet"
+        ],
+        "y": 860
       }
     ]
   }

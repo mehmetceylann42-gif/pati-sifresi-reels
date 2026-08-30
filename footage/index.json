@@ -746,5 +746,115 @@
     "height": 2048,
     "motion": 6.8,
     "query": "owner hugging dog warmly"
+  },
+  "19a59080bfe1": {
+    "provider": "pexels",
+    "video_id": 34755400,
+    "path": "footage/pexels-34755400.mp4",
+    "source_page": "https://www.pexels.com/video/dog-and-cow-interaction-in-sunny-field-34755400/",
+    "duration": 24.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 20.5,
+    "query": "dog sniffing grass in park sunny"
+  },
+  "f1c278fcd8d2": {
+    "provider": "pexels",
+    "video_id": 6131494,
+    "path": "footage/pexels-6131494.mp4",
+    "source_page": "https://www.pexels.com/video/close-up-video-of-a-dog-6131494/",
+    "duration": 22.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 5.37,
+    "query": "close up dog face outdoors looking around"
+  },
+  "af9ef4185121": {
+    "provider": "pexels",
+    "video_id": 37676969,
+    "path": "footage/pexels-37676969.mp4",
+    "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/",
+    "duration": 31.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.73,
+    "query": "dog running in open field towards camera"
+  },
+  "39b45b791837": {
+    "provider": "pexels",
+    "video_id": 6568966,
+    "path": "footage/pexels-6568966.mp4",
+    "source_page": "https://www.pexels.com/video/a-brown-dog-with-a-placard-on-the-neck-6568966/",
+    "duration": 27.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 8.46,
+    "query": "sad dog behind shelter cage bars looking out"
+  },
+  "06e89055d15e": {
+    "provider": "pexels",
+    "video_id": 6664402,
+    "path": "footage/pexels-6664402.mp4",
+    "source_page": "https://www.pexels.com/video/video-of-a-dog-6664402/",
+    "duration": 16.0,
+    "width": 1440,
+    "height": 2496,
+    "motion": 7.41,
+    "query": "scared rescue dog cowering corner trembling"
+  },
+  "90e3fd259930": {
+    "provider": "pexels",
+    "video_id": 19823143,
+    "path": "footage/pexels-19823143.mp4",
+    "source_page": "https://www.pexels.com/video/love-dog-19823143/",
+    "duration": 11.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 2.98,
+    "query": "close up dog worried eyes"
+  },
+  "c64fafb50a2c": {
+    "provider": "pexels",
+    "video_id": 6568507,
+    "path": "footage/pexels-6568507.mp4",
+    "source_page": "https://www.pexels.com/video/man-and-woman-holding-a-dog-6568507/",
+    "duration": 35.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 5.76,
+    "query": "person softly hugging rescued dog"
+  },
+  "df6f86b5d21b": {
+    "provider": "pexels",
+    "video_id": 34755400,
+    "path": "footage/pexels-34755400.mp4",
+    "source_page": "https://www.pexels.com/video/dog-and-cow-interaction-in-sunny-field-34755400/",
+    "duration": 24.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 20.5,
+    "query": "dog sniffing grass in park sunny"
+  },
+  "c2957f9761ed": {
+    "provider": "pexels",
+    "video_id": 30432348,
+    "path": "footage/pexels-30432348.mp4",
+    "source_page": "https://www.pexels.com/video/lonely-dog-at-night-urban-setting-30432348/",
+    "duration": 16.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 5.68,
+    "query": "close up dog face outdoors looking around"
+  },
+  "8cad5a5d28f3": {
+    "provider": "pexels",
+    "video_id": 37676969,
+    "path": "footage/pexels-37676969.mp4",
+    "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/",
+    "duration": 31.0,
+    "width": 1080,
+    "height": 1920,
+    "motion": 12.73,
+    "query": "dog running in open field towards camera"
   }
 }

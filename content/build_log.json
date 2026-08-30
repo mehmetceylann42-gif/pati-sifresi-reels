@@ -477,5 +477,83 @@
         "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/"
       }
     ]
+  },
+  "24-kopek-manyetik-pusula": {
+    "built_at": "2026-08-30T14:00:21+00:00",
+    "duration": 32.84,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "comfortable-mystery",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog sniffing grass in park sunny",
+        "path": "footage/pexels-34755400.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dog-and-cow-interaction-in-sunny-field-34755400/"
+      },
+      {
+        "shot": 1,
+        "query": "close up dog face outdoors looking around",
+        "path": "footage/pexels-30432348.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/lonely-dog-at-night-urban-setting-30432348/"
+      },
+      {
+        "shot": 2,
+        "query": "dog running in open field towards camera",
+        "path": "footage/pexels-37676969.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playful-dog-fetching-ball-in-sunny-park-37676969/"
+      }
+    ]
+  },
+  "24-kopek-siddetin-izi": {
+    "built_at": "2026-08-30T13:57:52+00:00",
+    "duration": 33.16,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "sad dog behind shelter cage bars looking out",
+        "path": "footage/pexels-6568966.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-brown-dog-with-a-placard-on-the-neck-6568966/"
+      },
+      {
+        "shot": 1,
+        "query": "scared rescue dog cowering corner trembling",
+        "path": "footage/pexels-6664402.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/video-of-a-dog-6664402/"
+      },
+      {
+        "shot": 2,
+        "query": "close up dog worried eyes",
+        "path": "footage/pexels-19823143.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/love-dog-19823143/"
+      },
+      {
+        "shot": 3,
+        "query": "person softly hugging rescued dog",
+        "path": "footage/pexels-6568507.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/man-and-woman-holding-a-dog-6568507/"
+      }
+    ]
   }
 }
