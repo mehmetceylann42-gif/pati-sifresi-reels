@@ -4,7 +4,7 @@ $python = "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.1
 # @main jsDelivr cache'i icerik degistiginde saatlerce bayat kalabiliyor;
 # commit hash'e sabitlemek her push sonrasi anlik guncel dosya garantisi verir.
 # Yeni video/muzik/caption pushlandiginda bu hash'i `git rev-parse HEAD` ile guncelle.
-$template = "https://cdn.jsdelivr.net/gh/mehmetceylann42-gif/pati-sifresi-reels@2bba5b14cf47e62600bbd352dd6e947c2b4705ea/videos/{slug}.mp4"
+$template = "https://cdn.jsdelivr.net/gh/mehmetceylann42-gif/pati-sifresi-reels@1cae3c11d3c52fc40449d824512668058aca89c9/videos/{slug}.mp4"
 $logDir = Join-Path $root "logs"
 if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
 $logFile = Join-Path $logDir ("publish_{0}.log" -f (Get-Date -Format "yyyy-MM-dd_HHmmss"))
