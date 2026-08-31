@@ -180,8 +180,18 @@ def build_shots(
     return shots
 
 
-def mix_audio(vo_path: Path, music: Path | None, total: float, out_path: Path) -> None:
-    """Seslendirmeyi öne alır, müziği altına ducking ile serer."""
+def mix_audio(
+    vo_path: Path, music: Path | None, total: float, out_path: Path,
+    music_volume: float = 0.34, duck_threshold: float = 0.02,
+    duck_ratio: float = 14, duck_attack: float = 12, duck_release: float = 320,
+    music_fade_in: float = 0.7,
+) -> None:
+    """Seslendirmeyi öne alır, müziği altına ducking ile serer.
+
+    music_volume ve duck_* parametreleri storyboard'dan (board.get(...))
+    beat'e özgü geçilebilir; varsayılanlar önceki tüm Reel'lerin sesini
+    değiştirmeden bırakır.
+    """
     if music is None or not music.exists():
         subprocess.run(
             ["ffmpeg", "-y", "-loglevel", "error", "-i", str(vo_path),
@@ -195,11 +205,12 @@ def mix_audio(vo_path: Path, music: Path | None, total: float, out_path: Path) -
     graph = (
         f"[0:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB,volume=1.30,"
         f"aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[vo];"
-        f"[1:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume=0.34,"
-        f"afade=t=in:st=0:d=0.7,afade=t=out:st={fade_start:.3f}:d=1.2,"
+        f"[1:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume={music_volume:.3f},"
+        f"afade=t=in:st=0:d={music_fade_in:.2f},afade=t=out:st={fade_start:.3f}:d=1.2,"
         f"aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[mus];"
         f"[vo]asplit=2[vo_main][vo_key];"
-        f"[mus][vo_key]sidechaincompress=threshold=0.02:ratio=14:attack=12:release=320[duck];"
+        f"[mus][vo_key]sidechaincompress=threshold={duck_threshold:.3f}:ratio={duck_ratio:.1f}:"
+        f"attack={duck_attack:.0f}:release={duck_release:.0f}[duck];"
         f"[duck][vo_main]amix=inputs=2:duration=first:normalize=0,"
         # Sosyal platform hedefi ~-14 LUFS; her Reel'in aynı ses yüksekliğinde
         # çıkması kanalın "profesyonel" duyulmasının en ucuz yolu.
@@ -399,7 +410,15 @@ def build(slug: str, out_dir: Path, keep_work: bool = False,
 
         print("[6/6] Müzik karıştırılıyor ve birleştiriliyor")
         mixed = work / "mixed.m4a"
-        mix_audio(vo_track, music_path(board.get("music_id", "")), total, mixed)
+        mix_audio(
+            vo_track, music_path(board.get("music_id", "")), total, mixed,
+            music_volume=board.get("music_volume", 0.34),
+            duck_threshold=board.get("duck_threshold", 0.02),
+            duck_ratio=board.get("duck_ratio", 14),
+            duck_attack=board.get("duck_attack", 12),
+            duck_release=board.get("duck_release", 320),
+            music_fade_in=board.get("music_fade_in", 0.7),
+        )
 
     out_dir.mkdir(parents=True, exist_ok=True)
     output = out_dir / (f"{slug}.silent.mp4" if silent else f"{slug}.mp4")

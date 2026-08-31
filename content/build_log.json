@@ -571,5 +571,66 @@
         "source_page": "https://www.pexels.com/video/man-and-woman-holding-a-dog-6568507/"
       }
     ]
+  },
+  "25-hayvana-siddet-farkindalik": {
+    "built_at": "2026-08-31T08:28:18+00:00",
+    "duration": 53.5,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "lonely dog at night urban setting",
+        "path": "footage/pexels-30432348.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/lonely-dog-at-night-urban-setting-30432348/"
+      },
+      {
+        "shot": 1,
+        "query": "lady justice statue over a desk",
+        "path": "footage/pexels-8061753.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 2,
+        "query": "dog chained to wooden kennel",
+        "path": "footage/pexels-16257945.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 3,
+        "query": "close up of a gavel",
+        "path": "footage/pexels-6101349.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 4,
+        "query": "police officers inside police car",
+        "path": "footage/pexels-10466294.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 5,
+        "query": "moody urban night street scene with rain",
+        "path": "footage/pexels-38003073.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 6,
+        "query": "person using a smartphone to text",
+        "path": "footage/pexels-9898435.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 7,
+        "query": "volunteer caressing a dog",
+        "path": "footage/pexels-7474508.mp4",
+        "kind": "video"
+      }
+    ]
   }
 }

@@ -1,1843 +1,2067 @@
 [
-  {
-    "slug": "13-kopek-kuyruk-yonu",
-    "source_name": "Current Biology · Trento Üniversitesi, 2013",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/24184108/",
-    "music_id": "carefree",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog wagging tail",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.32,
-          0.3
-        ]
-      },
-      {
-        "query": "happy dog running in garden",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.32,
-          0.3
-        ]
-      },
-      {
-        "query": "scared dog hiding",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [
-          0.55,
-          0.45
-        ]
-      },
-      {
-        "query": "dog face close up looking at camera",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.3,
-          0.28
-        ]
-      },
-      {
-        "query": "two dogs meeting in park",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [
-          0.55,
-          0.45
-        ]
-      }
-    ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin kuyruk salladı diye rahat sanma.",
-        "chunks": [
-          "Köpeğin kuyruk salladı diye",
-          "RAHAT SANMA"
-        ],
-        "emph": [
-          "rahat",
-          "olduğunu",
-          "sanma"
-        ],
-        "y": 900,
-        "size": 84,
-        "pitch": "+8Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Mesele sallaması değil. Hangi tarafa salladığı.",
-        "chunks": [
-          "Mesele sallaması değil",
-          "HANGİ TARAFA salladığı"
-        ],
-        "emph": [
-          "hangi",
-          "tarafa"
-        ],
-        "pitch": "+2Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "payoff-a",
-        "shot": 1,
-        "vo": "Sağa sallıyorsa keyfi yerinde.",
-        "chunks": [
-          "Sağa sallıyorsa",
-          "KEYFİ YERİNDE"
-        ],
-        "emph": [
-          "sağa",
-          "keyfi",
-          "yerinde"
-        ],
-        "pitch": "+5Hz",
-        "pause_after": 0.22
-      },
-      {
-        "role": "payoff-b",
-        "shot": 2,
-        "vo": "Sola sallıyorsa tedirgin.",
-        "chunks": [
-          "Sola sallıyorsa",
-          "TEDİRGİN"
-        ],
-        "emph": [
-          "sola",
-          "tedirgin"
-        ],
-        "pitch": "-4Hz",
-        "pause_after": 0.34
-      },
-      {
-        "role": "mechanism",
-        "shot": 3,
-        "vo": "Çünkü kaygıyı beynin sağ yarım küresi yönetir, o taraf da kuyruğu sola çeker.",
-        "chunks": [
-          "Çünkü kaygıyı",
-          "beynin SAĞ YARIM KÜRESİ",
-          "yönetir",
-          "o taraf da kuyruğu",
-          "sola çeker"
-        ],
-        "emph": [
-          "sağ",
-          "yarım",
-          "küresi"
-        ],
-        "pitch": "-2Hz",
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 4,
-        "vo": "Trento Üniversitesi ölçtü: sola sallanan kuyruğu gören köpeklerin kalp atışı hızlandı.",
-        "chunks": [
-          "Trento Üniversitesi ölçtü:",
-          "sola sallanan kuyruğu gören",
-          "köpeklerin kalp atışı",
-          "HIZLANDI"
-        ],
-        "emph": [
-          "hızlandı"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 4,
-        "vo": "Bu akşam köpeğine bak. Hangi tarafa? Yoruma yaz.",
-        "chunks": [
-          "Bu akşam köpeğine bak",
-          "hangi tarafa?",
-          "YORUMA YAZ"
-        ],
-        "emph": [
-          "yoruma",
-          "yaz"
-        ],
-        "pitch": "+5Hz"
-      }
+ {
+  "slug": "13-kopek-kuyruk-yonu",
+  "source_name": "Current Biology · Trento Üniversitesi, 2013",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/24184108/",
+  "music_id": "carefree",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog wagging tail",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.32,
+     0.3
     ]
-  },
-  {
-    "slug": "09-kedi-goz-bebegi",
-    "source_name": "Science Advances · UC Berkeley & Durham, 2015",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/26601232/",
-    "music_id": "pixelland",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "cat eyes close up",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.34
-        ]
-      },
-      {
-        "query": "cat stalking crouching hunting",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.3
-        ],
-        "crop": [
-          0.16,
-          0.22,
-          0.94,
-          1.0
-        ]
-      },
-      {
-        "query": "lion portrait resting savanna",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.34
-        ]
-      },
-      {
-        "query": "cat looking at camera indoor",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.32
-        ]
-      }
-    ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Kedinin göz bebeği 135 kat açılıp kapanabiliyor. İnsanda bu sadece 15.",
-        "chunks": [
-          "Kedinin göz bebeği",
-          "135 KAT açılıp kapanabiliyor",
-          "insanda bu sadece 15"
-        ],
-        "emph": [
-          "135",
-          "kat"
-        ],
-        "y": 900,
-        "size": 84,
-        "pitch": "+8Hz",
-        "pause_after": 0.32
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Peki neden yuvarlak değil de dikey yarık?",
-        "chunks": [
-          "Peki neden yuvarlak değil de",
-          "DİKEY YARIK?"
-        ],
-        "emph": [
-          "dikey",
-          "yarık"
-        ],
-        "pitch": "+3Hz",
-        "pause_after": 0.32
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Çünkü bu şekil, avın uzaklığını milimetrik ölçüyor.",
-        "chunks": [
-          "Çünkü bu şekil",
-          "avın uzaklığını",
-          "MİLİMETRİK ölçüyor"
-        ],
-        "emph": [
-          "milimetrik"
-        ],
-        "pause_after": 0.24
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Yere yakın pusu kuran küçük avcıların merceği.",
-        "chunks": [
-          "Yere yakın PUSU kuran",
-          "küçük avcıların merceği"
-        ],
-        "emph": [
-          "pusu"
-        ],
-        "pitch": "-2Hz",
-        "pause_after": 0.34
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Kanıtı şu: aslanda ve kaplanda bu yarık yok. Onların göz bebeği yuvarlak.",
-        "chunks": [
-          "Kanıtı şu:",
-          "aslanda ve kaplanda",
-          "bu yarık YOK",
-          "onların göz bebeği yuvarlak"
-        ],
-        "emph": [
-          "yok"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 3,
-        "vo": "Kedine bak. Yarık mı, yuvarlak mı? Yoruma yaz.",
-        "chunks": [
-          "Kedine bak",
-          "yarık mı, yuvarlak mı?",
-          "YORUMA YAZ"
-        ],
-        "emph": [
-          "yoruma",
-          "yaz"
-        ],
-        "pitch": "+5Hz"
-      }
+   },
+   {
+    "query": "happy dog running in garden",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.32,
+     0.3
     ]
-  },
-  {
-    "slug": "15-kopek-burun-deligi",
-    "source_name": "Animal Behaviour · Bari & Trento Üniversitesi, 2011",
-    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347211002284",
-    "music_id": "comfortable-mystery",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog sniffing suspicious object curious",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "dog nose close up sniffing ground outdoor",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy relaxed dog panting sitting",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
-    ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin burnunda gizli bir mesai sistemi var, senden habersiz çalışıyor.",
-        "chunks": [
-          "Köpeğin burnunda gizli bir",
-          "mesai sistemi var,",
-          "senden habersiz ÇALIŞIYOR."
-        ],
-        "emph": [
-          "çalışıyor"
-        ],
-        "y": 900,
-        "size": 84,
-        "pitch": "+8Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yeni ya da ürkütücü bir koku gelince nöbeti hangi delik devralıyor, tahmin et.",
-        "chunks": [
-          "Yeni ya da ürkütücü bir koku gelince",
-          "nöbeti HANGİ DELİK devralıyor,",
-          "tahmin et."
-        ],
-        "emph": [
-          "hangi",
-          "delik"
-        ],
-        "pitch": "+2Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Cevap: Sağ burun deliği. O, işin 'önce güvenlik' kısmına bakıyor.",
-        "chunks": [
-          "Cevap: SAĞ BURUN DELİĞİ.",
-          "O, işin 'önce güvenlik'",
-          "kısmına bakıyor."
-        ],
-        "emph": [
-          "sağ",
-          "burun",
-          "deliği"
-        ],
-        "pitch": "+5Hz",
-        "pause_after": 0.24
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Çünkü o taraf beynin tehdit alarmını çalıştıran yarım küreye bağlı; koku tanıdık çıkana kadar mesai onda.",
-        "chunks": [
-          "Çünkü o taraf beynin",
-          "TEHDİT ALARMINI çalıştıran yarım küreye bağlı;",
-          "koku tanıdık çıkana kadar",
-          "mesai onda."
-        ],
-        "emph": [
-          "tehdit",
-          "alarmını"
-        ],
-        "pitch": "-2Hz",
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Bari Üniversitesi ölçtü: aynı koku ikinci kez verildiğinde köpekler işi sessizce sol burun deliğine devretti.",
-        "chunks": [
-          "Bari Üniversitesi ölçtü:",
-          "aynı koku ikinci kez verildiğinde",
-          "köpekler işi sessizce",
-          "SOL BURUN DELİĞİNE DEVRETTİ."
-        ],
-        "emph": [
-          "sol",
-          "burun",
-          "deliğine",
-          "devretti"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Köpeğine yabancı bir koku tut, hangi delik önce kalkıyor izle. Yoruma yaz.",
-        "chunks": [
-          "Köpeğine yabancı bir koku tut,",
-          "hangi delik önce kalkıyor izle.",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "yoruma",
-          "yaz"
-        ],
-        "pitch": "+5Hz"
-      }
+   },
+   {
+    "query": "scared dog hiding",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "focus": [
+     0.55,
+     0.45
     ]
-  },
-  {
-    "slug": "08-kedi-dili",
-    "source_name": "PNAS · Georgia Tech (Noel & Hu, 2018)",
-    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115",
-    "music_id": "sneaky-snitch",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "cat licking fur grooming close up",
-        "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "cat tongue close up licking",
-        "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "cute cat close up face portrait",
-        "fallback_media": "assets/08-kedi-dili.png",
-        "focus": [
-          0.5,
-          0.35
-        ]
-      }
-    ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Kedinin dilinde gizli bir sünger var, sen fark etmeden çalışıyor.",
-        "chunks": [
-          "Kedinin dilinde gizli bir",
-          "sünger var,",
-          "sen fark etmeden ÇALIŞIYOR."
-        ],
-        "emph": [
-          "çalışıyor"
-        ],
-        "y": 900,
-        "size": 84,
-        "pitch": "+8Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "O pürüzlerin gerçek şekli ne, hiç baktın mı?",
-        "chunks": [
-          "O pürüzlerin GERÇEK ŞEKLİ ne,",
-          "hiç baktın mı?"
-        ],
-        "emph": [
-          "gerçek",
-          "şekli"
-        ],
-        "pitch": "+2Hz",
-        "pause_after": 0.3
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Cevap: Huni gibi, içi boş, küçük kepçeler.",
-        "chunks": [
-          "Cevap: HUNİ GİBİ,",
-          "içi boş,",
-          "küçük kepçeler."
-        ],
-        "emph": [
-          "huni",
-          "gibi"
-        ],
-        "pitch": "+5Hz",
-        "pause_after": 0.24
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Her kepçe tükürüğü tüylerin dibine kadar çekiyor; hem temizliyor hem serinletiyor.",
-        "chunks": [
-          "Her kepçe tükürüğü",
-          "TÜYLERİN DİBİNE kadar çekiyor;",
-          "hem temizliyor",
-          "hem serinletiyor."
-        ],
-        "emph": [
-          "tüylerin",
-          "dibine"
-        ],
-        "pitch": "-2Hz",
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Georgia Tech bu yapıyı görünce gerçek bir fırça tasarladı: TIGR, parmakla silinip temizleniyor.",
-        "chunks": [
-          "Georgia Tech bu yapıyı görünce",
-          "gerçek bir fırça tasarladı:",
-          "TIGR, parmakla",
-          "silinip TEMİZLENİYOR."
-        ],
-        "emph": [
-          "parmakla",
-          "temizleniyor"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Kedini tımarlarken diline bak, küçük kepçeleri göreceksin. Yoruma yaz.",
-        "chunks": [
-          "Kedini tımarlarken diline bak,",
-          "küçük kepçeleri göreceksin.",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "yoruma",
-          "yaz"
-        ],
-        "pitch": "+5Hz"
-      }
+   },
+   {
+    "query": "dog face close up looking at camera",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.3,
+     0.28
     ]
-  },
-  {
-    "slug": "16-kopek-sucluluk-bakisi",
-    "source_name": "Behavioural Processes · Barnard College (Horowitz, 2009)",
-    "source_url": "https://barnard.edu/sites/default/files/inline-files/Disambiguating%20the%20guilty%20look.pdf",
-    "music_id": "bumbly-march",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "guilty looking dog head down ears back",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "dog next to torn pillow mess indoor",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy relaxed dog sitting living room",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
-    ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin suçlu suçlu bakması, bir şey yaptığını anladığının kanıtı.",
-        "chunks": [
-          "Köpeğin suçlu suçlu bakması,",
-          "bir şey yaptığını",
-          "anladığının kanıtı."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.34
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Hayır. O bakışın suçla hiçbir ilgisi yok.",
-        "chunks": [
-          "HAYIR.",
-          "O bakışın suçla",
-          "hiçbir ilgisi yok."
-        ],
-        "emph": [
-          "hayır"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.4
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Cevap: O bakış senin sesine tepki, kendi vicdanına değil.",
-        "chunks": [
-          "Cevap: O bakış",
-          "SENİN SESİNE tepki,",
-          "kendi vicdanına değil."
-        ],
-        "emph": [
-          "senin",
-          "sesine"
-        ],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Kızgın konuşunca kulaklar yatar, kuyruk kısılır, suçlu olsun olmasın tepki aynı.",
-        "chunks": [
-          "Kızgın konuşunca",
-          "kulaklar yatar, kuyruk kısılır,",
-          "suçlu olsun olmasın",
-          "tepki aynı."
-        ],
-        "emph": [
-          "aynı"
-        ],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Horowitz'in deneyinde en suçlu görünen köpekler, hiçbir şey yapmadığı halde azarlanan köpeklerdi.",
-        "chunks": [
-          "Horowitz'in deneyinde",
-          "EN SUÇLU GÖRÜNEN köpekler,",
-          "hiçbir şey yapmadığı halde",
-          "azarlanan köpeklerdi."
-        ],
-        "emph": [
-          "en",
-          "suçlu",
-          "görünen"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani en masum köpek en suçlu bakışı atabiliyor. Bir dahaki azarlayışında bak, yoruma yaz.",
-        "chunks": [
-          "Yani en masum köpek",
-          "EN SUÇLU BAKIŞI atabiliyor.",
-          "Bir dahaki azarlayışında bak,",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "en",
-          "suçlu",
-          "bakışı",
-          "yoruma",
-          "yaz"
-        ]
-      }
+   },
+   {
+    "query": "two dogs meeting in park",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "focus": [
+     0.55,
+     0.45
     ]
-  },
-  {
-    "slug": "17-kopek-oyun-egilmesi",
-    "source_name": "Behaviour · University of Colorado Boulder (Bekoff, 1995)",
-    "source_url": "https://www.wellbeingintlstudiesrepository.org/acwp_ena/30/",
-    "music_id": "gymnopedie-no-1",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog play bow front paws down tail up grass",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      },
-      {
-        "query": "two dogs playing wrestling chasing in park",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy dog running playful outdoor",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin kuyruk salladı diye rahat sanma.",
+    "chunks": [
+     "Köpeğin kuyruk salladı diye",
+     "RAHAT SANMA"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpek oyunda öne eğilip kuyruğunu çılgın gibi sallarsa, sırf heyecanlıdır.",
-        "chunks": [
-          "Köpek oyunda öne eğilip",
-          "kuyruğunu çılgın gibi sallarsa,",
-          "sırf heyecanlıdır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. O eğilme bir heyecan değil, bir uyarı.",
-        "chunks": [
-          "YANLIŞ.",
-          "O eğilme bir heyecan",
-          "değil, bir uyarı."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Köpek aslında şunu diyor: 'Şimdi yapacağım şey oyun, kavga değil.'",
-        "chunks": [
-          "Köpek aslında şunu diyor:",
-          "'Şimdi yapacağım şey oyun,",
-          "kavga değil.'"
-        ],
-        "emph": [],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Isırma, kovalama, üstüne atlama; normalde kavga sinyalidir. Ama bu eğilmeden hemen sonra gelirse, oyun sayılır.",
-        "chunks": [
-          "Isırma, kovalama, üstüne atlama;",
-          "normalde kavga sinyalidir.",
-          "Ama bu eğilmeden hemen sonra gelirse,",
-          "oyun sayılır."
-        ],
-        "emph": [
-          "oyun"
-        ],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Bekoff'un araştırmasına göre köpekler, oyun sertleştiğinde bu eğilmeyi bilerek tekrarlıyor.",
-        "chunks": [
-          "Bekoff'un araştırmasına göre",
-          "köpekler, oyun sertleştiğinde",
-          "bu eğilmeyi BİLEREK tekrarlıyor."
-        ],
-        "emph": [
-          "bilerek"
-        ],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani en sert oyun bile en kibar köpeğin işi olabilir. Ne zaman gördün, yoruma yaz.",
-        "chunks": [
-          "Yani en sert oyun bile",
-          "EN KİBAR köpeğin işi olabilir.",
-          "Ne zaman gördün,",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "en",
-          "kibar",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "18-kedi-yuze-bakma",
-    "source_name": "Animal Cognition · Milano Üniversitesi (Merola ve ark., 2015)",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/25573289/",
-    "music_id": "gymnopedie-no-1",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "cat looking up at owner face curious",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "cat cautiously approaching unfamiliar object indoor",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      },
-      {
-        "query": "relaxed cat sitting calm indoor",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      }
+    "emph": [
+     "rahat",
+     "olduğunu",
+     "sanma"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Kedi, tanımadığı bir şeyle karşılaşınca kararı tek başına verir.",
-        "chunks": [
-          "Kedi, tanımadığı bir şeyle",
-          "karşılaşınca kararı",
-          "tek başına verir."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. Kararsız kalınca doğrudan senin yüzüne bakıyor.",
-        "chunks": [
-          "YANLIŞ.",
-          "Kararsız kalınca doğrudan",
-          "senin yüzüne bakıyor."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Kedilerin yüzde yetmiş dokuzu, nesneyle senin yüzün arasında gidip geliyor.",
-        "chunks": [
-          "Kedilerin yüzde yetmiş dokuzu,",
-          "nesneyle senin yüzün",
-          "arasında gidip geliyor."
-        ],
-        "emph": [
-          "yetmiş",
-          "dokuzu"
-        ],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Sen sakin ve olumlu tepki verirsen kedi rahatlıyor; endişeli tepki verirsen o da mesafeli duruyor.",
-        "chunks": [
-          "Sen sakin ve olumlu",
-          "tepki verirsen kedi rahatlıyor;",
-          "endişeli tepki verirsen",
-          "o da mesafeli duruyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Milano Üniversitesi'nin deneyinde kediler, sahibinin tepkisine göre nesneye yaklaşma kararını değiştirdi.",
-        "chunks": [
-          "Milano Üniversitesi'nin deneyinde",
-          "kediler, sahibinin tepkisine göre",
-          "nesneye yaklaşma kararını değiştirdi."
-        ],
-        "emph": [],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani 'umursamaz' görünen kedi, aslında senin tepkini ölçüyor. Yeni bir şey getirdiğinde seni izliyor mu, yoruma yaz.",
-        "chunks": [
-          "Yani 'UMURSAMAZ' görünen kedi,",
-          "aslında senin tepkini ölçüyor.",
-          "Yeni bir şey getirdiğinde",
-          "seni izliyor mu, YORUMA YAZ."
-        ],
-        "emph": [
-          "umursamaz",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "19-kopek-uzgun-bakis",
-    "source_name": "PNAS · Portsmouth Üniversitesi (Kaminski ve ark., 2019)",
-    "source_url": "https://www.pnas.org/doi/10.1073/pnas.1820653116",
-    "music_id": "monkeys-spinning-monkeys",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog sad puppy eyes close up looking at camera",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "dog looking up at owner begging face",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy dog close up face outdoor",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "y": 900,
+    "size": 84,
+    "pitch": "+8Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Mesele sallaması değil. Hangi tarafa salladığı.",
+    "chunks": [
+     "Mesele sallaması değil",
+     "HANGİ TARAFA salladığı"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin sana üzgün üzgün bakması, duygusal olduğu için sanılır.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_00_hook.wav",
-        "chunks": [
-          "Köpeğin sana üzgün üzgün",
-          "bakması, duygusal olduğu",
-          "için sanılır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. O bakış, kurtlarda hiç olmayan bir kas sayesinde oluyor.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_01_turn.wav",
-        "chunks": [
-          "YANLIŞ.",
-          "O bakış, kurtlarda",
-          "hiç olmayan bir kas",
-          "sayesinde oluyor."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Köpekler evcilleşirken, kaşın iç kısmını kaldıran bir kas kazandı.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_02_payoff.wav",
-        "chunks": [
-          "Köpekler evcilleşirken,",
-          "kaşın iç kısmını",
-          "kaldıran bir kas kazandı."
-        ],
-        "emph": [],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Bu kas gözleri daha büyük, daha yavru gösteriyor; sen baktığında beynin bakım isteği tetikleniyor.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_03_mechanism.wav",
-        "chunks": [
-          "Bu kas gözleri daha büyük,",
-          "daha yavru gösteriyor;",
-          "sen baktığında beynin",
-          "bakım isteği tetikleniyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Kaminski'nin araştırmasına göre köpekler bu hareketi, sen bakarken çok daha sık yapıyor.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_04_proof.wav",
-        "chunks": [
-          "Kaminski'nin araştırmasına göre",
-          "köpekler bu hareketi,",
-          "sen bakarken çok",
-          "daha sık yapıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani o üzgün bakış duygu değil, sevimli bir manipülasyon. Köpeğin en son ne zaman böyle baktı, yoruma yaz.",
-        "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_05_cta.wav",
-        "chunks": [
-          "Yani o üzgün bakış",
-          "duygu değil, SEVİMLİ BİR MANİPÜLASYON.",
-          "Köpeğin en son ne zaman böyle baktı,",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "sevimli",
-          "bir",
-          "manipülasyon",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "20-kopek-seker-kokusu",
-    "source_name": "Diabetes Care · Cambridge Üniversitesi (Neupane ve ark., 2016)",
-    "source_url": "https://www.cam.ac.uk/research/news/diabetes-sniffer-dogs-scent-of-hypos-could-aid-development-of-new-tests",
-    "music_id": "wallpaper",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog sniffing owner hand close up",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "dog resting head on owner lap",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy dog with owner outdoor",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "emph": [
+     "hangi",
+     "tarafa"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Diyabet uyarı köpekleri, sahibinin ne hissettiğini anlayıp onu uyarıyor.",
-        "chunks": [
-          "Diyabet uyarı köpekleri,",
-          "sahibinin ne hissettiğini",
-          "anlayıp onu uyarıyor."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. Köpek senin nefesindeki tek bir kimyasalı kokluyor.",
-        "chunks": [
-          "YANLIŞ.",
-          "Köpek senin nefesindeki",
-          "tek bir kimyasalı kokluyor."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Kan şekerin düşünce, nefesindeki izopren miktarı neredeyse ikiye katlanıyor.",
-        "chunks": [
-          "Kan şekerin düşünce,",
-          "nefesindeki izopren miktarı",
-          "neredeyse ikiye katlanıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Bu değişimi sen fark etmiyorsun, çünkü kokusu yok; ama köpeğin burnu bu farkı rahatça yakalıyor.",
-        "chunks": [
-          "Bu değişimi sen fark etmiyorsun,",
-          "çünkü kokusu yok;",
-          "ama köpeğin burnu",
-          "bu farkı rahatça yakalıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Cambridge Üniversitesi'nin araştırmasına göre bu artış, hipoglisemi anında tutarlı şekilde ortaya çıkıyor.",
-        "chunks": [
-          "Cambridge Üniversitesi'nin araştırmasına göre",
-          "bu artış, hipoglisemi anında",
-          "tutarlı şekilde ortaya çıkıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani köpeğin sana sokulması sevgi değil, bir laboratuvar sonucu olabilir. Alışılmadık bir yakınlaşma fark ettin mi, yoruma yaz.",
-        "chunks": [
-          "Yani köpeğin sana sokulması",
-          "sevgi değil, BİR LABORATUVAR SONUCU olabilir.",
-          "Alışılmadık bir yakınlaşma fark ettin mi,",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "bir",
-          "laboratuvar",
-          "sonucu",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "21-kopek-isaret-anlama",
-    "source_name": "Science · Duke Üniversitesi (Hare ve ark., 2002)",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/12446914/",
-    "music_id": "carefree",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "owner pointing hand dog looking at cup",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "dog running to find hidden treat bowl",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "happy dog with owner outdoor",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "pitch": "+2Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "payoff-a",
+    "shot": 1,
+    "vo": "Sağa sallıyorsa keyfi yerinde.",
+    "chunks": [
+     "Sağa sallıyorsa",
+     "KEYFİ YERİNDE"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin, akıl konusunda şempanzenin gerisinde kaldığı sanılır.",
-        "chunks": [
-          "Köpeğin, akıl konusunda",
-          "şempanzenin gerisinde",
-          "kaldığı sanılır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. Tek bir konuda köpek şempanzeyi kolayca geçiyor.",
-        "chunks": [
-          "YANLIŞ.",
-          "Tek bir konuda",
-          "köpek şempanzeyi kolayca geçiyor."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Sen bir kabı işaret edince, köpek doğru kaba dosdoğru gidiyor.",
-        "chunks": [
-          "Sen bir kabı işaret edince,",
-          "köpek doğru kaba",
-          "dosdoğru gidiyor."
-        ],
-        "emph": [],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Şempanze aynı işareti görmezden geliyor; köpek, seninle bin yıllardır yaşadığı için onu doğrudan okuyor.",
-        "chunks": [
-          "Şempanze aynı işareti görmezden geliyor;",
-          "köpek, seninle bin yıllardır",
-          "yaşadığı için onu",
-          "doğrudan okuyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Duke Üniversitesi'nin deneyinde köpekler bu konuda insan bebekleri kadar başarılı çıktı.",
-        "chunks": [
-          "Duke Üniversitesi'nin deneyinde",
-          "köpekler bu konuda",
-          "insan bebekleri kadar",
-          "başarılı çıktı."
-        ],
-        "emph": [],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani parmağını takip etme konusunda köpeğin diploması var, şempanzenin yok. Köpeğin işaretini hiç kaçırıyor mu, yoruma yaz.",
-        "chunks": [
-          "Yani parmağını takip etme",
-          "konusunda KÖPEĞİN DİPLOMASI VAR,",
-          "şempanzenin yok. Köpeğin işaretini",
-          "hiç kaçırıyor mu, YORUMA YAZ."
-        ],
-        "emph": [
-          "köpeğin",
-          "diploması",
-          "var",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "22-kedi-agactan-inememe",
-    "source_name": "Zoology (Jena) · CONICET, Arjantin (Morales ve ark., 2017)",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/29329954/",
-    "music_id": "pixelland",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "cat climbing up tree trunk",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "cat stuck at top of tree looking down",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "relaxed cat sitting outdoor",
-        "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "emph": [
+     "sağa",
+     "keyfi",
+     "yerinde"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Kedin ağaca kolayca tırmanıyorsa, aynı rahatlıkla aşağı da inebilir sanılır.",
-        "chunks": [
-          "Kedin ağaca kolayca tırmanıyorsa,",
-          "aynı rahatlıkla aşağı da",
-          "inebilir sanılır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.3
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Yanlış. Başı önde inebilen sadece iki kedi türü var, seninki onlardan biri değil.",
-        "chunks": [
-          "YANLIŞ.",
-          "Başı önde inebilen",
-          "sadece iki kedi türü var,",
-          "seninki onlardan biri değil."
-        ],
-        "emph": [
-          "yanlış"
-        ],
-        "pitch": "-3Hz",
-        "pause_after": 0.36
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Sebep pati değil, bilek: margay ve bulutlu leopar bileğini yüz seksen derece çevirebiliyor.",
-        "chunks": [
-          "Sebep pati değil, bilek:",
-          "margay ve bulutlu leopar",
-          "bileğini yüz seksen derece çevirebiliyor."
-        ],
-        "emph": [],
-        "pause_after": 0.26
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Senin kedinin bileği tek yöne bakıyor, bu yüzden inerken pençeleri tutunamıyor.",
-        "chunks": [
-          "Senin kedinin bileği",
-          "tek yöne bakıyor,",
-          "bu yüzden inerken",
-          "pençeleri tutunamıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "2017'deki bir anatomi çalışması, bu dönüşü yalnızca bu iki türün kasında buldu.",
-        "chunks": [
-          "2017'deki bir anatomi çalışması,",
-          "bu dönüşü yalnızca",
-          "bu iki türün kasında buldu."
-        ],
-        "emph": [],
-        "pause_after": 0.3
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani itfaiyenin ağaçtan kedi indirmesi tembellik değil, anatomik kader. Kedin hiç ağaçta mahsur kaldı mı, yoruma yaz.",
-        "chunks": [
-          "Yani itfaiyenin ağaçtan kedi indirmesi",
-          "tembellik değil, ANATOMİK KADER.",
-          "Kedin hiç ağaçta mahsur kaldı mı,",
-          "YORUMA YAZ."
-        ],
-        "emph": [
-          "anatomik",
-          "kader",
-          "yoruma",
-          "yaz"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "23-kopek-sevinc-gozyasi",
-    "source_name": "Current Biology · Azabu Üniversitesi (Murata ve ark., 2022)",
-    "source_url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01132-0",
-    "music_id": "gymnopedie-no-1",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "dog running to greet owner at door excited",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "close up dog face eyes nuzzling owner",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "owner hugging dog warmly",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "pitch": "+5Hz",
+    "pause_after": 0.22
+   },
+   {
+    "role": "payoff-b",
+    "shot": 2,
+    "vo": "Sola sallıyorsa tedirgin.",
+    "chunks": [
+     "Sola sallıyorsa",
+     "TEDİRGİN"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin sana koşarak gelmesi sadece heyecandan sanılır.",
-        "chunks": [
-          "Köpeğin sana koşarak",
-          "gelmesi sadece",
-          "heyecandan sanılır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.32
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Aslında bazen gözlerinde gerçek yaş birikiyor.",
-        "chunks": [
-          "Aslında bazen gözlerinde",
-          "gerçek yaş birikiyor."
-        ],
-        "emph": [
-          "gerçek"
-        ],
-        "pause_after": 0.4
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Sahibiyle yeniden buluşan köpeklerde gözyaşı miktarı gerçekten artıyor.",
-        "chunks": [
-          "Sahibiyle yeniden buluşan",
-          "köpeklerde gözyaşı miktarı",
-          "gerçekten artıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.28
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Bu artış, sevgi hormonu oksitosinden kaynaklanıyor; ve bu sadece sana özel, tanıdık bir yabancıyla olmuyor.",
-        "chunks": [
-          "Bu artış, sevgi hormonu",
-          "oksitosinden kaynaklanıyor;",
-          "ve bu sadece sana özel,",
-          "tanıdık bir yabancıyla olmuyor."
-        ],
-        "emph": [
-          "sana",
-          "özel"
-        ],
-        "pause_after": 0.3
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Azabu Üniversitesi'nin araştırmasına göre bu gözyaşları, insanlarda köpeğe daha çok sahip çıkma isteği de uyandırıyor.",
-        "chunks": [
-          "Azabu Üniversitesi'nin araştırmasına göre",
-          "bu gözyaşları, insanlarda",
-          "köpeğe daha çok",
-          "sahip çıkma isteği de uyandırıyor."
-        ],
-        "emph": [],
-        "pause_after": 0.32
-      },
-      {
-        "role": "cta",
-        "shot": 2,
-        "vo": "Yani eve döndüğünde gözlerindeki o parlaklık, gerçekten seni özlediğinin kanıtı. Sen de onu kucakladığında ne hissediyorsun, yoruma yaz.",
-        "chunks": [
-          "Yani eve döndüğünde",
-          "gözlerindeki o parlaklık,",
-          "gerçekten seni özlediğinin kanıtı.",
-          "Sen de onu kucakladığında ne hissediyorsun, yoruma yaz."
-        ],
-        "emph": [
-          "seni",
-          "özlediğinin"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "24-kopek-manyetik-pusula",
-    "source_name": "Frontiers in Zoology - Hart ve ark. 2013 (Cek Yasam Bilimleri Universitesi & Duisburg-Essen Universitesi)",
-    "source_url": "https://frontiersinzoology.biomedcentral.com/articles/10.1186/1742-9994-10-80",
-    "music_id": "comfortable-mystery",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "media": "footage/pexels-32309993.mp4",
-        "note": "golden retriever yakin plan, gulumseyen yuz - kanca"
-      },
-      {
-        "media": "footage/pexels-37353341.mp4",
-        "note": "papatyalarin arasinda uzanan golden - eksen/mekanizma"
-      },
-      {
-        "media": "footage/pexels-5794702.mp4",
-        "note": "cimende oturan weimaraner - kanit beat'i"
-      },
-      {
-        "media": "footage/pexels-38087082.mp4",
-        "note": "orman patikasinda yuruyen kopek, yakin plan - eve donus/kestirme"
-      },
-      {
-        "media": "footage/pexels-32320875.mp4",
-        "note": "kameraya kosan yavru - kapanis"
-      }
+    "emph": [
+     "sola",
+     "tedirgin"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Köpeğin tuvaletini yapmadan önce dönüp duruyor. Yer beğenmiyor sanılır.",
-        "chunks": [
-          "Köpeğin tuvaletini",
-          "yapmadan önce dönüp duruyor.",
-          "Yer beğenmiyor sanılır."
-        ],
-        "emph": [],
-        "y": 900,
-        "size": 84,
-        "pause_after": 0.34
-      },
-      {
-        "role": "turn",
-        "shot": 0,
-        "vo": "Aslında pusulasını ayarlıyor.",
-        "chunks": [
-          "Aslında pusulasını ayarlıyor."
-        ],
-        "emph": [
-          "pusulasını"
-        ],
-        "pitch": "-2Hz",
-        "pause_after": 0.42
-      },
-      {
-        "role": "payoff",
-        "shot": 1,
-        "vo": "Köpekler tuvaletini kuzey-güney ekseninde yapıyor, doğu-batıya değil.",
-        "chunks": [
-          "Köpekler tuvaletini",
-          "kuzey-güney ekseninde yapıyor,",
-          "doğu-batıya değil."
-        ],
-        "emph": [
-          "kuzey-güney"
-        ],
-        "pause_after": 0.3
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Ama sadece manyetik alan sakinken; dalgalanınca tercih kayboluyor.",
-        "chunks": [
-          "Ama sadece",
-          "manyetik alan sakinken;",
-          "dalgalanınca tercih kayboluyor."
-        ],
-        "emph": [
-          "sakinken"
-        ],
-        "pause_after": 0.3
-      },
-      {
-        "role": "proof",
-        "shot": 2,
-        "vo": "Çek araştırmacılar iki yıl boyunca 1893 köpek kakası ölçtü.",
-        "chunks": [
-          "Çek araştırmacılar",
-          "iki yıl boyunca",
-          "1893 köpek kakası ölçtü."
-        ],
-        "emph": [
-          "1893"
-        ],
-        "pause_after": 0.32
-      },
-      {
-        "role": "tag",
-        "shot": 3,
-        "vo": "Eve dönerken de aynı pusula: önce 20 metre kuzey-güney koşuyorlar.",
-        "chunks": [
-          "Eve dönerken de aynı pusula:",
-          "önce 20 metre",
-          "kuzey-güney koşuyorlar."
-        ],
-        "emph": [
-          "20 metre"
-        ],
-        "pause_after": 0.34
-      },
-      {
-        "role": "cta",
-        "shot": 4,
-        "vo": "Pusulanı aç, köpeğin hangi yöne döndü yaz. Köpeği olana gönder.",
-        "chunks": [
-          "Pusulanı aç,",
-          "köpeğin hangi yöne döndü yaz.",
-          "Köpeği olana gönder."
-        ],
-        "emph": [
-          "hangi yöne"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "24-kopek-siddetin-izi",
-    "source_name": "Applied Animal Behaviour Science · Nebraska Omaha Üniversitesi (Buttner & Strasser, 2022)",
-    "source_url": "https://doi.org/10.1016/j.applanim.2022.105693",
-    "music_id": "gymnopedie-no-1",
-    "voice": "tr-TR-EmelNeural",
-    "rate": "+5%",
-    "image_is_ai": false,
-    "shots": [
-      {
-        "query": "sad dog behind shelter cage bars looking out",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "must_include": [
-          "dog"
-        ],
-        "focus": [
-          0.5,
-          0.4
-        ]
-      },
-      {
-        "query": "scared rescue dog cowering corner trembling",
-        "fallback_media": "assets/15-kopek-burun-deligi.jpg",
-        "must_include": [
-          "dog"
-        ],
-        "focus": [
-          0.5,
-          0.45
-        ]
-      },
-      {
-        "query": "person gently reaching hand to nervous dog",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "must_include": [
-          "dog"
-        ],
-        "focus": [
-          0.45,
-          0.4
-        ]
-      },
-      {
-        "query": "close up dog worried eyes",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "focus": [
-          0.5,
-          0.35
-        ]
-      },
-      {
-        "query": "person softly hugging rescued dog",
-        "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
-        "must_include": [
-          "dog"
-        ],
-        "focus": [
-          0.5,
-          0.45
-        ]
-      }
+    "pitch": "-4Hz",
+    "pause_after": 0.34
+   },
+   {
+    "role": "mechanism",
+    "shot": 3,
+    "vo": "Çünkü kaygıyı beynin sağ yarım küresi yönetir, o taraf da kuyruğu sola çeker.",
+    "chunks": [
+     "Çünkü kaygıyı",
+     "beynin SAĞ YARIM KÜRESİ",
+     "yönetir",
+     "o taraf da kuyruğu",
+     "sola çeker"
     ],
-    "beats": [
-      {
-        "role": "hook",
-        "shot": 0,
-        "vo": "Kötü muamele gören bir köpek eve alındığında her şeyin düzeldiğini sanırız.",
-        "chunks": [
-          "Kötü muamele gören bir köpek",
-          "eve alındığında",
-          "her şeyin düzeldiğini sanırız."
-        ],
-        "emph": [],
-        "y": 860,
-        "size": 80,
-        "pause_after": 0.34
-      },
-      {
-        "role": "turn",
-        "shot": 1,
-        "vo": "Ama bilim öyle demiyor.",
-        "chunks": [
-          "Ama bilim",
-          "ÖYLE DEMİYOR."
-        ],
-        "emph": [
-          "öyle",
-          "demiyor"
-        ],
-        "pause_after": 0.4
-      },
-      {
-        "role": "mechanism",
-        "shot": 1,
-        "vo": "Kötü koşullardan gelen köpeklerin stres hormonu belirgin biçimde daha yüksek çıkıyor; korku ve donup kalma davranışı diğer barınak köpeklerinden fazla.",
-        "chunks": [
-          "Kötü koşullardan gelen köpeklerin",
-          "stres hormonu belirgin biçimde",
-          "daha yüksek çıkıyor;",
-          "korku ve donup kalma davranışı",
-          "diğer barınak köpeklerinden fazla."
-        ],
-        "emph": [
-          "daha",
-          "yüksek"
-        ],
-        "pause_after": 0.3
-      },
-      {
-        "role": "proof",
-        "shot": 3,
-        "vo": "Nebraska Üniversitesi'nin araştırmasına göre bu fark, köpek güvenli bir eve yerleştirildikten sonra bile sürüyor.",
-        "chunks": [
-          "Nebraska Üniversitesi'nin araştırmasına göre",
-          "bu fark, köpek güvenli bir eve",
-          "yerleştirildikten sonra bile",
-          "sürüyor."
-        ],
-        "emph": [
-          "sürüyor"
-        ],
-        "pause_after": 0.32
-      },
-      {
-        "role": "cta",
-        "shot": 4,
-        "vo": "Yani bir hayvana yapılan kötülüğün izi kendiliğinden silinmiyor. Şiddete asla, sabra her zaman evet. Kötü muamele gördüğünü düşündüğün bir hayvan varsa sessiz kalma, ihbar et.",
-        "chunks": [
-          "Yani bir hayvana yapılan kötülüğün izi",
-          "kendiliğinden silinmiyor.",
-          "ŞİDDETE ASLA, SABRA HER ZAMAN EVET.",
-          "Kötü muamele gördüğünü düşündüğün",
-          "bir hayvan varsa sessiz kalma, ihbar et."
-        ],
-        "emph": [
-          "şiddete",
-          "asla",
-          "sabra",
-          "evet"
-        ],
-        "y": 860
-      }
+    "emph": [
+     "sağ",
+     "yarım",
+     "küresi"
+    ],
+    "pitch": "-2Hz",
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 4,
+    "vo": "Trento Üniversitesi ölçtü: sola sallanan kuyruğu gören köpeklerin kalp atışı hızlandı.",
+    "chunks": [
+     "Trento Üniversitesi ölçtü:",
+     "sola sallanan kuyruğu gören",
+     "köpeklerin kalp atışı",
+     "HIZLANDI"
+    ],
+    "emph": [
+     "hızlandı"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 4,
+    "vo": "Bu akşam köpeğine bak. Hangi tarafa? Yoruma yaz.",
+    "chunks": [
+     "Bu akşam köpeğine bak",
+     "hangi tarafa?",
+     "YORUMA YAZ"
+    ],
+    "emph": [
+     "yoruma",
+     "yaz"
+    ],
+    "pitch": "+5Hz"
+   }
+  ]
+ },
+ {
+  "slug": "09-kedi-goz-bebegi",
+  "source_name": "Science Advances · UC Berkeley & Durham, 2015",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/26601232/",
+  "music_id": "pixelland",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "cat eyes close up",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.34
     ]
-  }
+   },
+   {
+    "query": "cat stalking crouching hunting",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.3
+    ],
+    "crop": [
+     0.16,
+     0.22,
+     0.94,
+     1.0
+    ]
+   },
+   {
+    "query": "lion portrait resting savanna",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.34
+    ]
+   },
+   {
+    "query": "cat looking at camera indoor",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.32
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedinin göz bebeği 135 kat açılıp kapanabiliyor. İnsanda bu sadece 15.",
+    "chunks": [
+     "Kedinin göz bebeği",
+     "135 KAT açılıp kapanabiliyor",
+     "insanda bu sadece 15"
+    ],
+    "emph": [
+     "135",
+     "kat"
+    ],
+    "y": 900,
+    "size": 84,
+    "pitch": "+8Hz",
+    "pause_after": 0.32
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Peki neden yuvarlak değil de dikey yarık?",
+    "chunks": [
+     "Peki neden yuvarlak değil de",
+     "DİKEY YARIK?"
+    ],
+    "emph": [
+     "dikey",
+     "yarık"
+    ],
+    "pitch": "+3Hz",
+    "pause_after": 0.32
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Çünkü bu şekil, avın uzaklığını milimetrik ölçüyor.",
+    "chunks": [
+     "Çünkü bu şekil",
+     "avın uzaklığını",
+     "MİLİMETRİK ölçüyor"
+    ],
+    "emph": [
+     "milimetrik"
+    ],
+    "pause_after": 0.24
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Yere yakın pusu kuran küçük avcıların merceği.",
+    "chunks": [
+     "Yere yakın PUSU kuran",
+     "küçük avcıların merceği"
+    ],
+    "emph": [
+     "pusu"
+    ],
+    "pitch": "-2Hz",
+    "pause_after": 0.34
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Kanıtı şu: aslanda ve kaplanda bu yarık yok. Onların göz bebeği yuvarlak.",
+    "chunks": [
+     "Kanıtı şu:",
+     "aslanda ve kaplanda",
+     "bu yarık YOK",
+     "onların göz bebeği yuvarlak"
+    ],
+    "emph": [
+     "yok"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 3,
+    "vo": "Kedine bak. Yarık mı, yuvarlak mı? Yoruma yaz.",
+    "chunks": [
+     "Kedine bak",
+     "yarık mı, yuvarlak mı?",
+     "YORUMA YAZ"
+    ],
+    "emph": [
+     "yoruma",
+     "yaz"
+    ],
+    "pitch": "+5Hz"
+   }
+  ]
+ },
+ {
+  "slug": "15-kopek-burun-deligi",
+  "source_name": "Animal Behaviour · Bari & Trento Üniversitesi, 2011",
+  "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347211002284",
+  "music_id": "comfortable-mystery",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog sniffing suspicious object curious",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "dog nose close up sniffing ground outdoor",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy relaxed dog panting sitting",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin burnunda gizli bir mesai sistemi var, senden habersiz çalışıyor.",
+    "chunks": [
+     "Köpeğin burnunda gizli bir",
+     "mesai sistemi var,",
+     "senden habersiz ÇALIŞIYOR."
+    ],
+    "emph": [
+     "çalışıyor"
+    ],
+    "y": 900,
+    "size": 84,
+    "pitch": "+8Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yeni ya da ürkütücü bir koku gelince nöbeti hangi delik devralıyor, tahmin et.",
+    "chunks": [
+     "Yeni ya da ürkütücü bir koku gelince",
+     "nöbeti HANGİ DELİK devralıyor,",
+     "tahmin et."
+    ],
+    "emph": [
+     "hangi",
+     "delik"
+    ],
+    "pitch": "+2Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Cevap: Sağ burun deliği. O, işin 'önce güvenlik' kısmına bakıyor.",
+    "chunks": [
+     "Cevap: SAĞ BURUN DELİĞİ.",
+     "O, işin 'önce güvenlik'",
+     "kısmına bakıyor."
+    ],
+    "emph": [
+     "sağ",
+     "burun",
+     "deliği"
+    ],
+    "pitch": "+5Hz",
+    "pause_after": 0.24
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Çünkü o taraf beynin tehdit alarmını çalıştıran yarım küreye bağlı; koku tanıdık çıkana kadar mesai onda.",
+    "chunks": [
+     "Çünkü o taraf beynin",
+     "TEHDİT ALARMINI çalıştıran yarım küreye bağlı;",
+     "koku tanıdık çıkana kadar",
+     "mesai onda."
+    ],
+    "emph": [
+     "tehdit",
+     "alarmını"
+    ],
+    "pitch": "-2Hz",
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Bari Üniversitesi ölçtü: aynı koku ikinci kez verildiğinde köpekler işi sessizce sol burun deliğine devretti.",
+    "chunks": [
+     "Bari Üniversitesi ölçtü:",
+     "aynı koku ikinci kez verildiğinde",
+     "köpekler işi sessizce",
+     "SOL BURUN DELİĞİNE DEVRETTİ."
+    ],
+    "emph": [
+     "sol",
+     "burun",
+     "deliğine",
+     "devretti"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Köpeğine yabancı bir koku tut, hangi delik önce kalkıyor izle. Yoruma yaz.",
+    "chunks": [
+     "Köpeğine yabancı bir koku tut,",
+     "hangi delik önce kalkıyor izle.",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "yoruma",
+     "yaz"
+    ],
+    "pitch": "+5Hz"
+   }
+  ]
+ },
+ {
+  "slug": "08-kedi-dili",
+  "source_name": "PNAS · Georgia Tech (Noel & Hu, 2018)",
+  "source_url": "https://www.pnas.org/doi/10.1073/pnas.1809544115",
+  "music_id": "sneaky-snitch",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "cat licking fur grooming close up",
+    "fallback_media": "assets/08-kedi-dili.png",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "cat tongue close up licking",
+    "fallback_media": "assets/08-kedi-dili.png",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "cute cat close up face portrait",
+    "fallback_media": "assets/08-kedi-dili.png",
+    "focus": [
+     0.5,
+     0.35
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedinin dilinde gizli bir sünger var, sen fark etmeden çalışıyor.",
+    "chunks": [
+     "Kedinin dilinde gizli bir",
+     "sünger var,",
+     "sen fark etmeden ÇALIŞIYOR."
+    ],
+    "emph": [
+     "çalışıyor"
+    ],
+    "y": 900,
+    "size": 84,
+    "pitch": "+8Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "O pürüzlerin gerçek şekli ne, hiç baktın mı?",
+    "chunks": [
+     "O pürüzlerin GERÇEK ŞEKLİ ne,",
+     "hiç baktın mı?"
+    ],
+    "emph": [
+     "gerçek",
+     "şekli"
+    ],
+    "pitch": "+2Hz",
+    "pause_after": 0.3
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Cevap: Huni gibi, içi boş, küçük kepçeler.",
+    "chunks": [
+     "Cevap: HUNİ GİBİ,",
+     "içi boş,",
+     "küçük kepçeler."
+    ],
+    "emph": [
+     "huni",
+     "gibi"
+    ],
+    "pitch": "+5Hz",
+    "pause_after": 0.24
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Her kepçe tükürüğü tüylerin dibine kadar çekiyor; hem temizliyor hem serinletiyor.",
+    "chunks": [
+     "Her kepçe tükürüğü",
+     "TÜYLERİN DİBİNE kadar çekiyor;",
+     "hem temizliyor",
+     "hem serinletiyor."
+    ],
+    "emph": [
+     "tüylerin",
+     "dibine"
+    ],
+    "pitch": "-2Hz",
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Georgia Tech bu yapıyı görünce gerçek bir fırça tasarladı: TIGR, parmakla silinip temizleniyor.",
+    "chunks": [
+     "Georgia Tech bu yapıyı görünce",
+     "gerçek bir fırça tasarladı:",
+     "TIGR, parmakla",
+     "silinip TEMİZLENİYOR."
+    ],
+    "emph": [
+     "parmakla",
+     "temizleniyor"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Kedini tımarlarken diline bak, küçük kepçeleri göreceksin. Yoruma yaz.",
+    "chunks": [
+     "Kedini tımarlarken diline bak,",
+     "küçük kepçeleri göreceksin.",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "yoruma",
+     "yaz"
+    ],
+    "pitch": "+5Hz"
+   }
+  ]
+ },
+ {
+  "slug": "16-kopek-sucluluk-bakisi",
+  "source_name": "Behavioural Processes · Barnard College (Horowitz, 2009)",
+  "source_url": "https://barnard.edu/sites/default/files/inline-files/Disambiguating%20the%20guilty%20look.pdf",
+  "music_id": "bumbly-march",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "guilty looking dog head down ears back",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "dog next to torn pillow mess indoor",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy relaxed dog sitting living room",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin suçlu suçlu bakması, bir şey yaptığını anladığının kanıtı.",
+    "chunks": [
+     "Köpeğin suçlu suçlu bakması,",
+     "bir şey yaptığını",
+     "anladığının kanıtı."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.34
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Hayır. O bakışın suçla hiçbir ilgisi yok.",
+    "chunks": [
+     "HAYIR.",
+     "O bakışın suçla",
+     "hiçbir ilgisi yok."
+    ],
+    "emph": [
+     "hayır"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.4
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Cevap: O bakış senin sesine tepki, kendi vicdanına değil.",
+    "chunks": [
+     "Cevap: O bakış",
+     "SENİN SESİNE tepki,",
+     "kendi vicdanına değil."
+    ],
+    "emph": [
+     "senin",
+     "sesine"
+    ],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Kızgın konuşunca kulaklar yatar, kuyruk kısılır, suçlu olsun olmasın tepki aynı.",
+    "chunks": [
+     "Kızgın konuşunca",
+     "kulaklar yatar, kuyruk kısılır,",
+     "suçlu olsun olmasın",
+     "tepki aynı."
+    ],
+    "emph": [
+     "aynı"
+    ],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Horowitz'in deneyinde en suçlu görünen köpekler, hiçbir şey yapmadığı halde azarlanan köpeklerdi.",
+    "chunks": [
+     "Horowitz'in deneyinde",
+     "EN SUÇLU GÖRÜNEN köpekler,",
+     "hiçbir şey yapmadığı halde",
+     "azarlanan köpeklerdi."
+    ],
+    "emph": [
+     "en",
+     "suçlu",
+     "görünen"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani en masum köpek en suçlu bakışı atabiliyor. Bir dahaki azarlayışında bak, yoruma yaz.",
+    "chunks": [
+     "Yani en masum köpek",
+     "EN SUÇLU BAKIŞI atabiliyor.",
+     "Bir dahaki azarlayışında bak,",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "en",
+     "suçlu",
+     "bakışı",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "17-kopek-oyun-egilmesi",
+  "source_name": "Behaviour · University of Colorado Boulder (Bekoff, 1995)",
+  "source_url": "https://www.wellbeingintlstudiesrepository.org/acwp_ena/30/",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog play bow front paws down tail up grass",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "query": "two dogs playing wrestling chasing in park",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy dog running playful outdoor",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpek oyunda öne eğilip kuyruğunu çılgın gibi sallarsa, sırf heyecanlıdır.",
+    "chunks": [
+     "Köpek oyunda öne eğilip",
+     "kuyruğunu çılgın gibi sallarsa,",
+     "sırf heyecanlıdır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. O eğilme bir heyecan değil, bir uyarı.",
+    "chunks": [
+     "YANLIŞ.",
+     "O eğilme bir heyecan",
+     "değil, bir uyarı."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Köpek aslında şunu diyor: 'Şimdi yapacağım şey oyun, kavga değil.'",
+    "chunks": [
+     "Köpek aslında şunu diyor:",
+     "'Şimdi yapacağım şey oyun,",
+     "kavga değil.'"
+    ],
+    "emph": [],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Isırma, kovalama, üstüne atlama; normalde kavga sinyalidir. Ama bu eğilmeden hemen sonra gelirse, oyun sayılır.",
+    "chunks": [
+     "Isırma, kovalama, üstüne atlama;",
+     "normalde kavga sinyalidir.",
+     "Ama bu eğilmeden hemen sonra gelirse,",
+     "oyun sayılır."
+    ],
+    "emph": [
+     "oyun"
+    ],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Bekoff'un araştırmasına göre köpekler, oyun sertleştiğinde bu eğilmeyi bilerek tekrarlıyor.",
+    "chunks": [
+     "Bekoff'un araştırmasına göre",
+     "köpekler, oyun sertleştiğinde",
+     "bu eğilmeyi BİLEREK tekrarlıyor."
+    ],
+    "emph": [
+     "bilerek"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani en sert oyun bile en kibar köpeğin işi olabilir. Ne zaman gördün, yoruma yaz.",
+    "chunks": [
+     "Yani en sert oyun bile",
+     "EN KİBAR köpeğin işi olabilir.",
+     "Ne zaman gördün,",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "en",
+     "kibar",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "18-kedi-yuze-bakma",
+  "source_name": "Animal Cognition · Milano Üniversitesi (Merola ve ark., 2015)",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/25573289/",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "cat looking up at owner face curious",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "cat cautiously approaching unfamiliar object indoor",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "query": "relaxed cat sitting calm indoor",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedi, tanımadığı bir şeyle karşılaşınca kararı tek başına verir.",
+    "chunks": [
+     "Kedi, tanımadığı bir şeyle",
+     "karşılaşınca kararı",
+     "tek başına verir."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. Kararsız kalınca doğrudan senin yüzüne bakıyor.",
+    "chunks": [
+     "YANLIŞ.",
+     "Kararsız kalınca doğrudan",
+     "senin yüzüne bakıyor."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Kedilerin yüzde yetmiş dokuzu, nesneyle senin yüzün arasında gidip geliyor.",
+    "chunks": [
+     "Kedilerin yüzde yetmiş dokuzu,",
+     "nesneyle senin yüzün",
+     "arasında gidip geliyor."
+    ],
+    "emph": [
+     "yetmiş",
+     "dokuzu"
+    ],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Sen sakin ve olumlu tepki verirsen kedi rahatlıyor; endişeli tepki verirsen o da mesafeli duruyor.",
+    "chunks": [
+     "Sen sakin ve olumlu",
+     "tepki verirsen kedi rahatlıyor;",
+     "endişeli tepki verirsen",
+     "o da mesafeli duruyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Milano Üniversitesi'nin deneyinde kediler, sahibinin tepkisine göre nesneye yaklaşma kararını değiştirdi.",
+    "chunks": [
+     "Milano Üniversitesi'nin deneyinde",
+     "kediler, sahibinin tepkisine göre",
+     "nesneye yaklaşma kararını değiştirdi."
+    ],
+    "emph": [],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani 'umursamaz' görünen kedi, aslında senin tepkini ölçüyor. Yeni bir şey getirdiğinde seni izliyor mu, yoruma yaz.",
+    "chunks": [
+     "Yani 'UMURSAMAZ' görünen kedi,",
+     "aslında senin tepkini ölçüyor.",
+     "Yeni bir şey getirdiğinde",
+     "seni izliyor mu, YORUMA YAZ."
+    ],
+    "emph": [
+     "umursamaz",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "19-kopek-uzgun-bakis",
+  "source_name": "PNAS · Portsmouth Üniversitesi (Kaminski ve ark., 2019)",
+  "source_url": "https://www.pnas.org/doi/10.1073/pnas.1820653116",
+  "music_id": "monkeys-spinning-monkeys",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog sad puppy eyes close up looking at camera",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "dog looking up at owner begging face",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy dog close up face outdoor",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin sana üzgün üzgün bakması, duygusal olduğu için sanılır.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_00_hook.wav",
+    "chunks": [
+     "Köpeğin sana üzgün üzgün",
+     "bakması, duygusal olduğu",
+     "için sanılır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. O bakış, kurtlarda hiç olmayan bir kas sayesinde oluyor.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_01_turn.wav",
+    "chunks": [
+     "YANLIŞ.",
+     "O bakış, kurtlarda",
+     "hiç olmayan bir kas",
+     "sayesinde oluyor."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Köpekler evcilleşirken, kaşın iç kısmını kaldıran bir kas kazandı.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_02_payoff.wav",
+    "chunks": [
+     "Köpekler evcilleşirken,",
+     "kaşın iç kısmını",
+     "kaldıran bir kas kazandı."
+    ],
+    "emph": [],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Bu kas gözleri daha büyük, daha yavru gösteriyor; sen baktığında beynin bakım isteği tetikleniyor.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_03_mechanism.wav",
+    "chunks": [
+     "Bu kas gözleri daha büyük,",
+     "daha yavru gösteriyor;",
+     "sen baktığında beynin",
+     "bakım isteği tetikleniyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Kaminski'nin araştırmasına göre köpekler bu hareketi, sen bakarken çok daha sık yapıyor.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_04_proof.wav",
+    "chunks": [
+     "Kaminski'nin araştırmasına göre",
+     "köpekler bu hareketi,",
+     "sen bakarken çok",
+     "daha sık yapıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani o üzgün bakış duygu değil, sevimli bir manipülasyon. Köpeğin en son ne zaman böyle baktı, yoruma yaz.",
+    "voice_file": "voice_recordings/19-kopek-uzgun-bakis/beat_05_cta.wav",
+    "chunks": [
+     "Yani o üzgün bakış",
+     "duygu değil, SEVİMLİ BİR MANİPÜLASYON.",
+     "Köpeğin en son ne zaman böyle baktı,",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "sevimli",
+     "bir",
+     "manipülasyon",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "20-kopek-seker-kokusu",
+  "source_name": "Diabetes Care · Cambridge Üniversitesi (Neupane ve ark., 2016)",
+  "source_url": "https://www.cam.ac.uk/research/news/diabetes-sniffer-dogs-scent-of-hypos-could-aid-development-of-new-tests",
+  "music_id": "wallpaper",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog sniffing owner hand close up",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "dog resting head on owner lap",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy dog with owner outdoor",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Diyabet uyarı köpekleri, sahibinin ne hissettiğini anlayıp onu uyarıyor.",
+    "chunks": [
+     "Diyabet uyarı köpekleri,",
+     "sahibinin ne hissettiğini",
+     "anlayıp onu uyarıyor."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. Köpek senin nefesindeki tek bir kimyasalı kokluyor.",
+    "chunks": [
+     "YANLIŞ.",
+     "Köpek senin nefesindeki",
+     "tek bir kimyasalı kokluyor."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Kan şekerin düşünce, nefesindeki izopren miktarı neredeyse ikiye katlanıyor.",
+    "chunks": [
+     "Kan şekerin düşünce,",
+     "nefesindeki izopren miktarı",
+     "neredeyse ikiye katlanıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Bu değişimi sen fark etmiyorsun, çünkü kokusu yok; ama köpeğin burnu bu farkı rahatça yakalıyor.",
+    "chunks": [
+     "Bu değişimi sen fark etmiyorsun,",
+     "çünkü kokusu yok;",
+     "ama köpeğin burnu",
+     "bu farkı rahatça yakalıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Cambridge Üniversitesi'nin araştırmasına göre bu artış, hipoglisemi anında tutarlı şekilde ortaya çıkıyor.",
+    "chunks": [
+     "Cambridge Üniversitesi'nin araştırmasına göre",
+     "bu artış, hipoglisemi anında",
+     "tutarlı şekilde ortaya çıkıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani köpeğin sana sokulması sevgi değil, bir laboratuvar sonucu olabilir. Alışılmadık bir yakınlaşma fark ettin mi, yoruma yaz.",
+    "chunks": [
+     "Yani köpeğin sana sokulması",
+     "sevgi değil, BİR LABORATUVAR SONUCU olabilir.",
+     "Alışılmadık bir yakınlaşma fark ettin mi,",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "bir",
+     "laboratuvar",
+     "sonucu",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "21-kopek-isaret-anlama",
+  "source_name": "Science · Duke Üniversitesi (Hare ve ark., 2002)",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/12446914/",
+  "music_id": "carefree",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "owner pointing hand dog looking at cup",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "dog running to find hidden treat bowl",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "happy dog with owner outdoor",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin, akıl konusunda şempanzenin gerisinde kaldığı sanılır.",
+    "chunks": [
+     "Köpeğin, akıl konusunda",
+     "şempanzenin gerisinde",
+     "kaldığı sanılır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. Tek bir konuda köpek şempanzeyi kolayca geçiyor.",
+    "chunks": [
+     "YANLIŞ.",
+     "Tek bir konuda",
+     "köpek şempanzeyi kolayca geçiyor."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Sen bir kabı işaret edince, köpek doğru kaba dosdoğru gidiyor.",
+    "chunks": [
+     "Sen bir kabı işaret edince,",
+     "köpek doğru kaba",
+     "dosdoğru gidiyor."
+    ],
+    "emph": [],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Şempanze aynı işareti görmezden geliyor; köpek, seninle bin yıllardır yaşadığı için onu doğrudan okuyor.",
+    "chunks": [
+     "Şempanze aynı işareti görmezden geliyor;",
+     "köpek, seninle bin yıllardır",
+     "yaşadığı için onu",
+     "doğrudan okuyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Duke Üniversitesi'nin deneyinde köpekler bu konuda insan bebekleri kadar başarılı çıktı.",
+    "chunks": [
+     "Duke Üniversitesi'nin deneyinde",
+     "köpekler bu konuda",
+     "insan bebekleri kadar",
+     "başarılı çıktı."
+    ],
+    "emph": [],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani parmağını takip etme konusunda köpeğin diploması var, şempanzenin yok. Köpeğin işaretini hiç kaçırıyor mu, yoruma yaz.",
+    "chunks": [
+     "Yani parmağını takip etme",
+     "konusunda KÖPEĞİN DİPLOMASI VAR,",
+     "şempanzenin yok. Köpeğin işaretini",
+     "hiç kaçırıyor mu, YORUMA YAZ."
+    ],
+    "emph": [
+     "köpeğin",
+     "diploması",
+     "var",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "22-kedi-agactan-inememe",
+  "source_name": "Zoology (Jena) · CONICET, Arjantin (Morales ve ark., 2017)",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/29329954/",
+  "music_id": "pixelland",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "cat climbing up tree trunk",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "cat stuck at top of tree looking down",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "relaxed cat sitting outdoor",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedin ağaca kolayca tırmanıyorsa, aynı rahatlıkla aşağı da inebilir sanılır.",
+    "chunks": [
+     "Kedin ağaca kolayca tırmanıyorsa,",
+     "aynı rahatlıkla aşağı da",
+     "inebilir sanılır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Yanlış. Başı önde inebilen sadece iki kedi türü var, seninki onlardan biri değil.",
+    "chunks": [
+     "YANLIŞ.",
+     "Başı önde inebilen",
+     "sadece iki kedi türü var,",
+     "seninki onlardan biri değil."
+    ],
+    "emph": [
+     "yanlış"
+    ],
+    "pitch": "-3Hz",
+    "pause_after": 0.36
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Sebep pati değil, bilek: margay ve bulutlu leopar bileğini yüz seksen derece çevirebiliyor.",
+    "chunks": [
+     "Sebep pati değil, bilek:",
+     "margay ve bulutlu leopar",
+     "bileğini yüz seksen derece çevirebiliyor."
+    ],
+    "emph": [],
+    "pause_after": 0.26
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Senin kedinin bileği tek yöne bakıyor, bu yüzden inerken pençeleri tutunamıyor.",
+    "chunks": [
+     "Senin kedinin bileği",
+     "tek yöne bakıyor,",
+     "bu yüzden inerken",
+     "pençeleri tutunamıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "2017'deki bir anatomi çalışması, bu dönüşü yalnızca bu iki türün kasında buldu.",
+    "chunks": [
+     "2017'deki bir anatomi çalışması,",
+     "bu dönüşü yalnızca",
+     "bu iki türün kasında buldu."
+    ],
+    "emph": [],
+    "pause_after": 0.3
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani itfaiyenin ağaçtan kedi indirmesi tembellik değil, anatomik kader. Kedin hiç ağaçta mahsur kaldı mı, yoruma yaz.",
+    "chunks": [
+     "Yani itfaiyenin ağaçtan kedi indirmesi",
+     "tembellik değil, ANATOMİK KADER.",
+     "Kedin hiç ağaçta mahsur kaldı mı,",
+     "YORUMA YAZ."
+    ],
+    "emph": [
+     "anatomik",
+     "kader",
+     "yoruma",
+     "yaz"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "23-kopek-sevinc-gozyasi",
+  "source_name": "Current Biology · Azabu Üniversitesi (Murata ve ark., 2022)",
+  "source_url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01132-0",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "dog running to greet owner at door excited",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "close up dog face eyes nuzzling owner",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "owner hugging dog warmly",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin sana koşarak gelmesi sadece heyecandan sanılır.",
+    "chunks": [
+     "Köpeğin sana koşarak",
+     "gelmesi sadece",
+     "heyecandan sanılır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.32
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Aslında bazen gözlerinde gerçek yaş birikiyor.",
+    "chunks": [
+     "Aslında bazen gözlerinde",
+     "gerçek yaş birikiyor."
+    ],
+    "emph": [
+     "gerçek"
+    ],
+    "pause_after": 0.4
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Sahibiyle yeniden buluşan köpeklerde gözyaşı miktarı gerçekten artıyor.",
+    "chunks": [
+     "Sahibiyle yeniden buluşan",
+     "köpeklerde gözyaşı miktarı",
+     "gerçekten artıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.28
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Bu artış, sevgi hormonu oksitosinden kaynaklanıyor; ve bu sadece sana özel, tanıdık bir yabancıyla olmuyor.",
+    "chunks": [
+     "Bu artış, sevgi hormonu",
+     "oksitosinden kaynaklanıyor;",
+     "ve bu sadece sana özel,",
+     "tanıdık bir yabancıyla olmuyor."
+    ],
+    "emph": [
+     "sana",
+     "özel"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Azabu Üniversitesi'nin araştırmasına göre bu gözyaşları, insanlarda köpeğe daha çok sahip çıkma isteği de uyandırıyor.",
+    "chunks": [
+     "Azabu Üniversitesi'nin araştırmasına göre",
+     "bu gözyaşları, insanlarda",
+     "köpeğe daha çok",
+     "sahip çıkma isteği de uyandırıyor."
+    ],
+    "emph": [],
+    "pause_after": 0.32
+   },
+   {
+    "role": "cta",
+    "shot": 2,
+    "vo": "Yani eve döndüğünde gözlerindeki o parlaklık, gerçekten seni özlediğinin kanıtı. Sen de onu kucakladığında ne hissediyorsun, yoruma yaz.",
+    "chunks": [
+     "Yani eve döndüğünde",
+     "gözlerindeki o parlaklık,",
+     "gerçekten seni özlediğinin kanıtı.",
+     "Sen de onu kucakladığında ne hissediyorsun, yoruma yaz."
+    ],
+    "emph": [
+     "seni",
+     "özlediğinin"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "24-kopek-manyetik-pusula",
+  "source_name": "Frontiers in Zoology - Hart ve ark. 2013 (Cek Yasam Bilimleri Universitesi & Duisburg-Essen Universitesi)",
+  "source_url": "https://frontiersinzoology.biomedcentral.com/articles/10.1186/1742-9994-10-80",
+  "music_id": "comfortable-mystery",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "media": "footage/pexels-32309993.mp4",
+    "note": "golden retriever yakin plan, gulumseyen yuz - kanca"
+   },
+   {
+    "media": "footage/pexels-37353341.mp4",
+    "note": "papatyalarin arasinda uzanan golden - eksen/mekanizma"
+   },
+   {
+    "media": "footage/pexels-5794702.mp4",
+    "note": "cimende oturan weimaraner - kanit beat'i"
+   },
+   {
+    "media": "footage/pexels-38087082.mp4",
+    "note": "orman patikasinda yuruyen kopek, yakin plan - eve donus/kestirme"
+   },
+   {
+    "media": "footage/pexels-32320875.mp4",
+    "note": "kameraya kosan yavru - kapanis"
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin tuvaletini yapmadan önce dönüp duruyor. Yer beğenmiyor sanılır.",
+    "chunks": [
+     "Köpeğin tuvaletini",
+     "yapmadan önce dönüp duruyor.",
+     "Yer beğenmiyor sanılır."
+    ],
+    "emph": [],
+    "y": 900,
+    "size": 84,
+    "pause_after": 0.34
+   },
+   {
+    "role": "turn",
+    "shot": 0,
+    "vo": "Aslında pusulasını ayarlıyor.",
+    "chunks": [
+     "Aslında pusulasını ayarlıyor."
+    ],
+    "emph": [
+     "pusulasını"
+    ],
+    "pitch": "-2Hz",
+    "pause_after": 0.42
+   },
+   {
+    "role": "payoff",
+    "shot": 1,
+    "vo": "Köpekler tuvaletini kuzey-güney ekseninde yapıyor, doğu-batıya değil.",
+    "chunks": [
+     "Köpekler tuvaletini",
+     "kuzey-güney ekseninde yapıyor,",
+     "doğu-batıya değil."
+    ],
+    "emph": [
+     "kuzey-güney"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Ama sadece manyetik alan sakinken; dalgalanınca tercih kayboluyor.",
+    "chunks": [
+     "Ama sadece",
+     "manyetik alan sakinken;",
+     "dalgalanınca tercih kayboluyor."
+    ],
+    "emph": [
+     "sakinken"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Çek araştırmacılar iki yıl boyunca 1893 köpek kakası ölçtü.",
+    "chunks": [
+     "Çek araştırmacılar",
+     "iki yıl boyunca",
+     "1893 köpek kakası ölçtü."
+    ],
+    "emph": [
+     "1893"
+    ],
+    "pause_after": 0.32
+   },
+   {
+    "role": "tag",
+    "shot": 3,
+    "vo": "Eve dönerken de aynı pusula: önce 20 metre kuzey-güney koşuyorlar.",
+    "chunks": [
+     "Eve dönerken de aynı pusula:",
+     "önce 20 metre",
+     "kuzey-güney koşuyorlar."
+    ],
+    "emph": [
+     "20 metre"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 4,
+    "vo": "Pusulanı aç, köpeğin hangi yöne döndü yaz. Köpeği olana gönder.",
+    "chunks": [
+     "Pusulanı aç,",
+     "köpeğin hangi yöne döndü yaz.",
+     "Köpeği olana gönder."
+    ],
+    "emph": [
+     "hangi yöne"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "24-kopek-siddetin-izi",
+  "source_name": "Applied Animal Behaviour Science · Nebraska Omaha Üniversitesi (Buttner & Strasser, 2022)",
+  "source_url": "https://doi.org/10.1016/j.applanim.2022.105693",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "sad dog behind shelter cage bars looking out",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "must_include": [
+     "dog"
+    ],
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "query": "scared rescue dog cowering corner trembling",
+    "fallback_media": "assets/15-kopek-burun-deligi.jpg",
+    "must_include": [
+     "dog"
+    ],
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "query": "person gently reaching hand to nervous dog",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "must_include": [
+     "dog"
+    ],
+    "focus": [
+     0.45,
+     0.4
+    ]
+   },
+   {
+    "query": "close up dog worried eyes",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "focus": [
+     0.5,
+     0.35
+    ]
+   },
+   {
+    "query": "person softly hugging rescued dog",
+    "fallback_media": "assets/13-kopek-kuyruk-yonu.jpg",
+    "must_include": [
+     "dog"
+    ],
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kötü muamele gören bir köpek eve alındığında her şeyin düzeldiğini sanırız.",
+    "chunks": [
+     "Kötü muamele gören bir köpek",
+     "eve alındığında",
+     "her şeyin düzeldiğini sanırız."
+    ],
+    "emph": [],
+    "y": 860,
+    "size": 80,
+    "pause_after": 0.34
+   },
+   {
+    "role": "turn",
+    "shot": 1,
+    "vo": "Ama bilim öyle demiyor.",
+    "chunks": [
+     "Ama bilim",
+     "ÖYLE DEMİYOR."
+    ],
+    "emph": [
+     "öyle",
+     "demiyor"
+    ],
+    "pause_after": 0.4
+   },
+   {
+    "role": "mechanism",
+    "shot": 1,
+    "vo": "Kötü koşullardan gelen köpeklerin stres hormonu belirgin biçimde daha yüksek çıkıyor; korku ve donup kalma davranışı diğer barınak köpeklerinden fazla.",
+    "chunks": [
+     "Kötü koşullardan gelen köpeklerin",
+     "stres hormonu belirgin biçimde",
+     "daha yüksek çıkıyor;",
+     "korku ve donup kalma davranışı",
+     "diğer barınak köpeklerinden fazla."
+    ],
+    "emph": [
+     "daha",
+     "yüksek"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "proof",
+    "shot": 3,
+    "vo": "Nebraska Üniversitesi'nin araştırmasına göre bu fark, köpek güvenli bir eve yerleştirildikten sonra bile sürüyor.",
+    "chunks": [
+     "Nebraska Üniversitesi'nin araştırmasına göre",
+     "bu fark, köpek güvenli bir eve",
+     "yerleştirildikten sonra bile",
+     "sürüyor."
+    ],
+    "emph": [
+     "sürüyor"
+    ],
+    "pause_after": 0.32
+   },
+   {
+    "role": "cta",
+    "shot": 4,
+    "vo": "Yani bir hayvana yapılan kötülüğün izi kendiliğinden silinmiyor. Şiddete asla, sabra her zaman evet. Kötü muamele gördüğünü düşündüğün bir hayvan varsa sessiz kalma, ihbar et.",
+    "chunks": [
+     "Yani bir hayvana yapılan kötülüğün izi",
+     "kendiliğinden silinmiyor.",
+     "ŞİDDETE ASLA, SABRA HER ZAMAN EVET.",
+     "Kötü muamele gördüğünü düşündüğün",
+     "bir hayvan varsa sessiz kalma, ihbar et."
+    ],
+    "emph": [
+     "şiddete",
+     "asla",
+     "sabra",
+     "evet"
+    ],
+    "y": 860
+   }
+  ]
+ },
+ {
+  "slug": "25-hayvana-siddet-farkindalik",
+  "source_name": "7332 sayılı Kanun (R.G. 14.07.2021) · 5199 sayılı Hayvanları Koruma Kanunu m.28/A · FBI NIBRS 2016 Animal Cruelty",
+  "source_url": "https://www.fbi.gov/news/stories/-tracking-animal-cruelty",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+0%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "media": "footage/pexels-30432348.mp4",
+    "query": "lonely dog at night urban setting",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-8061753.mp4",
+    "query": "lady justice statue over a desk",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "media": "footage/pexels-16257945.mp4",
+    "query": "dog chained to wooden kennel",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-6101349.mp4",
+    "query": "close up of a gavel",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-10466294.mp4",
+    "query": "police officers inside police car",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   {
+    "media": "footage/pexels-38003073.mp4",
+    "query": "moody urban night street scene with rain",
+    "motion": "pan_left",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   {
+    "media": "footage/pexels-9898435.mp4",
+    "query": "person using a smartphone to text",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-7474508.mp4",
+    "query": "volunteer caressing a dog",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "2021'e kadar bu ülkede bir sokak köpeğini öldürmenin karşılığı hapis değildi.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_00_hook.wav",
+    "chunks": [
+     "2021'e kadar bu ülkede",
+     "bir sokak köpeğini öldürmenin",
+     "karşılığı HAPİS DEĞİLDİ."
+    ],
+    "emph": [
+     "hapis",
+     "değildi"
+    ],
+    "y": 880,
+    "size": 82,
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn",
+    "shot": 1,
+    "vo": "Çünkü kanun hayvanı bir canlı değil, zarar verilebilen bir mal olarak görüyordu.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_01_turn.wav",
+    "chunks": [
+     "Çünkü kanun hayvanı",
+     "bir canlı değil,",
+     "zarar verilebilen bir MAL",
+     "olarak görüyordu."
+    ],
+    "emph": [
+     "mal"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "mechanism",
+    "shot": 2,
+    "vo": "14 Temmuz 2021'de bu değişti. Hayvanlar mal olmaktan çıkarıldı, eziyet ve öldürme suç sayıldı.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_02_mechanism.wav",
+    "chunks": [
+     "14 Temmuz 2021'de bu değişti.",
+     "Hayvanlar 'mal' olmaktan çıkarıldı;",
+     "eziyet ve öldürme SUÇ sayıldı."
+    ],
+    "emph": [
+     "suç"
+    ],
+    "pause_after": 0.22
+   },
+   {
+    "role": "verdict",
+    "shot": 3,
+    "vo": "Bugün bir sokak hayvanını kasten öldürene 6 aydan 4 yıla kadar hapis var.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_03_verdict.wav",
+    "chunks": [
+     "Bugün bir sokak hayvanını kasten öldürene",
+     "6 AYDAN 4 YILA KADAR HAPİS var."
+    ],
+    "emph": [
+     "6",
+     "4"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "proof",
+    "shot": 4,
+    "vo": "Peki bu neden sadece hayvan meselesi değil? FBI 2016'dan beri hayvana eziyeti kayıtlarında cinayet ve kundaklamayla aynı grupta topluyor.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_04_proof.wav",
+    "chunks": [
+     "Peki bu neden",
+     "sadece hayvan meselesi değil?",
+     "FBI 2016'dan beri hayvana eziyeti",
+     "CİNAYET VE KUNDAKLAMAYLA",
+     "aynı grupta topluyor."
+    ],
+    "emph": [
+     "cinayet",
+     "kundaklamayla"
+    ],
+    "pause_after": 0.3
+   },
+   {
+    "role": "turn2",
+    "shot": 5,
+    "vo": "Çünkü veriler tek bir şey söylüyor: hayvana yönelen şiddet orada durmuyor.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_05_turn2.wav",
+    "chunks": [
+     "Çünkü veriler tek bir şey söylüyor:",
+     "hayvana yönelen şiddet",
+     "ORADA DURMUYOR."
+    ],
+    "emph": [
+     "orada",
+     "durmuyor"
+    ],
+    "pause_after": 0.42
+   },
+   {
+    "role": "cta",
+    "shot": 6,
+    "vo": "O yüzden gördüğünde susma. Kendini riske atma; uzaktan kaydet, konumu not et, HAYDİ uygulamasından ihbar et.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_06_cta.wav",
+    "chunks": [
+     "O yüzden gördüğünde SUSMA.",
+     "Kendini riske atma;",
+     "uzaktan kaydet, konumu not et,",
+     "HAYDİ uygulamasından ihbar et."
+    ],
+    "emph": [
+     "susma",
+     "HAYDİ"
+    ],
+    "pause_after": 0.26
+   },
+   {
+    "role": "closer",
+    "shot": 7,
+    "vo": "İhbar edilmeyen her olay kayıtlara hiç geçmiyor. Bunu bir kişi daha görsün; belki tam o anda orada olan kişi odur.",
+    "voice_file": "voice_recordings/25-hayvana-siddet-farkindalik/beat_07_closer.wav",
+    "chunks": [
+     "İhbar edilmeyen her olay",
+     "kayıtlara HİÇ GEÇMİYOR.",
+     "Bunu bir kişi daha görsün;",
+     "belki tam o anda",
+     "orada olan kişi odur."
+    ],
+    "emph": [
+     "hiç",
+     "geçmiyor"
+    ],
+    "y": 880
+   }
+  ],
+  "music_volume": 0.6,
+  "duck_threshold": 0.05,
+  "duck_ratio": 6,
+  "duck_attack": 25,
+  "duck_release": 480,
+  "music_fade_in": 1.1
+ }
 ]

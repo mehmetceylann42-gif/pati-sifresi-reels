@@ -1,0 +1,25 @@
+Bu klasore su 8 WAV dosyasi konacak (isimler birebir):
+
+beat_00_hook.wav
+  2021'e kadar bu ülkede bir sokak köpeğini öldürmenin karşılığı hapis değildi.
+
+beat_01_turn.wav
+  Çünkü kanun hayvanı bir canlı değil, zarar verilebilen bir mal olarak görüyordu.
+
+beat_02_payoff.wav
+  Eziyet edilen sahipsiz bir hayvan için yazılan tek şey, çoğu zaman bir para cezasıydı.
+
+beat_03_mechanism.wav
+  14 Temmuz 2021'de bu değişti. Hayvanlar mal olmaktan çıkarıldı, eziyet ve öldürme suç sayıldı. Bugün bir sokak hayvanını kasten öldürene 6 aydan 4 yıla kadar hapis var.
+
+beat_04_proof.wav
+  Peki bu neden sadece hayvan meselesi değil? FBI 2016'dan beri hayvana eziyeti kayıtlarında cinayet ve kundaklamayla aynı grupta topluyor.
+
+beat_05_turn2.wav
+  Çünkü veriler tek bir şey söylüyor: hayvana yönelen şiddet orada durmuyor.
+
+beat_06_cta.wav
+  O yüzden gördüğünde susma. Kendini riske atma; uzaktan kaydet, konumu not et, HAYDİ uygulamasından ihbar et. Acil durumda 112, yaralı hayvan için belediyenin 153 hattı.
+
+beat_07_closer.wav
+  İhbar edilmeyen her olay kayıtlara hiç geçmiyor. Bunu bir kişi daha görsün; belki tam o anda orada olan kişi odur.
