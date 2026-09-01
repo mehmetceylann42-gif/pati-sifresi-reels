@@ -691,5 +691,64 @@
         "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/"
       }
     ]
+  },
+  "27-kedi-adini-biliyor": {
+    "built_at": "2026-09-01T07:48:22+00:00",
+    "duration": 35.82,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": false,
+    "music_id": "monkeys-spinning-monkeys",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "cat looking at camera indoor ignoring owner",
+        "path": "footage/pexels-6865082.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-with-her-cat-on-the-bed-6865082/"
+      },
+      {
+        "shot": 1,
+        "query": "cat ears listening close up",
+        "path": "footage/pexels-7691953.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/close-up-of-cat-s-face-7691953/"
+      },
+      {
+        "shot": 2,
+        "query": "cute cat close up face portrait",
+        "path": "footage/pexels-7592608.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-close-up-video-of-a-cat-s-face-7592608/"
+      },
+      {
+        "shot": 3,
+        "query": "relaxed cat lying down ignoring owner",
+        "path": "footage/pexels-6853910.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/two-pet-cats-resting-indoors-6853910/"
+      },
+      {
+        "shot": 4,
+        "query": "cat walking away independent",
+        "path": "footage/pexels-34814981.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/curious-cat-exploring-urban-environment-34814981/"
+      },
+      {
+        "shot": 5,
+        "query": "funny serious cat sitting close up",
+        "path": "footage/pexels-7056812.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-cat-sitting-7056812/"
+      }
+    ]
   }
 }

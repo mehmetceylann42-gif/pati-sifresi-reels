@@ -2251,5 +2251,221 @@
   "duck_attack": 22,
   "duck_release": 460,
   "music_fade_in": 1.0
+ },
+ {
+  "slug": "27-kedi-adini-biliyor",
+  "source_name": "Scientific Reports · Tokyo Üniversitesi (Saito ve ark., 2019)",
+  "source_url": "https://www.nature.com/articles/s41598-019-40616-4",
+  "music_id": "monkeys-spinning-monkeys",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+0%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "media": "footage/pexels-6865082.mp4",
+    "query": "cat looking at camera indoor ignoring owner",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.36
+    ]
+   },
+   {
+    "media": "footage/pexels-7691953.mp4",
+    "query": "cat ears listening close up",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.36
+    ]
+   },
+   {
+    "media": "footage/pexels-7592608.mp4",
+    "query": "cute cat close up face portrait",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.35
+    ]
+   },
+   {
+    "media": "footage/pexels-6853910.mp4",
+    "query": "relaxed cat lying down ignoring owner",
+    "motion": "pan_left",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   {
+    "media": "footage/pexels-34814981.mp4",
+    "query": "cat walking away independent",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   {
+    "media": "footage/pexels-7056812.mp4",
+    "query": "funny serious cat sitting close up",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedin adını bilmiyor sanıyorsan, kötü haberim var.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_00_hook.wav",
+    "chunks": [
+     "Kedin adını bilmiyor sanıyorsan,",
+     "KÖTÜ HABERİM VAR."
+    ],
+    "pause_after": 0.2,
+    "emph": [
+     "kötü",
+     "haberim"
+    ],
+    "y": 870,
+    "size": 84
+   },
+   {
+    "role": "experiment1",
+    "shot": 1,
+    "vo": "Bilim insanları kedilere önce alakasız kelimeler söyledi.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_01_experiment1.wav",
+    "chunks": [
+     "Bilim insanları kedilere",
+     "önce alakasız kelimeler söyledi."
+    ],
+    "pause_after": 0.2
+   },
+   {
+    "role": "experiment2",
+    "shot": 1,
+    "vo": "Kediler alışınca tepkileri azaldı.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_02_experiment2.wav",
+    "chunks": [
+     "Kediler alışınca",
+     "tepkileri azaldı."
+    ],
+    "pause_after": 0.2
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Sonra kendi adları söylendi ve tepki geri geldi.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_03_proof.wav",
+    "chunks": [
+     "Sonra kendi adları söylendi",
+     "ve TEPKİ GERİ GELDİ."
+    ],
+    "pause_after": 0.28,
+    "emph": [
+     "tepki",
+     "geri",
+     "geldi"
+    ]
+   },
+   {
+    "role": "meaning",
+    "shot": 2,
+    "vo": "Yani “Mırmır gel buraya” dediğinde, o ses efektini tanıyor.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_04_meaning.wav",
+    "chunks": [
+     "Yani “Mırmır gel buraya” dediğinde,",
+     "o ses efektini tanıyor."
+    ],
+    "pause_after": 0.2,
+    "emph": [
+     "tanıyor"
+    ]
+   },
+   {
+    "role": "rule",
+    "shot": 3,
+    "vo": "Ama kedi dünyasında “duydum” demek, “geliyorum” demek değil.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_05_rule.wav",
+    "chunks": [
+     "Ama kedi dünyasında “duydum” demek,",
+     "“geliyorum” demek değil."
+    ],
+    "pause_after": 0.2,
+    "emph": [
+     "değil"
+    ]
+   },
+   {
+    "role": "dog_cat",
+    "shot": 4,
+    "vo": "Senin köpeğin çağrılınca gelir. Kedin çağrılınca önce hayatını sorgular.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_06_dog_cat.wav",
+    "chunks": [
+     "Senin köpeğin çağrılınca gelir.",
+     "Kedin çağrılınca önce hayatını sorgular."
+    ],
+    "pause_after": 0.2,
+    "emph": [
+     "hayatını",
+     "sorgular"
+    ]
+   },
+   {
+    "role": "not_understand",
+    "shot": 5,
+    "vo": "Yani kedin seni anlamıyor değil.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_07_not_understand.wav",
+    "chunks": [
+     "Yani kedin seni",
+     "anlamıyor değil."
+    ],
+    "pause_after": 0.2,
+    "emph": [
+     "değil"
+    ]
+   },
+   {
+    "role": "boardroom",
+    "shot": 5,
+    "vo": "Sadece bazen seni yönetim kurulu gündemine almıyor.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_08_boardroom.wav",
+    "chunks": [
+     "Sadece bazen seni",
+     "YÖNETİM KURULU gündemine almıyor."
+    ],
+    "pause_after": 0.28,
+    "emph": [
+     "yönetim",
+     "kurulu"
+    ]
+   },
+   {
+    "role": "cta",
+    "shot": 5,
+    "vo": "Kedinin adını söyleyince ne yapıyor? Yoruma yaz.",
+    "voice_file": "voice_recordings/27-kedi-adini-biliyor/beat_09_cta.wav",
+    "chunks": [
+     "Kedinin adını söyleyince ne yapıyor?",
+     "YORUMA YAZ."
+    ],
+    "pause_after": 0.28,
+    "emph": [
+     "yoruma",
+     "yaz"
+    ],
+    "y": 870
+   }
+  ],
+  "music_volume": 0.42,
+  "duck_threshold": 0.035,
+  "duck_ratio": 8,
+  "duck_attack": 18,
+  "duck_release": 420,
+  "music_fade_in": 0.6
  }
 ]
