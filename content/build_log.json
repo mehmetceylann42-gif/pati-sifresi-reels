@@ -750,5 +750,56 @@
         "source_page": "https://www.pexels.com/video/a-cat-sitting-7056812/"
       }
     ]
+  },
+  "28-kedi-top-getirme": {
+    "built_at": "2026-09-01T15:02:14+00:00",
+    "duration": 22.63,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "bumbly-march",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "cat carrying toy in mouth walking indoors",
+        "path": "footage/pexels-37293872.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/relaxed-cats-in-cozy-indoor-setting-37293872/"
+      },
+      {
+        "shot": 1,
+        "query": "playful cat chasing ball indoors",
+        "path": "footage/pexels-6853911.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-ginger-cat-on-the-floor-6853911/"
+      },
+      {
+        "shot": 2,
+        "query": "kitten playing with small toy ball",
+        "path": "footage/pexels-6864989.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playing-bait-with-a-cat-6864989/"
+      },
+      {
+        "shot": 3,
+        "query": "cat owner playing together with toy",
+        "path": "footage/pexels-6864596.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playing-catch-the-bait-with-a-cat-6864596/"
+      },
+      {
+        "shot": 4,
+        "query": "funny proud cat close up looking camera",
+        "path": "footage/pexels-6865077.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-cat-getting-petting-on-the-bed-6865077/"
+      }
+    ]
   }
 }

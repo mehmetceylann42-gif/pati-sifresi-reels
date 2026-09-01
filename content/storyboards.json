@@ -2467,5 +2467,105 @@
   "duck_attack": 18,
   "duck_release": 420,
   "music_fade_in": 0.6
+ },
+ {
+  "slug": "28-kedi-top-getirme",
+  "source_name": "Scientific Reports · Sussex Üniversitesi (Forman, Renner & Leavens, 2023)",
+  "source_url": "https://www.nature.com/articles/s41598-023-47409-w",
+  "music_id": "bumbly-march",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+5%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "query": "cat carrying toy in mouth walking indoors",
+    "fallback_media": "assets/08-kedi-dili.jpg",
+    "must_include": ["cat"],
+    "focus": [0.5, 0.42]
+   },
+   {
+    "query": "playful cat chasing ball indoors",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "must_include": ["cat"],
+    "focus": [0.5, 0.48]
+   },
+   {
+    "query": "kitten playing with small toy ball",
+    "fallback_media": "assets/08-kedi-dili.jpg",
+    "must_include": ["cat"],
+    "focus": [0.5, 0.44]
+   },
+   {
+    "query": "cat owner playing together with toy",
+    "fallback_media": "assets/09-kedi-goz-bebegi.jpg",
+    "must_include": ["cat"],
+    "focus": [0.5, 0.45]
+   },
+   {
+    "query": "funny proud cat close up looking camera",
+    "fallback_media": "assets/08-kedi-dili.jpg",
+    "must_include": ["cat"],
+    "focus": [0.5, 0.38]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Kedin topu geri getiriyorsa, onu sen eğittin sanıyorsun.",
+    "chunks": ["Kedin topu geri getiriyorsa,", "ONU SEN EĞİTTİN sanıyorsun."],
+    "emph": ["onu", "sen", "eğittin"],
+    "y": 870,
+    "size": 84,
+    "pause_after": 0.24
+   },
+   {
+    "role": "turn",
+    "shot": 1,
+    "vo": "Araştırmaya göre büyük ihtimalle tam tersi.",
+    "chunks": ["Araştırmaya göre", "BÜYÜK İHTİMALLE TAM TERSİ."],
+    "emph": ["tam", "tersi"],
+    "pitch": "-2Hz",
+    "pause_after": 0.34
+   },
+   {
+    "role": "proof",
+    "shot": 2,
+    "vo": "Bin yüz elli dört top getiren kediyle yapılan ankette, bu davranışın yüzde doksan dördünde eğitim yoktu.",
+    "chunks": ["1.154 top getiren kediyle", "yapılan ankette,", "%94'ÜNDE EĞİTİM YOKTU."],
+    "emph": ["1.154", "%94'ünde"],
+    "pause_after": 0.3
+   },
+   {
+    "role": "agency",
+    "shot": 3,
+    "vo": "Oyunu da çoğu zaman kedi başlatıyor, kedi bitiriyor.",
+    "chunks": ["Oyunu da çoğu zaman", "KEDİ BAŞLATIYOR, KEDİ BİTİRİYOR."],
+    "emph": ["kedi", "başlatıyor", "bitiriyor"],
+    "pause_after": 0.32
+   },
+   {
+    "role": "tag",
+    "shot": 4,
+    "vo": "Yani evin sahibi değilsin; başparmaklı top fırlatma aparatısın.",
+    "chunks": ["Yani evin sahibi değilsin;", "BAŞPARMAKLI TOP FIRLATMA APARATISIN."],
+    "emph": ["başparmaklı", "aparatısın"],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 0,
+    "vo": "Bunu, top getiren kedisi olana gönder.",
+    "chunks": ["Bunu, top getiren", "KEDİSİ OLANA GÖNDER."],
+    "emph": ["gönder"],
+    "y": 870
+   }
+  ],
+  "music_volume": 0.44,
+  "duck_threshold": 0.038,
+  "duck_ratio": 8,
+  "duck_attack": 18,
+  "duck_release": 420,
+  "music_fade_in": 0.6
  }
-]
+ ]

@@ -988,5 +988,60 @@
     "height": 1920,
     "motion": 36.04,
     "query": "dog running through forest woods"
+  },
+  "9519b08a2e2b": {
+    "provider": "pexels",
+    "video_id": 37293872,
+    "path": "footage/pexels-37293872.mp4",
+    "source_page": "https://www.pexels.com/video/relaxed-cats-in-cozy-indoor-setting-37293872/",
+    "duration": 7.0,
+    "width": 1080,
+    "height": 2320,
+    "motion": 8.02,
+    "query": "cat carrying toy in mouth walking indoors"
+  },
+  "9801ab8371aa": {
+    "provider": "pexels",
+    "video_id": 6853911,
+    "path": "footage/pexels-6853911.mp4",
+    "source_page": "https://www.pexels.com/video/a-ginger-cat-on-the-floor-6853911/",
+    "duration": 21.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.38,
+    "query": "playful cat chasing ball indoors"
+  },
+  "a99e4311005b": {
+    "provider": "pexels",
+    "video_id": 6864989,
+    "path": "footage/pexels-6864989.mp4",
+    "source_page": "https://www.pexels.com/video/playing-bait-with-a-cat-6864989/",
+    "duration": 8.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 7.05,
+    "query": "kitten playing with small toy ball"
+  },
+  "06998e11f249": {
+    "provider": "pexels",
+    "video_id": 6864596,
+    "path": "footage/pexels-6864596.mp4",
+    "source_page": "https://www.pexels.com/video/playing-catch-the-bait-with-a-cat-6864596/",
+    "duration": 36.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 16.24,
+    "query": "cat owner playing together with toy"
+  },
+  "e966b3629a9d": {
+    "provider": "pexels",
+    "video_id": 6865077,
+    "path": "footage/pexels-6865077.mp4",
+    "source_page": "https://www.pexels.com/video/a-cat-getting-petting-on-the-bed-6865077/",
+    "duration": 24.0,
+    "width": 1080,
+    "height": 2048,
+    "motion": 5.36,
+    "query": "funny proud cat close up looking camera"
   }
 }
