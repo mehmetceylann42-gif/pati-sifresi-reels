@@ -1,0 +1,113 @@
+{
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "margins_mm": {
+      "top": 22,
+      "bottom": 20,
+      "left": 22,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ScriptLine",
+      "base": "Normal",
+      "font": "Calibri",
+      "size_pt": 14
+    },
+    {
+      "name": "Note",
+      "base": "Normal",
+      "font": "Calibri",
+      "size_pt": 10,
+      "color": "666666"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Pati Şifresi — Seslendirme Metni"
+    },
+    {
+      "type": "paragraph",
+      "text": "Video konusu: Köpeğin yanında sakinleşince onun kalbi de seninle uyumlanıyor.",
+      "style": "Note"
+    },
+    {
+      "type": "paragraph",
+      "text": "Okuma tonu: sakin, duygusal, umutlu. Ağlatmaya çalışma; içten ve yavaş oku. Cümle aralarında kısa nefes boşluğu bırak.",
+      "style": "Note"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hedef süre: 25–32 saniye.",
+      "style": "Note"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Seslendirilecek Metin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Köpeğin seni sadece sevmiyor.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazen, senin yanında sakinleşiyor.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Araştırmalarda, köpeklerle sahiplerinin kalp ritmi ve davranışlarının birlikte değişebildiği görülüyor.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yani o sana iyi geliyor ya…",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazen sen de onun güvenli yeri oluyorsun.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bugün onu sadece sevme.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biraz da yanında yavaşla.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Köpeğini gerçekten anlamak istiyorsan Pati Şifresi’ni takip et.",
+      "style": "ScriptLine"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Notlar"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Tek parça halinde kaydetmen yeterli; ben sonrasında sesi bölüp videoya senkronlayacağım.",
+        "Arka plan gürültüsüz, telefona 15–25 cm mesafeden oku.",
+        "İlk cümleden önce ve son cümleden sonra 1 saniye sessizlik bırak.",
+        "Kaydı bana m4a, wav veya mp3 olarak verebilirsin."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaynak: Koskela ve ark., 2024, Scientific Reports — Behavioral and emotional co-modulation during dog–owner interaction measured by heart rate variability and activity.",
+      "style": "Note"
+    }
+  ]
+}

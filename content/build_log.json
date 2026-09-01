@@ -632,5 +632,64 @@
         "kind": "video"
       }
     ]
+  },
+  "26-kopek-kalp-senkronu": {
+    "built_at": "2026-09-01T02:49:51+00:00",
+    "duration": 23.48,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "dog face close up looking at camera",
+        "path": "footage/pexels-19823143.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/love-dog-19823143/"
+      },
+      {
+        "shot": 1,
+        "query": "dog resting head on owner lap",
+        "path": "footage/pexels-8433834.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-man-cuddling-his-dog-8433834/"
+      },
+      {
+        "shot": 2,
+        "query": "dog looking up at owner begging face",
+        "path": "footage/pexels-5961889.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/"
+      },
+      {
+        "shot": 3,
+        "query": "owner hugging dog warmly",
+        "path": "footage/pexels-6568510.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/"
+      },
+      {
+        "shot": 4,
+        "query": "happy dog with owner outdoor",
+        "path": "footage/pexels-7616855.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-petting-her-dog-7616855/"
+      },
+      {
+        "shot": 5,
+        "query": "happy dog close up face outdoor",
+        "path": "footage/pexels-7516718.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/"
+      }
+    ]
   }
 }

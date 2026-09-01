@@ -2063,5 +2063,193 @@
   "duck_attack": 25,
   "duck_release": 480,
   "music_fade_in": 1.1
+ },
+ {
+  "slug": "26-kopek-kalp-senkronu",
+  "source_name": "Koskela ve ark., 2024 · Scientific Reports",
+  "source_url": "https://www.nature.com/articles/s41598-024-68147-7",
+  "music_id": "gymnopedie-no-1",
+  "voice": "tr-TR-EmelNeural",
+  "rate": "+0%",
+  "image_is_ai": false,
+  "shots": [
+   {
+    "media": "footage/pexels-19823143.mp4",
+    "query": "dog face close up looking at camera",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   {
+    "media": "footage/pexels-8433834.mp4",
+    "query": "dog resting head on owner lap",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-5961889.mp4",
+    "query": "dog looking up at owner begging face",
+    "motion": "pan_left",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   {
+    "media": "footage/pexels-6568510.mp4",
+    "query": "owner hugging dog warmly",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.44
+    ]
+   },
+   {
+    "media": "footage/pexels-7616855.mp4",
+    "query": "happy dog with owner outdoor",
+    "motion": "push_in",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   {
+    "media": "footage/pexels-7516718.mp4",
+    "query": "happy dog close up face outdoor",
+    "motion": "pull_out",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   }
+  ],
+  "beats": [
+   {
+    "role": "hook",
+    "shot": 0,
+    "vo": "Köpeğin seni sadece sevmiyor.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_00_hook.wav",
+    "chunks": [
+     "Köpeğin seni",
+     "sadece SEVMİYOR."
+    ],
+    "emph": [
+     "sevmiyor"
+    ],
+    "y": 870,
+    "size": 86,
+    "pause_after": 0.32
+   },
+   {
+    "role": "turn",
+    "shot": 1,
+    "vo": "Bazen, senin yanında sakinleşiyor.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_01_turn.wav",
+    "chunks": [
+     "Bazen,",
+     "senin yanında SAKİNLEŞİYOR."
+    ],
+    "emph": [
+     "sakinleşiyor"
+    ],
+    "pause_after": 0.42
+   },
+   {
+    "role": "research",
+    "shot": 2,
+    "vo": "Araştırmalarda, köpeklerle sahiplerinin kalp ritmi ve davranışlarının birlikte değişebildiği görülüyor.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_02_research.wav",
+    "chunks": [
+     "Araştırmalarda, köpeklerle sahiplerinin",
+     "kalp ritmi ve davranışlarının",
+     "birlikte değişebildiği görülüyor."
+    ],
+    "emph": [
+     "kalp",
+     "ritmi"
+    ],
+    "pause_after": 0.38
+   },
+   {
+    "role": "bridge",
+    "shot": 3,
+    "vo": "Yani o sana iyi geliyor ya…",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_03_bridge.wav",
+    "chunks": [
+     "Yani o sana",
+     "iyi geliyor ya…"
+    ],
+    "emph": [
+     "iyi"
+    ],
+    "pause_after": 0.2
+   },
+   {
+    "role": "safe_place",
+    "shot": 3,
+    "vo": "Bazen sen de onun güvenli yeri oluyorsun.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_04_safe_place.wav",
+    "chunks": [
+     "Bazen sen de",
+     "onun GÜVENLİ YERİ oluyorsun."
+    ],
+    "emph": [
+     "güvenli",
+     "yeri"
+    ],
+    "pause_after": 0.36
+   },
+   {
+    "role": "action1",
+    "shot": 4,
+    "vo": "Bugün onu sadece sevme.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_05_slow_down_1.wav",
+    "chunks": [
+     "Bugün onu",
+     "sadece sevme."
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "action2",
+    "shot": 4,
+    "vo": "Biraz da yanında yavaşla.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_06_slow_down_2.wav",
+    "chunks": [
+     "Biraz da yanında",
+     "YAVAŞLA."
+    ],
+    "emph": [
+     "yavaşla"
+    ],
+    "pause_after": 0.34
+   },
+   {
+    "role": "cta",
+    "shot": 5,
+    "vo": "Köpeğini gerçekten anlamak istiyorsan Pati Şifresi’ni takip et.",
+    "voice_file": "voice_recordings/26-kopek-kalp-senkronu/beat_07_cta.wav",
+    "chunks": [
+     "Köpeğini gerçekten anlamak istiyorsan",
+     "Pati Şifresi’ni takip et."
+    ],
+    "emph": [
+     "Pati",
+     "Şifresi"
+    ],
+    "y": 870
+   }
+  ],
+  "music_volume": 0.52,
+  "duck_threshold": 0.045,
+  "duck_ratio": 7,
+  "duck_attack": 22,
+  "duck_release": 460,
+  "music_fade_in": 1.0
  }
 ]
