@@ -179,5 +179,14 @@
     "permalink": "https://www.instagram.com/reel/DczwyMFjYCN/",
     "music_id": "carefree",
     "note": "v2 format, K1-K5 kapilarindan gecirildi (claim_class A). Fact: kopekler ovgu kelimesini ve ovgu tonunu ayri islemcilerle (sol/sag yarimkure) isliyor, odul merkezi yalnizca bilinen kelime + dogru ton kombinasyonunda aktiflesiyor (Andics ve ark. 2016, Science, Eotvos Lorand Universitesi). Kapsam cumlesi videoda soylendi: anlamsiz kelime ovgu tonuyla soylenince odul merkezi aktiflesmedi. Pexels klipler + Carefree (Kevin MacLeod). Kullanicinin acik 'videoyu kanala yukle' talebiyle dogrudan yayinlandi. Commit 99e27271bd4bbab68f7d1f167fbac8934fa32303."
+  },
+  "32-kopek-heves-terk": {
+    "published": true,
+    "published_at": "2026-09-04T15:53:09+00:00",
+    "media_id": "18091000970459423",
+    "permalink": "https://www.instagram.com/reel/Dc3wHVnj_5y/",
+    "music_id": "heartbreaking",
+    "commit": "ab31aa3fb0168f988db4a317b32c21a9adc1759f",
+    "note": "v2 format, P0-P7 kapilarindan gecirildi (claim_class C, source_audit GECTI). Konu: hevesle alinip heves bitince sokaga birakilan ev hayvani. Hukuki dayanak 5199 s.K. m.14/1-n (ev hayvanini terk etmek = yasak fiil) ve m.28 (hayvan basina idari para cezasi; adli/hapis degil). Tutar sylenmedi - yillik yeniden degerleme. Kullanicinin kendi seslendirmesi (64,8 sn, 14 beat); altyazilar .words.json sidecar ile gercek kelime zamanlarina hizalandi (voice.py yamasi). 14 cekimin her biri anlatimla eslesecek sekilde elle dogrulandi; beat 7 ve 10 ayni kopek. Bilinen zayif nokta: \"barinaga teslim et\" tavsiyesi TR barinak itibari nedeniyle itiraz cekebilir - sabitlenecek yorumda karsilanmali (bkz. content/objections/)."
   }
 }
