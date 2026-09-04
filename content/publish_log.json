@@ -182,11 +182,12 @@
   },
   "32-kopek-heves-terk": {
     "published": true,
-    "published_at": "2026-09-04T15:53:09+00:00",
-    "media_id": "18091000970459423",
-    "permalink": "https://www.instagram.com/reel/Dc3wHVnj_5y/",
+    "published_at": "2026-09-04T20:52:07+00:00",
+    "media_id": "18106147325206505",
+    "permalink": "https://www.instagram.com/reel/Dc4SU0Sj43d/",
     "music_id": "heartbreaking",
-    "commit": "ab31aa3fb0168f988db4a317b32c21a9adc1759f",
-    "note": "v2 format, P0-P7 kapilarindan gecirildi (claim_class C, source_audit GECTI). Konu: hevesle alinip heves bitince sokaga birakilan ev hayvani. Hukuki dayanak 5199 s.K. m.14/1-n (ev hayvanini terk etmek = yasak fiil) ve m.28 (hayvan basina idari para cezasi; adli/hapis degil). Tutar sylenmedi - yillik yeniden degerleme. Kullanicinin kendi seslendirmesi (64,8 sn, 14 beat); altyazilar .words.json sidecar ile gercek kelime zamanlarina hizalandi (voice.py yamasi). 14 cekimin her biri anlatimla eslesecek sekilde elle dogrulandi; beat 7 ve 10 ayni kopek. Bilinen zayif nokta: \"barinaga teslim et\" tavsiyesi TR barinak itibari nedeniyle itiraz cekebilir - sabitlenecek yorumda karsilanmali (bkz. content/objections/)."
+    "commit": "66877c2507916539ed65b4d4c1e94a2e878f9811",
+    "supersedes": "https://www.instagram.com/reel/Dc3wHVnj_5y/",
+    "note": "P8 duzeltmesi sonrasi yeniden yayin (68,4 sn). Ilk surumde CTA \"barinaga teslim et\" diyordu; yayindan sonra tepki geldi ve KANAL_REHBERI.md §6'ya P8 kurum kapisi eklendi (Turkiye'de barinak tavsiye edilmez). Beat yeniden yazildi (\"Sahiplendirme ilani ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende.\"), kullanici tarafindan yeniden seslendirildi, seviyesi diger beat'lerle esitlendi ve align_beat.py ile kelime kelime hizalandi. Ayni beat'in gorüntüsü de degisti: barinak gonullusu klibi yerine sahibinin kopegini telefonla fotograflamasi. Onceki surum (18091000970459423) API ile silinemiyor -- hesap sahibi uygulamadan elle silmeli."
   }
 }

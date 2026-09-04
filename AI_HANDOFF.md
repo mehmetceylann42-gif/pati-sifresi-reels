@@ -39,6 +39,12 @@
 > yayınlanmadı**; Instagram'daki gönderi (`Dc3wHVnj_5y`) hâlâ eski sesi
 > taşıyor.
 >
+> **1b. Bu iş bir beceriye çevrildi:** `~/.claude/skills/yayin-sonrasi-duzeltme/SKILL.md`
+> — yayınlanmış bir videoda tek bir beat'i değiştirmenin tam sırası (kuralı
+> yaz → koda bağla → metni yeniden yaz → tek beat'lik Word → seviye eşitle →
+> hizala → görüntüyü kontrol et → render → yayınla). Aynı durumda sıfırdan
+> düşünme, önce onu oku.
+>
 > **2. Yeni araçlar.** `scripts/make_script_doc.py --only <rol>`: yalnızca metni
 > değişen beat için Word üretir. `scripts/align_beat.py <slug> <rol>`: yeniden
 > kaydedilen beat'i kırpıp `.words.json` sidecar'ını yeniler — bu yapılmazsa
