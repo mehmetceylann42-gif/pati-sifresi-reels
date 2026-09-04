@@ -175,6 +175,19 @@ def trim_to_speech(src: Path, dst: Path) -> float:
     return audio_duration(dst)
 
 
+def _recorded_words(source: Path) -> list[Word]:
+    """Kaydın yanındaki `<kayıt>.words.json` varsa kelime zamanlarını okur.
+
+    Zamanlar kırpılmış klibin başlangıcına göre olmalı. Sidecar yoksa boş
+    döner ve kart süreleri tahmine düşer.
+    """
+    sidecar = source.with_suffix(".words.json")
+    if not sidecar.exists():
+        return []
+    data = json.loads(sidecar.read_text(encoding="utf-8"))
+    return [Word(w["text"], float(w["start"]), float(w["end"])) for w in data]
+
+
 def cut(src: Path, dst: Path, start: float, end: float) -> float:
     """Bilinen aralığı keser (hizalama varken sezmeye gerek yok)."""
     _run(["-i", str(src), "-ss", f"{max(start, 0):.3f}", "-to", f"{end:.3f}",
@@ -361,7 +374,8 @@ def synth_beats(
             if not source.exists():
                 raise SystemExit(f"Kayıt bulunamadı: {source}")
             clips.append(VoiceClip(index, spec["text"], wav,
-                                   trim_to_speech(source, wav), engine="kayıt"))
+                                   trim_to_speech(source, wav), engine="kayıt",
+                                   words=_recorded_words(source)))
             continue
 
         text = spec["text"]

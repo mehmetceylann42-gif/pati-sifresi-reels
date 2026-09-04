@@ -1,0 +1,42 @@
+[
+ {
+  "text": "Bunu",
+  "start": 0.02,
+  "end": 0.9
+ },
+ {
+  "text": "yeni",
+  "start": 0.9,
+  "end": 1.22
+ },
+ {
+  "text": "bir",
+  "start": 1.22,
+  "end": 1.44
+ },
+ {
+  "text": "hayvan",
+  "start": 1.44,
+  "end": 1.68
+ },
+ {
+  "text": "almayı",
+  "start": 1.68,
+  "end": 2.04
+ },
+ {
+  "text": "düşünen",
+  "start": 2.04,
+  "end": 2.38
+ },
+ {
+  "text": "birine",
+  "start": 2.38,
+  "end": 2.74
+ },
+ {
+  "text": "gönder.",
+  "start": 2.74,
+  "end": 3.14
+ }
+]

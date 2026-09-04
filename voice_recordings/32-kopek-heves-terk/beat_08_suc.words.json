@@ -1,0 +1,47 @@
+[
+ {
+  "text": "ve",
+  "start": 0.02,
+  "end": 0.339
+ },
+ {
+  "text": "büyük",
+  "start": 0.339,
+  "end": 0.599
+ },
+ {
+  "text": "ihtimalle",
+  "start": 0.599,
+  "end": 1.098
+ },
+ {
+  "text": "bunun",
+  "start": 1.098,
+  "end": 1.377
+ },
+ {
+  "text": "bir",
+  "start": 1.377,
+  "end": 1.677
+ },
+ {
+  "text": "suç",
+  "start": 1.677,
+  "end": 1.876
+ },
+ {
+  "text": "sayılmadığını",
+  "start": 1.876,
+  "end": 2.595
+ },
+ {
+  "text": "düşünüyorsun.",
+  "start": 2.595,
+  "end": 3.293
+ },
+ {
+  "text": "Yanılıyorsun.",
+  "start": 3.553,
+  "end": 4.291
+ }
+]
