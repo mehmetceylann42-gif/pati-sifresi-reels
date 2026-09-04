@@ -1,0 +1,45 @@
+32-kopek-heves-terk — seslendirme kaydı
+
+Bu klasore su 14 WAV dosyasi konacak (isimler birebir):
+
+beat_00_hook.wav
+  Onu hiç dövmedin, hiç aç bırakmadın,
+
+beat_01_hookb.wav
+  ama yine de ona hayatının en kötü gününü sen yaşattın.
+
+beat_02_heves.wav
+  Her şey bir hevesle başladı, sosyal medyada gördüm,
+
+beat_03_sevimli.wav
+  sevimli geldi, aynı gün eve getirdin.
+
+beat_04_bitis.wav
+  Sonra heves bitti, tüyü evi kirletti, sesi rahatsız etti, bakması zorlaştı.
+
+beat_05_araba.wav
+  Bir gün onu arabaya bindirdin, şehir dışında bir yerde durdu.
+
+beat_06_birakma.wav
+  Kapıyı açtın, indirdin ve gaza bastın.
+
+beat_07_kosma.wav
+  O arabanın arkasından koşabildiği kadar koştu
+
+beat_08_suc.wav
+  ve büyük ihtimalle bunun bir suç sayılmadığını düşünüyorsun. Yanılıyorsun.
+
+beat_09_kanun.wav
+  Kanun buna bir isim koydu. Ev hayvanını terk etmek ve hayvan başına idari para cezası öngörüyor.
+
+beat_10_bekleme.wav
+  Ama asıl bedeli sen ödemiyorsun. O yol kenarına günlerce senin dönmeni bekliyor. Çünkü sana güvenmiştin.
+
+beat_11_alternatif.wav
+  Gerçekten elinde değilse bile sokağa bırakmak bir seçenek değil. Sahiplendirme ilanı ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende.
+
+beat_12_gonder.wav
+  Bunu yeni bir hayvan almayı düşünen birine gönder.
+
+beat_13_kapanis.wav
+  Bir hayvanı sahiplenmek bir heves değil, bir sözdür. Sözünü tutan biri ol.

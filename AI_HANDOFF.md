@@ -1,4 +1,56 @@
+> ## 2026-09-04 — yön değişikliği, önce bunu oku
+>
+> Kanal "ilginç kedi-köpek bilgisi" anlatmayı bıraktı. Yeni konum:
+> **Türkiye'de bir kedi veya köpekle karşılaştığında ne yapacağını söyleyen
+> hesap.** Karar, 21 Reel'in metrikleri ve 12 rakip hesabın taraması üzerine
+> verildi.
+>
+> **Kural seti değişti:** v1'in K1–K5 kapıları yerine **P0–P6 (yedi kapı)**
+> geçti; en önemlisi yeni **P0 paylaşım cümlesi kapısı**. Tamamı ve gerekçeleri
+> `KANAL_REHBERI.md` (v2) içinde; v1 `KANAL_REHBERI_v1_arsiv.md` olarak
+> arşivlendi. `CONTENT_AND_COMMERCE_RULES.md`'nin içerik dengesi bölümü
+> yürürlükten kalktı.
+>
+> **Bu turda üretilenler:** `31-arac-hayvan-carpma` (video + caption + itiraz
+> provası hazır, yayınlanmadı), yeni `PROFILE_BIO.txt`, marka yazımı düzeltmesi
+> (yayındaki 21 videonun tamamında "PATI ŞİFRESİ" yazıyordu; artık doğru).
+>
+> Aşağısı 2026-09-03 ve öncesinin devir notudur.
+
 # Başka yapay zekâ için devam notu
+
+> ### 2026-09-04 (akşam) — P8 kurum kapısı + storyboards.json uyarısı
+>
+> **1. Yeni kural: barınak tavsiye edilmez (P8).** `32-kopek-heves-terk`
+> yayınlandıktan sonra "barınağa teslim et" cümlesine tepki geldi. Türkiye'de
+> barınak koşulları güvenli sayılmadığı için bu tavsiye izleyicide "sorumluluğu
+> devretme" olarak karşılık buluyor ve videonun kendi mesajını çürütüyor.
+> `KANAL_REHBERI.md` §6'ya **P8 — Kurum kapısı** eklendi; `scripts/source_audit.py`
+> beat metinlerini ve caption'ı tarayıp ihlalde yayın kapısını kapatıyor.
+> 32'nin `alternatif` beat'i yeniden yazıldı ("Sahiplendirme ilanı ver, yeni
+> sahibini sen bul. Bulana kadar sorumluluk sende."), caption + senaryo + itiraz
+> dosyası güncellendi. **Kullanıcı o beat'i yeniden seslendirecek** —
+> `beat_11_alternatif.wav` yeniden kaydedildi (kullanıcı, aynı gün), seviyesi
+> diğer beat'lerle eşitlendi (I −20,8 LUFS / −2,0 dBTP), `align_beat.py` ile
+> hizalandı ve video yeniden render edildi (68,4 sn). O beat'in **görüntüsü de**
+> değişti: eski klip "VOLUNTEER" tişörtlü barınak gönüllüleriydi, yani metinden
+> çıkarılan mesajı görüntü sürdürüyordu — yerine sahibinin köpeğini telefonla
+> fotoğraflaması kondu (`footage/pexels-7801440.mp4`). **Yeni sürüm henüz
+> yayınlanmadı**; Instagram'daki gönderi (`Dc3wHVnj_5y`) hâlâ eski sesi
+> taşıyor.
+>
+> **2. Yeni araçlar.** `scripts/make_script_doc.py --only <rol>`: yalnızca metni
+> değişen beat için Word üretir. `scripts/align_beat.py <slug> <rol>`: yeniden
+> kaydedilen beat'i kırpıp `.words.json` sidecar'ını yeniler — bu yapılmazsa
+> `build_reel.py` kelime hizalamasını sessizce bırakıp altyazıyı tahmin eder.
+>
+> **3. UYARI — `content/storyboards.json` commit edilmemiş.** 29/30/31/32
+> numaralı kayıtlar yalnızca çalışma kopyasında duruyor. Bu oturumda bir
+> `git checkout content/storyboards.json` bu dört kaydı sildi; kayıtlar eski
+> oturum transkriptlerinden (`~/.claude/projects/*/**.jsonl`) yeniden
+> oynatılarak geri kuruldu ve `source_audit.py --offline` ile doğrulandı.
+> **Bu dosyada `git checkout`/`git restore` kullanma.**
+
 
 ## ⚠️ 2026-08-28 — önce bunları oku
 
@@ -34,6 +86,12 @@
 ## Amaç
 
 Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışlarını ve şaşırtıcı özelliklerini 30 saniyede açıkla.”
+
+**Marka yazımı kesin kural (2026-09-02):** Videonun üzerinde, kapakta,
+caption'da ve tüm görünür marka alanlarında kanal adı **PATİ ŞİFRESİ** /
+**Pati Şifresi** olarak yazılır. İlk kelimedeki harf Türkçe noktalı **İ**
+olmalı; **PATI ŞİFRESİ** yanlıştır ve kullanılmaz. Instagram kullanıcı adı
+yalnızca küçük harfle `patisifresi` olarak yazılır.
 
 ## Mevcut durum (güncellendi: 2026-09-01)
 
@@ -109,6 +167,14 @@ Instagram hesabı: **Pati Şifresi**. Ana vaat: “Hayvanların davranışların
 - `requirements.txt`: Yerel video üretimi için Python paketleri.
 
 ## Yeni Reel üretim kuralı
+
+**0. (2026-09-03, HER ŞEYDEN ÖNCE) K1–K5 kapıları.** Üretime başlamadan önce
+`CONTENT_AND_COMMERCE_RULES.md` → "Üretim kapıları — K1–K5" bölümü uygulanır:
+K1 sonuç kapısı (izleyici ne yapacak? "öğrenecek" geçersiz), K2 iddia sınıfı
+(A/B/C + `python scripts/source_audit.py --slug <slug>`), K3 yetki alanı,
+K4 kapsam cümlesi, K5 itiraz provası. Kapı atlanarak üretilen Reel
+yayınlanmaz. Gerekçe ve veri: `KANAL_REHBERI.md`.
+
 
 1. **Yalnızca kedi veya köpek** (2026-08-27'den itibaren kesin kural, bkz. `CONTENT_AND_COMMERCE_RULES.md` → "Kanal konumu"). Başka türe çıkılmaz.
 2. Güvenilir kaynak bul: üniversite, müze, bilim kurumu, hakemli araştırma veya resmi hayvan refahı kuruluşu.

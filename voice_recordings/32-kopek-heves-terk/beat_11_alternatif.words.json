@@ -2,81 +2,101 @@
  {
   "text": "Gerçekten",
   "start": 0.02,
-  "end": 0.52
+  "end": 0.74
  },
  {
   "text": "elinde",
-  "start": 0.52,
-  "end": 0.92
+  "start": 0.74,
+  "end": 1.1
  },
  {
   "text": "değilse",
-  "start": 0.92,
-  "end": 1.32
+  "start": 1.1,
+  "end": 1.48
  },
  {
-  "text": "bile",
-  "start": 1.32,
-  "end": 1.52
+  "text": "bile,",
+  "start": 1.48,
+  "end": 2.06
  },
  {
   "text": "sokağa",
-  "start": 1.52,
-  "end": 1.96
+  "start": 2.36,
+  "end": 2.56
  },
  {
   "text": "bırakmak",
-  "start": 1.96,
-  "end": 2.38
+  "start": 2.56,
+  "end": 2.96
  },
  {
   "text": "bir",
-  "start": 2.38,
-  "end": 2.62
+  "start": 2.96,
+  "end": 3.24
  },
  {
   "text": "seçenek",
-  "start": 2.62,
-  "end": 3.1
+  "start": 3.24,
+  "end": 3.7
  },
  {
   "text": "değil.",
-  "start": 3.1,
-  "end": 3.3
+  "start": 3.7,
+  "end": 3.98
  },
  {
-  "text": "Varınağı",
-  "start": 3.84,
-  "end": 4.3
+  "text": "Sahiplendirme",
+  "start": 4.9,
+  "end": 5.64
  },
  {
-  "text": "teslim",
-  "start": 4.3,
-  "end": 4.64
- },
- {
-  "text": "et.",
-  "start": 4.64,
-  "end": 4.86
- },
- {
-  "text": "Bir",
-  "start": 5.22,
-  "end": 5.5
- },
- {
-  "text": "platformda",
-  "start": 5.5,
-  "end": 6.08
- },
- {
-  "text": "ilan",
-  "start": 6.08,
-  "end": 6.42
+  "text": "ilanı",
+  "start": 5.64,
+  "end": 5.96
  },
  {
   "text": "ver.",
-  "start": 6.42,
-  "end": 6.66
+  "start": 5.96,
+  "end": 6.28
+ },
+ {
+  "text": "Yeni",
+  "start": 6.84,
+  "end": 7.1
+ },
+ {
+  "text": "sahibini",
+  "start": 7.1,
+  "end": 7.68
+ },
+ {
+  "text": "sen",
+  "start": 7.68,
+  "end": 7.94
+ },
+ {
+  "text": "bul.",
+  "start": 7.94,
+  "end": 8.14
+ },
+ {
+  "text": "Bulana",
+  "start": 8.6,
+  "end": 8.98
+ },
+ {
+  "text": "kadar",
+  "start": 8.98,
+  "end": 9.3
+ },
+ {
+  "text": "sorumluluk",
+  "start": 9.3,
+  "end": 9.98
+ },
+ {
+  "text": "sende.",
+  "start": 9.98,
+  "end": 10.3
  }
 ]

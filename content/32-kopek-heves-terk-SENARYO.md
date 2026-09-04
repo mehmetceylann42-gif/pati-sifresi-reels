@@ -21,8 +21,9 @@ tam bu noktayı kırıyor.
 hâlâ heves aşamasında olan birine gönder."*
 **P2 — İtiraz (videoda karşılanan):** "Bazen gerçekten elde değil, imkân
 kalmıyor." → Beat 6'da karşılanıyor: terk etmek yerine somut alternatif
-(barınak, ilan, devir) veriliyor. Video "asla bırakma" demiyor, "sokağa
-bırakmak seçenek değil" diyor.
+(sahiplendirme ilanı, güvendiğin birine devir) veriliyor. Video "asla bırakma"
+demiyor, "sokağa bırakmak seçenek değil" diyor. **Barınak tavsiyesi yok —
+P8 kurum kapısı (2026-09-04) bunu yasaklıyor.**
 **P3 — İddia sınıfı:** C · terk etme fiilinin idari para cezası olduğu,
 5199 s.K. m.14/1-n ve m.28 (7527 s.K. ile 2024'te değişik) ile doğrulandı
 (bkz. §4). **Tutar söylenmiyor** — KANAL_REHBERI.md Ek Kural gereği (yıllık
@@ -34,7 +35,11 @@ yok.
 **P6 — İlk üç saniye:** Ters yön — beklenen suçlama ("onu dövdün, aç
 bıraktın") yapılmıyor; tam tersi söyleniyor, sonra asıl suçlama geliyor.
 **P7 — Zarar kapısı:** CTA "elde değilse bile bırakma" diyor ve gerçek bir
-alternatif sunuyor (barınak/ilan/devir) — izleyiciyi çaresiz bırakmıyor.
+alternatif sunuyor (sahiplendirme ilanı/devir) — izleyiciyi çaresiz bırakmıyor.
+
+**P8 — Kurum kapısı:** barınak tavsiyesi yok. İlk yayında vardı ("barınağa
+teslim et"); tepki tam oraya geldiği için beat yeniden yazıldı ve yeniden
+seslendiriliyor.
 
 **Hiçbir yerde şiddet/gore görüntüsü yok.** En sert görsel: bir köpeğin yol
 kenarında arabanın arkasından bakması. Bilinçli — grafik içerik erişimi
@@ -58,7 +63,7 @@ gerekmiyor).
 | 3 | `beat_03_verdict.wav` | Şehir dışında bir yerde durdun, kapıyı açtın, indirdin ve gaza bastın. O, arabanın arkasından koşabildiği kadar koştu. | Videonun en sert anı — net, yavaş, dramatize etmeden. |
 | 4 | `beat_04_proof.wav` | Ve büyük ihtimalle bunun bir suç sayılmadığını düşünüyorsun. Yanılıyorsun: kanun buna bir isim koydu — "ev hayvanını terk etmek" — ve hayvan başına idari para cezası öngörüyor. | Soğuk, haber spikeri — "yanılıyorsun"a hafif vurgu. |
 | 5 | `beat_05_turn2.wav` | Ama asıl bedeli sen ödemiyorsun. O, yol kenarında günlerce senin dönmeni bekliyor — çünkü sana güvenmişti. | Videonun en yavaş, en alçak cümlesi. "güvenmişti" son kelime gibi bırakılsın. |
-| 6 | `beat_06_cta.wav` | Gerçekten elinde değilse bile sokağa bırakmak bir seçenek değil: barınağa teslim et, bir platformda ilan ver, birine devret. Bunu yeni bir hayvan almayı düşünen birine gönder. | Talimat tonu — duygu yok, net bilgi. |
+| 6 | `beat_06_cta.wav` | Gerçekten elinde değilse bile sokağa bırakmak bir seçenek değil. Sahiplendirme ilanı ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende. Bunu yeni bir hayvan almayı düşünen birine gönder. | Talimat tonu — duygu yok, net bilgi. |
 | 7 | `beat_07_closer.wav` | Bir hayvanı sahiplenmek bir heves değil, bir sözdür. Sözünü tutan biri ol. | Sıcak ama kararlı — hook'taki "heves" kelimesiyle kapanış bağlansın. |
 
 Toplam ~123 kelime → deneyimli tempoyla ~48–52 sn civarı bekleniyor (25.
@@ -79,8 +84,8 @@ Bu bir öneri listesi, `footage/` içine henüz hiçbir şey inmedi:
 | 3 | verdict | Kırsal yol kenarı, uzaklaşan araba, arkadan bakan köpek (**önceki 25. videoda kullanılan boş yağmurlu sokak kliplerine benzer duygusal boşluk mantığı** — hayvan kadrajda kalabilir ama şiddet/gore yok) | pull_out |
 | 4 | proof | Kanun kitabı / tokmak yakın plan (25. videoda kullanılan `pexels-6101349.mp4` tekrar kullanılabilir) | pull_out |
 | 5 | turn2 | Yalnız köpek, gece, yol kenarında oturmuş, bekliyor | static, çok yavaş zoom |
-| 6 | cta | Telefonda barınak/ilan sitesine yazı yazan el | push_in |
-| 7 | closer | Barınak gönüllüsü köpeği sahipleniyor/kucaklıyor (25. videoda kullanılan `pexels-7474508.mp4` tekrar kullanılabilir) | pull_out |
+| 6 | cta | Telefonda sahiplendirme ilanı yazan el | push_in |
+| 7 | closer | Yeni sahibi köpeği kucaklıyor (25. videoda kullanılan `pexels-7474508.mp4` tekrar kullanılabilir) | pull_out |
 
 Kayıt bittiğinde bu listeyi netleştirip gerçek Pexels linkleriyle
 doğrulamak, storyboard'a `media` alanı olarak sabitlemek ve
@@ -118,8 +123,9 @@ kayıt için) sıradaki adım — ama önce seslendirme.
 > güncelleniyor, en son 7527 sayılı Kanun'la 2024'te değişti).
 >
 > Gerçekten bakamayacak durumdaysan bile sokağa bırakmak bir seçenek değil:
-> barınağa teslim et, güvenilir bir platformda ilan ver ya da güvendiğin
-> birine devret.
+> güvenilir bir platformda sahiplendirme ilanı ver ya da güvendiğin birine
+> devret — teslim edeceğin kişiyi tanı, yeni sahibi bulunana kadar sorumluluk
+> sende.
 >
 > Kaynak: 5199 s.K. m.14/1-n, m.28 · 7527 s.K. (R.G. 02.08.2024, S.32620)
 >
@@ -140,3 +146,38 @@ kaydı, footage indirme ve render henüz yapılmadı. Seslendirme
 `OneDrive\Desktop\32-kopek-heves-terk-SENARYO.md` içindeki aynı metinle
 kaydedilip masaüstüne bırakıldığında ([[hayvan-kanali-aup3-seslendirme]]
 yöntemiyle) çıkarılıp beat'lere bölünecek ve pipeline'a bağlanacak.
+
+
+---
+
+## 7. Düzeltme — 2026-09-04 (yayından sonra)
+
+Video yayınlandıktan sonra **"barınağa bırakın" cümlesine tepki geldi.** Türkiye'de
+barınak koşulları güvenli sayılmadığı için bu tavsiye, izleyicinin gözünde hayvanı
+kurtarmak değil sorumluluğu devretmek anlamına geliyor — yani videonun kendi
+mesajını çürütüyor. `content/objections/32-kopek-heves-terk.md` bu itirazı üretimden
+önce öngörmüş ama "videoda karşılanmıyor" notuyla geçilmişti.
+
+**Yapılanlar:**
+
+1. `KANAL_REHBERI.md` §6'ya **P8 — Kurum kapısı** eklendi: hiçbir videoda barınağa
+   (ya da "yetkililere") teslim tavsiyesi verilmez.
+2. `scripts/source_audit.py` bu kalıbı beat metinlerinde ve caption'da otomatik
+   arıyor; bulursa yayın kapısı kapanıyor.
+3. `alternatif` beat'inin **görüntüsü de değişti**: eski klipte "VOLUNTEER"
+   tişörtlü barınak gönüllüleri vardı — cümleden çıkarılan barınak mesajını
+   görüntü sürdürüyordu. Yerine `footage/pexels-7801440.mp4` (sahibi köpeğinin
+   telefonla fotoğrafını çekiyor) kondu; beat artık "ilan ver" cümlesini
+   görsel olarak da anlatıyor.
+4. `alternatif` beat'i (`beat_11_alternatif.wav`) yeniden yazıldı:
+
+   > Gerçekten elinde değilse bile sokağa bırakmak bir seçenek değil.
+   > Sahiplendirme ilanı ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende.
+
+   Kayıt aynı gün alındı (`2adsız.wav`), seviyesi diğer beat'lerle eşitlendi
+   (I −20,8 LUFS / tepe −2,0 dBTP; eski kayıt −20,7 / −2,0), kırpıldı ve
+   `align_beat.py` ile kelime kelime hizalandı — 20 kelime, altyazı kartlarıyla
+   birebir. Kalan 13 beat'in kaydına dokunulmadı.
+5. Caption ve yayın metni aynı yönde güncellendi.
+6. Video yeniden render edildi: **68,4 sn** (önceki 64,8 sn — yeni cümle daha
+   uzun).

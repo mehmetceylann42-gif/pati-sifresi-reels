@@ -49,15 +49,28 @@ bırakmak.
 
 ### 2. "Barınağa vermek zaten ölüme terk etmek. Türkiye'de barınak ne demek biliyor musun?"
 
-**Bu itiraz videoda karşılanmıyor** ve en olası ikinci yorum bu. Türkiye'de
-belediye barınaklarının kamuoyundaki itibarı düşük; "barınağa teslim et"
-tavsiyesi bir kesim için tavsiye değil suçlama gibi duyulacak.
+**GERÇEKLEŞTİ — 2026-09-04.** Video yayınlandıktan sonra tepkinin geldiği yer
+tam burası oldu. Türkiye'de belediye barınaklarının kamuoyundaki itibarı düşük;
+"barınağa teslim et" tavsiyesi bir kesim için tavsiye değil suçlama gibi duyuldu.
 
-**Videonun kısmi savunması:** barınak tek seçenek olarak sunulmuyor, üç
-seçenekten biri ve cümle sırası olarak ilk sırada duruyor ("Barınağa teslim et.
-Bir platformda ilan ver."). Yani izleyiciye sahiplendirme yolu da veriliyor.
+**Alınan karar:** barınak tavsiyesi videodan çıkarıldı. `alternatif` beat'i
+yeniden yazıldı ve yeniden seslendiriliyor:
 
-**Yine de zayıf nokta budur.** Sabitlenecek yorumda bu açıkça karşılanmalı:
+> Gerçekten elinde değilse bile sokağa bırakmak bir seçenek değil.
+> Sahiplendirme ilanı ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende.
+
+Kural olarak sabitlendi: `KANAL_REHBERI.md` §6 **P8 — Kurum kapısı**; ihlali
+`scripts/source_audit.py` otomatik yakalıyor.
+
+**Ders (bu dosyanın kendisiyle ilgili):** bu itiraz üretimden ÖNCE burada
+yazılmıştı ve "videoda karşılanmıyor" notuyla geçildi. Öngörülen bir itiraz
+karşılanmadan yayına çıkarsa, o itiraz yoruma dönüşüyor.
+
+**O günkü kısmi savunma (yetersiz kaldı):** barınak tek seçenek olarak
+sunulmuyordu, "Bir platformda ilan ver" cümlesi hemen ardından geliyordu.
+Yorumlarda bu ayrım işe yaramadı — cümlenin ilk sırada olması yetti.
+
+Sabitlenecek yorumda konu açıkça karşılanmalı:
 sokağa bırakmakla kıyaslandığında hangisinin daha yüksek hayatta kalma şansı
 verdiği, ve mümkünse önce sahiplendirme denenmesi gerektiği. İleride ayrı bir
 Reel konusu: *"Hayvanını veremiyorsan sırayla ne denenir?"*
