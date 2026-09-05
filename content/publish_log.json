@@ -189,5 +189,14 @@
     "commit": "66877c2507916539ed65b4d4c1e94a2e878f9811",
     "supersedes": "https://www.instagram.com/reel/Dc3wHVnj_5y/",
     "note": "P8 duzeltmesi sonrasi yeniden yayin (68,4 sn). Ilk surumde CTA \"barinaga teslim et\" diyordu; yayindan sonra tepki geldi ve KANAL_REHBERI.md §6'ya P8 kurum kapisi eklendi (Turkiye'de barinak tavsiye edilmez). Beat yeniden yazildi (\"Sahiplendirme ilani ver, yeni sahibini sen bul. Bulana kadar sorumluluk sende.\"), kullanici tarafindan yeniden seslendirildi, seviyesi diger beat'lerle esitlendi ve align_beat.py ile kelime kelime hizalandi. Ayni beat'in gorüntüsü de degisti: barinak gonullusu klibi yerine sahibinin kopegini telefonla fotograflamasi. Onceki surum (18091000970459423) API ile silinemiyor -- hesap sahibi uygulamadan elle silmeli."
+  },
+  "34-kedi-siddet-vahset": {
+    "published": true,
+    "published_at": "2026-09-05T15:08:42+00:00",
+    "media_id": "17945242671337488",
+    "permalink": "https://www.instagram.com/reel/Dc6Pa4CgNIg/",
+    "music_id": "gymnopedie-no-1",
+    "commit": "861222d16bd8163f4ec64896eae5016960532715",
+    "note": "Kullanicinin kendi yazdigi ve seslendirdigi metin (OneDrive masaustu \"kedi siddet farkindalik.wav\", 64,8 sn / 144 kelime). faster-whisper ile tam transkript alinip 15 beat'e (gercek kelime zamanlarinin ortasindan) bolundu, her beat icin .words.json sidecar uretildi. Salt duygusal/gorus icerikli oldugu icin source_audit bos donuyordu; ekrandaki kaynak kunyesine sozler degistirilmeden 5199 s.K. m.28/A eklendi (32. videoda zaten dogrulanmis). Gorseller otomatik etikete guvenilmeden kare kare gozle dogrulandi (footage/index.json'daki bir etiket -- kedi gozu yakin cekim -- gercekte gunesli/neseli bir bahce sahnesiydi, kullanilmadi); iki yeni Pexels klibi (37290991, 27798123) indirilip dogrulandi. Muzik rotasyon disi bilincli secim (gymnopedie-no-1, son 7 yayinda vardi ama tek uygun duygusal alternatifti). Video 66,6 sn, 18,8MB."
   }
 }
