@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Bugün",
+  "start": 0.17,
+  "end": 0.31
+ },
+ {
+  "text": "bir",
+  "start": 0.31,
+  "end": 0.61
+ },
+ {
+  "text": "hayvana",
+  "start": 0.61,
+  "end": 0.85
+ },
+ {
+  "text": "yapılan",
+  "start": 0.85,
+  "end": 1.25
+ },
+ {
+  "text": "şiddeti",
+  "start": 1.25,
+  "end": 1.63
+ },
+ {
+  "text": "görüp",
+  "start": 1.63,
+  "end": 1.95
+ },
+ {
+  "text": "sessiz",
+  "start": 1.95,
+  "end": 2.41
+ },
+ {
+  "text": "kalırsak,",
+  "start": 2.41,
+  "end": 3.01
+ },
+ {
+  "text": "yarın",
+  "start": 3.21,
+  "end": 3.49
+ },
+ {
+  "text": "daha",
+  "start": 3.49,
+  "end": 3.67
+ },
+ {
+  "text": "kötüsüne",
+  "start": 3.67,
+  "end": 4.09
+ },
+ {
+  "text": "şaşırmaya",
+  "start": 4.09,
+  "end": 4.61
+ },
+ {
+  "text": "hakkımız",
+  "start": 4.61,
+  "end": 5.09
+ },
+ {
+  "text": "kalmaz.",
+  "start": 5.09,
+  "end": 5.61
+ }
+]

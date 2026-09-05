@@ -3760,5 +3760,426 @@
         "pause_after": 0.0
       }
     ]
+  },
+  {
+    "slug": "34-kedi-siddet-vahset",
+    "share_claim": "Ben bunu görüp sessiz kalmayanlardanım.",
+    "recipient": "Bunu, bu tür görüntüleri görüp çabuk unutan birine gönder.",
+    "music_id": "gymnopedie-no-1",
+    "voice": "tr-TR-EmelNeural",
+    "rate": "+0%",
+    "image_is_ai": false,
+    "music_volume": 0.42,
+    "duck_threshold": 0.05,
+    "duck_ratio": 5,
+    "duck_attack": 25,
+    "duck_release": 260,
+    "music_fade_in": 1.0,
+    "shots": [
+      {
+        "media": "footage/pexels-37290991.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-27798123.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-27798123.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "start_at": 3.0
+      },
+      {
+        "media": "footage/pexels-37290991.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "start_at": 2.0
+      },
+      {
+        "media": "footage/pexels-7942761.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-5075219.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-6101361.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.3,
+          0.4
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-6101348.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-27798123.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "start_at": 9.0
+      },
+      {
+        "media": "footage/pexels-27798123.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.45,
+          0.28
+        ],
+        "start_at": 14.0
+      },
+      {
+        "media": "footage/pexels-7942761.mp4",
+        "motion": "pan_left",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "start_at": 4.0
+      },
+      {
+        "media": "footage/pexels-38003073.mp4",
+        "motion": "pan_left",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "start_at": 0.0
+      },
+      {
+        "media": "footage/pexels-5075219.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "start_at": 20.0
+      },
+      {
+        "media": "footage/pexels-37290991.mp4",
+        "motion": "pull_out",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "start_at": 1.0
+      },
+      {
+        "media": "footage/pexels-6101365.mp4",
+        "motion": "push_in",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "start_at": 0.0
+      }
+    ],
+    "beats": [
+      {
+        "role": "hook",
+        "shot": 0,
+        "vo": "Bir yavru kediye işkence edip onun ölümüne sebep olmak.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_00_hook.wav",
+        "chunks": [
+          "Bir yavru kediye",
+          "İŞKENCE edip",
+          "onun ÖLÜMÜNE sebep olmak."
+        ],
+        "emph": [
+          "işkence",
+          "ölümüne"
+        ],
+        "pause_after": 0.35
+      },
+      {
+        "role": "soru",
+        "shot": 1,
+        "vo": "Bunu nasıl yapabilir bir insan?",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_01_soru.wav",
+        "chunks": [
+          "Bunu nasıl yapabilir",
+          "bir İNSAN?"
+        ],
+        "emph": [
+          "insan"
+        ],
+        "pause_after": 0.35
+      },
+      {
+        "role": "savunmasiz",
+        "shot": 2,
+        "vo": "Savunmasız, kaçamıyor, kendini koruyamıyor, senden yardım bekliyor",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_02_savunmasiz.wav",
+        "chunks": [
+          "SAVUNMASIZ, kaçamıyor,",
+          "kendini koruyamıyor,",
+          "senden yardım BEKLİYOR."
+        ],
+        "emph": [
+          "savunmasız",
+          "bekliyor"
+        ],
+        "pause_after": 0.12
+      },
+      {
+        "role": "devam",
+        "shot": 3,
+        "vo": "ve sen onun ölüm korkusunu görüp yine de devam ediyorsun.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_03_devam.wav",
+        "chunks": [
+          "ve sen onun",
+          "ÖLÜM KORKUSUNU görüp,",
+          "yine de DEVAM EDİYORSUN."
+        ],
+        "emph": [
+          "ölüm",
+          "korkusunu",
+          "devam",
+          "ediyorsun"
+        ],
+        "pause_after": 0.12
+      },
+      {
+        "role": "kayit",
+        "shot": 4,
+        "vo": "Üstelik bunu kayda alıyorsun.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_04_kayit.wav",
+        "chunks": [
+          "Üstelik bunu",
+          "KAYDA ALIYORSUN."
+        ],
+        "emph": [
+          "kayda",
+          "alıyorsun"
+        ],
+        "pause_after": 0.12
+      },
+      {
+        "role": "eglence",
+        "shot": 5,
+        "vo": "Bir canlının acısını eğlenceye çeviriyorsun.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_05_eglence.wav",
+        "chunks": [
+          "Bir canlının acısını",
+          "EĞLENCEYE ÇEVİRİYORSUN."
+        ],
+        "emph": [
+          "eğlenceye",
+          "çeviriyorsun"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "hayir",
+        "shot": 6,
+        "vo": "Hayır, buna şaka denmez, buna öfke denmez, buna bir anlık hata hiç denmez.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_06_hayir.wav",
+        "chunks": [
+          "HAYIR,",
+          "buna şaka denmez,",
+          "buna öfke denmez,",
+          "buna bir anlık",
+          "hata hiç DENMEZ."
+        ],
+        "emph": [
+          "hayır",
+          "denmez"
+        ],
+        "pause_after": 0.15
+      },
+      {
+        "role": "vahset",
+        "shot": 7,
+        "vo": "Bunun adı vahşettir.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_07_vahset.wav",
+        "chunks": [
+          "Bunun adı",
+          "VAHŞETTİR."
+        ],
+        "emph": [
+          "vahşettir"
+        ],
+        "pause_after": 0.15
+      },
+      {
+        "role": "degersiz",
+        "shot": 8,
+        "vo": "O küçücük hayvan senin karşında güçsüz olabilir ama onun canı değersiz değil.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_08_degersiz.wav",
+        "chunks": [
+          "O küçücük hayvan",
+          "senin karşında GÜÇSÜZ olabilir,",
+          "ama onun canı",
+          "DEĞERSİZ DEĞİL."
+        ],
+        "emph": [
+          "güçsüz",
+          "değersiz",
+          "değil"
+        ],
+        "pause_after": 0.0
+      },
+      {
+        "role": "gercek",
+        "shot": 9,
+        "vo": "Onun korkusu gerçek, onun acısı gerçek ve onun yaşamak istemesi seninkinden daha az değerli değil.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_09_gercek.wav",
+        "chunks": [
+          "Onun korkusu GERÇEK,",
+          "onun acısı GERÇEK",
+          "ve onun yaşamak",
+          "istemesi seninkinden daha",
+          "az DEĞERLİ DEĞİL."
+        ],
+        "emph": [
+          "gerçek",
+          "değerli",
+          "değil"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "sessizkalirsak",
+        "shot": 10,
+        "vo": "Bugün bir hayvana yapılan şiddeti görüp sessiz kalırsak, yarın daha kötüsüne şaşırmaya hakkımız kalmaz.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_10_sessizkalirsak.wav",
+        "chunks": [
+          "Bugün bir hayvana",
+          "yapılan şiddeti görüp",
+          "SESSİZ KALIRSAK,",
+          "yarın daha kötüsüne",
+          "şaşırmaya hakkımız KALMAZ."
+        ],
+        "emph": [
+          "sessiz",
+          "kalırsak",
+          "kalmaz"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "gucalir",
+        "shot": 11,
+        "vo": "Çünkü kötülük bazen sadece kötülük yapanlardan güç almaz. Sessiz kalanlardan da güç alır.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_11_gucalir.wav",
+        "chunks": [
+          "Çünkü kötülük bazen",
+          "sadece kötülük yapanlardan",
+          "güç ALMAZ.",
+          "SESSİZ KALANLARDAN da",
+          "güç ALIR."
+        ],
+        "emph": [
+          "almaz",
+          "sessiz",
+          "kalanlardan",
+          "alır"
+        ],
+        "pause_after": 0.15
+      },
+      {
+        "role": "paylas",
+        "shot": 12,
+        "vo": "Bu görüntüleri paylaşırken işkenceyi yaymayın ama bu olayı da unutturmayın.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_12_paylas.wav",
+        "chunks": [
+          "Bu görüntüleri paylaşırken",
+          "İŞKENCEYİ YAYMAYIN,",
+          "ama bu olayı",
+          "da UNUTTURMAYIN."
+        ],
+        "emph": [
+          "işkenceyi",
+          "yaymayın",
+          "unutturmayın"
+        ],
+        "pause_after": 0.3
+      },
+      {
+        "role": "konusabiliriz",
+        "shot": 13,
+        "vo": "Çünkü o kedi konuşamadı, kendini savunamadı, yardım isteyemedi ama biz konuşabiliriz. Ve bu kez susmamalıyız.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_13_konusabiliriz.wav",
+        "chunks": [
+          "Çünkü o kedi",
+          "KONUŞAMADI, kendini SAVUNAMADI,",
+          "yardım İSTEYEMEDİ",
+          "ama BİZ KONUŞABİLİRİZ.",
+          "Ve bu kez SUSMAMALIYIZ."
+        ],
+        "emph": [
+          "konuşamadı",
+          "savunamadı",
+          "isteyemedi",
+          "biz",
+          "konuşabiliriz",
+          "susmamalıyız"
+        ],
+        "pause_after": 0.15
+      },
+      {
+        "role": "ceza",
+        "shot": 14,
+        "vo": "Hayvana şiddetin bahanesi olmaz. Cezası unutulmayacak kadar ağır olmalı.",
+        "voice_file": "voice_recordings/34-kedi-siddet-vahset/beat_14_ceza.wav",
+        "chunks": [
+          "Hayvana şiddetin",
+          "BAHANESİ OLMAZ.",
+          "Cezası unutulmayacak kadar",
+          "AĞIR OLMALI."
+        ],
+        "emph": [
+          "bahanesi",
+          "olmaz",
+          "ağır",
+          "olmalı"
+        ],
+        "pause_after": 0.0
+      }
+    ],
+    "source_name": "5199 sayılı Hayvanları Koruma Kanunu m.28/A",
+    "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5199.doc",
+    "claim_class": "C",
+    "verified_on": "2026-09-04",
+    "jurisdiction": "TR",
+    "scope_note": "Bu madde sahipsiz bir hayvanı kasten öldürmeyi suç sayıyor (6 ay-4 yıl hapis); video bu kanuna dayanarak cezanin agirlastirilmasini talep ediyor, mevcut ceza miktarini iddia etmiyor."
   }
 ]

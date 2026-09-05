@@ -1,0 +1,47 @@
+[
+ {
+  "text": "Bir",
+  "start": 0.0,
+  "end": 0.2
+ },
+ {
+  "text": "yavru",
+  "start": 0.2,
+  "end": 0.52
+ },
+ {
+  "text": "kediye",
+  "start": 0.52,
+  "end": 0.86
+ },
+ {
+  "text": "işkence",
+  "start": 0.86,
+  "end": 1.38
+ },
+ {
+  "text": "edip",
+  "start": 1.38,
+  "end": 1.62
+ },
+ {
+  "text": "onun",
+  "start": 1.62,
+  "end": 1.92
+ },
+ {
+  "text": "ölümüne",
+  "start": 1.92,
+  "end": 2.36
+ },
+ {
+  "text": "sebep",
+  "start": 2.36,
+  "end": 2.74
+ },
+ {
+  "text": "olmak.",
+  "start": 2.74,
+  "end": 3.14
+ }
+]

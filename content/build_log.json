@@ -801,5 +801,460 @@
         "source_page": "https://www.pexels.com/video/a-cat-getting-petting-on-the-bed-6865077/"
       }
     ]
+  },
+  "30-kopek-ovgu-tonu": {
+    "built_at": "2026-09-03T01:51:38+00:00",
+    "duration": 52.62,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "carefree",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "close up portrait of a dog face looking straight at camera",
+        "path": "footage/pexels-7516718.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/close-up-of-a-dog-7516718/"
+      },
+      {
+        "shot": 1,
+        "query": "dog tilting head listening curious",
+        "path": "footage/pexels-6666675.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-walking-towards-the-camera-6666675/"
+      },
+      {
+        "shot": 2,
+        "query": "calm dog lying still head on surface",
+        "path": "footage/pexels-17940991.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-with-a-white-and-brown-face-is-looking-at-the-camera-17940991/"
+      },
+      {
+        "shot": 3,
+        "query": "owner hugging dog warmly",
+        "path": "footage/pexels-6568510.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/"
+      },
+      {
+        "shot": 4,
+        "query": "bored dog lying down ignoring",
+        "path": "footage/pexels-5994137.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-cute-dog-sleeping-5994137/"
+      },
+      {
+        "shot": 5,
+        "query": "woman talking to her small dog face to face at home",
+        "path": "footage/pexels-8433834.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-man-cuddling-his-dog-8433834/"
+      },
+      {
+        "shot": 6,
+        "query": "dog wagging tail excited owner",
+        "path": "footage/pexels-29174972.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playful-dog-training-session-in-a-kitchen-29174972/"
+      },
+      {
+        "shot": 7,
+        "query": "dog and owner eye contact close up warm light",
+        "path": "footage/pexels-5961889.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/"
+      }
+    ]
+  },
+  "31-arac-hayvan-carpma": {
+    "built_at": "2026-09-03T21:54:02+00:00",
+    "duration": 57.91,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "car headlights on wet asphalt road at night",
+        "path": "footage/pexels-9945846.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/traffic-on-road-during-rain-9945846/"
+      },
+      {
+        "shot": 1,
+        "query": "open law book with gavel on desk close up",
+        "path": "footage/pexels-6101365.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-gavel-and-a-document-on-a-table-6101365/"
+      },
+      {
+        "shot": 2,
+        "query": "close up hands holding smartphone inside a car",
+        "path": "footage/pexels-10466412.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/hand-reaching-for-doughnuts-in-car-10466412/"
+      },
+      {
+        "shot": 3,
+        "query": "car hazard warning lights blinking at night",
+        "path": "footage/pexels-30393974.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/nighttime-rainy-street-with-car-headlights-30393974/"
+      },
+      {
+        "shot": 4,
+        "query": "veterinarian examining a dog on clinic table",
+        "path": "footage/pexels-6235179.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/vet-examining-little-dog-s-face-6235179/"
+      },
+      {
+        "shot": 5,
+        "query": "empty city street at night with rain",
+        "path": "footage/pexels-19327271.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-narrow-street-with-power-lines-and-telephone-poles-19327271/"
+      },
+      {
+        "shot": 6,
+        "query": "person typing on smartphone on a dark street",
+        "path": "footage/pexels-7942761.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/man-using-a-smartphone-in-the-dark-7942761/"
+      },
+      {
+        "shot": 7,
+        "query": "calm dog resting and looking at camera",
+        "path": "footage/pexels-34689720.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/calm-brown-dog-resting-indoors-34689720/"
+      }
+    ]
+  },
+  "29-hayvana-eziyet-sorusturma-sarti": {
+    "built_at": "2026-09-03T23:04:05+00:00",
+    "duration": 61.61,
+    "voice_engine": [
+      "edge"
+    ],
+    "aligned": false,
+    "music_id": "comfortable-mystery",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "person scrolling phone comments at night",
+        "path": "footage/pexels-5075219.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-person-holding-a-phone-with-a-photo-of-a-person-5075219/"
+      },
+      {
+        "shot": 1,
+        "query": "empty courtroom interior",
+        "path": "footage/pexels-6101348.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/judge-hammering-a-gavel-6101348/"
+      },
+      {
+        "shot": 2,
+        "query": "official documents stamped on desk",
+        "path": "footage/pexels-6657748.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-woman-using-magnifying-glass-on-stamps-6657748/"
+      },
+      {
+        "shot": 3,
+        "query": "government office corridor with closed doors",
+        "path": "footage/pexels-8705291.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/colleagues-walking-at-the-office-hallway-8705291/"
+      },
+      {
+        "shot": 4,
+        "query": "police car lights at night street",
+        "path": "footage/pexels-10476419.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/policeman-in-police-car-talking-on-radio-10476419/"
+      },
+      {
+        "shot": 5,
+        "query": "stray dog looking at camera on street",
+        "path": "footage/pexels-27875229.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-sitting-on-the-sidewalk-27875229/"
+      },
+      {
+        "shot": 6,
+        "query": "person typing on smartphone urgently",
+        "path": "footage/pexels-7976536.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/person-using-a-smartphone-7976536/"
+      },
+      {
+        "shot": 7,
+        "query": "volunteer petting a street dog warm light",
+        "path": "footage/pexels-34337119.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dogs-playing-on-sunny-beachfront-34337119/"
+      }
+    ]
+  },
+  "32-kopek-heves-terk": {
+    "built_at": "2026-09-04T20:01:13+00:00",
+    "duration": 68.38,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": true,
+    "music_id": "heartbreaking",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "",
+        "path": "footage/pexels-8434087.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/dog-eating-on-a-pet-bowl-8434087/"
+      },
+      {
+        "shot": 1,
+        "query": "",
+        "path": "footage/pexels-17940991.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-with-a-white-and-brown-face-is-looking-at-the-camera-17940991/"
+      },
+      {
+        "shot": 2,
+        "query": "",
+        "path": "footage/pexels-7976536.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/person-using-a-smartphone-7976536/"
+      },
+      {
+        "shot": 3,
+        "query": "",
+        "path": "footage/pexels-32320875.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/playful-puppy-in-sunny-backyard-retreat-32320875/"
+      },
+      {
+        "shot": 4,
+        "query": "",
+        "path": "footage/pexels-8434046.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/man-using-laptop-while-playing-with-his-dog-8434046/"
+      },
+      {
+        "shot": 5,
+        "query": "",
+        "path": "footage/pexels-13675325.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/hands-on-hyundai-steering-wheel-13675325/"
+      },
+      {
+        "shot": 6,
+        "query": "",
+        "path": "footage/pexels-36002085.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 7,
+        "query": "",
+        "path": "footage/pexels-36040950.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 8,
+        "query": "",
+        "path": "footage/pexels-27875229.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-dog-sitting-on-the-sidewalk-27875229/"
+      },
+      {
+        "shot": 9,
+        "query": "",
+        "path": "footage/pexels-6101365.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-gavel-and-a-document-on-a-table-6101365/"
+      },
+      {
+        "shot": 10,
+        "query": "",
+        "path": "footage/pexels-36040927.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 11,
+        "query": "person taking photo of dog with smartphone",
+        "path": "footage/pexels-7801440.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-taking-photo-of-corgi-dog-7801440/"
+      },
+      {
+        "shot": 12,
+        "query": "",
+        "path": "footage/pexels-9898435.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 13,
+        "query": "",
+        "path": "footage/pexels-6568510.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/"
+      }
+    ]
+  },
+  "34-kedi-siddet-vahset": {
+    "built_at": "2026-09-05T14:00:11+00:00",
+    "duration": 66.61,
+    "voice_engine": [
+      "kayıt"
+    ],
+    "aligned": true,
+    "music_id": "gymnopedie-no-1",
+    "shots": [
+      {
+        "shot": 0,
+        "query": "",
+        "path": "footage/pexels-37290991.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 1,
+        "query": "",
+        "path": "footage/pexels-27798123.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 2,
+        "query": "",
+        "path": "footage/pexels-27798123.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 3,
+        "query": "",
+        "path": "footage/pexels-37290991.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 4,
+        "query": "",
+        "path": "footage/pexels-7942761.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/man-using-a-smartphone-in-the-dark-7942761/"
+      },
+      {
+        "shot": 5,
+        "query": "",
+        "path": "footage/pexels-5075219.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-person-holding-a-phone-with-a-photo-of-a-person-5075219/"
+      },
+      {
+        "shot": 6,
+        "query": "",
+        "path": "footage/pexels-6101361.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/female-judge-writing-down-in-a-paper-6101361/"
+      },
+      {
+        "shot": 7,
+        "query": "",
+        "path": "footage/pexels-6101348.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/judge-hammering-a-gavel-6101348/"
+      },
+      {
+        "shot": 8,
+        "query": "",
+        "path": "footage/pexels-27798123.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 9,
+        "query": "",
+        "path": "footage/pexels-27798123.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 10,
+        "query": "",
+        "path": "footage/pexels-7942761.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/man-using-a-smartphone-in-the-dark-7942761/"
+      },
+      {
+        "shot": 11,
+        "query": "",
+        "path": "footage/pexels-38003073.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 12,
+        "query": "",
+        "path": "footage/pexels-5075219.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-person-holding-a-phone-with-a-photo-of-a-person-5075219/"
+      },
+      {
+        "shot": 13,
+        "query": "",
+        "path": "footage/pexels-37290991.mp4",
+        "kind": "video"
+      },
+      {
+        "shot": 14,
+        "query": "",
+        "path": "footage/pexels-6101365.mp4",
+        "kind": "video",
+        "provider": "pexels",
+        "source_page": "https://www.pexels.com/video/a-gavel-and-a-document-on-a-table-6101365/"
+      }
+    ]
   }
 }
